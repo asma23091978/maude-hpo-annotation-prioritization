@@ -1,0 +1,111 @@
+--- =============================================================
+--- AMP-deaminase 2 (AMP-deaminase) – Purine Salvage Model
+--- Case study: AMP-deaminase-related neurodevelopmental disorders
+--- AMP + H2O + H(+) + Zn(2+) = IMP + NH4(+) + Zn(2+)
+--- RHEA:14777
+--- EC 3.5.4.6 (AMP-deaminase)
+--- =============================================================
+
+load ../../semantics/semantics.maude
+mod AMP-DEAMINASE-PURINE-SALVAGE is
+  inc SEMANTICS .
+
+  --- ############################################################
+  --- # ENTITY DEFINITIONS
+  --- ############################################################
+
+  ops
+    --- Metabolites
+    AMP
+    AMP-acc
+    IMP
+    IMP-low
+    NH4
+    H
+
+    --- Cofactor
+    Zn
+    Zn-low
+
+    --- Enzyme states
+    AMP-deaminase
+    AMP-deaminase-hypo
+    AMP-deaminase-null
+
+
+    : -> Entity [ctor] .
+
+
+  --- ############################################################
+  --- # REACTIONS
+  --- ############################################################
+
+  eq reactions =
+
+  --- Normal AMP-deaminase activity
+  [ (AMP , H2O , H , Zn , AMP-deaminase) ; (AMP-deaminase-hypo , AMP-deaminase-null) ; (IMP , NH4 , Zn , AMP-deaminase)],
+
+  --- Partial activity (AMP-deaminase-hypo)
+  [ (AMP , H2O , H , Zn , AMP-deaminase-hypo) ; AMP-deaminase ; (IMP-low , NH4 , AMP-acc , Zn , AMP-deaminase-hypo) ],
+
+  --- Null activity (AMP-deaminase-null)
+  [ (AMP , H2O , H , AMP-deaminase-null) ; AMP-deaminase; (AMP-acc , H2O , H , AMP-deaminase-null)
+  ],
+
+  --- Zinc limitation (cofactor-dependent defect)
+  [ (AMP , H2O , H , Zn-low , AMP-deaminase) ; Zn ; (IMP-low , NH4 , AMP-acc , Zn-low , AMP-deaminase) ]
+
+  .
+
+
+  --- ############################################################
+  --- # ENVIRONMENTS
+  --- ############################################################
+
+  op env-base : -> SetEntity .
+  eq env-base = (H2O, H) .
+
+  op env-normal : -> SetEntity .
+  eq env-normal = (env-base, Zn, AMP-deaminase) .
+
+  op env-AMP-deaminase-hypo : -> SetEntity .
+  eq env-AMP-deaminase-hypo = (env-base, Zn, AMP-deaminase-hypo) .
+
+  op env-AMP-deaminase-null : -> SetEntity .
+  eq env-AMP-deaminase-null = (env-base, Zn, AMP-deaminase-null) .
+
+  op env-Zn-low : -> SetEntity .
+  eq env-Zn-low = (env-base, Zn-low, AMP-deaminase) .
+
+
+  --- ############################################################
+  --- # INPUT PROCESSES
+  --- ############################################################
+
+  op input-process-normal : -> Process .
+  eq input-process-normal =
+     ( { AMP } . 0 )
+     ||
+     (rec 'X . { env-normal } . 'X ) .
+
+  op input-process-AMP-deaminase-hypo : -> Process .
+  eq input-process-AMP-deaminase-hypo =
+     ( { AMP } . 0 )
+     ||
+     (rec 'X . { env-AMP-deaminase-hypo } . 'X ) .
+
+  op input-process-AMP-deaminase-null : -> Process .
+  eq input-process-AMP-deaminase-null =
+     ( { AMP } . 0 )
+     ||
+     (rec 'X . { env-AMP-deaminase-null } . 'X ) .
+
+  op input-process-Zn-low : -> Process .
+  eq input-process-Zn-low =
+     ( { AMP } . 0 )
+     ||
+     (rec 'X . { env-Zn-low } . 'X ) .
+
+  var STATE : State .
+
+endm

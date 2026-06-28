@@ -1,0 +1,100 @@
+﻿HPO_ID;HPO_Label;candidate_type;donor_count;Supporting_ORPHAcode_donors
+HP:0009830;Peripheral neuropathy;dominant;4;1187|411536|411543|99014
+HP:0000407;Sensorineural hearing impairment;recurrent;3;411536|411543|423479
+HP:0001251;Ataxia;recurrent;3;1187|411543|99014
+HP:0000083;Renal insufficiency;recurrent;2;411536|411543
+HP:0000648;Optic atrophy;recurrent;2;1187|99014
+HP:0000707;Abnormality of the nervous system;recurrent;2;411536|411543
+HP:0000791;Uric acid nephrolithiasis;recurrent;2;411536|411543
+HP:0001249;Intellectual disability;recurrent;2;411536|411543
+HP:0001284;Areflexia;recurrent;2;1187|99014
+HP:0001324;Muscle weakness;recurrent;2;1187|99014
+HP:0001369;Arthritis;recurrent;2;411536|411543
+HP:0001919;Acute kidney injury;recurrent;2;411536|411543
+HP:0002149;Hyperuricemia;recurrent;2;411536|411543
+HP:0003149;Hyperuricosuria;recurrent;2;411536|411543
+HP:0003240;Increased phosphoribosylpyrophosphate synthetase activity;recurrent;2;411536|411543
+HP:0008936;Axial hypotonia;recurrent;2;1187|423479
+HP:0020074;Crystalluria;recurrent;2;411536|411543
+HP:0000268;Dolichocephaly;single_donor;1;423479
+HP:0000316;Hypertelorism;single_donor;1;423479
+HP:0000365;Hearing impairment;single_donor;1;99014
+HP:0000369;Low-set ears;single_donor;1;423479
+HP:0000430;Underdeveloped nasal alae;single_donor;1;423479
+HP:0000467;Neck muscle weakness;single_donor;1;1187
+HP:0000478;Abnormality of the eye;single_donor;1;411536
+HP:0000490;Deeply set eye;single_donor;1;423479
+HP:0000501;Glaucoma;single_donor;1;411543
+HP:0000505;Visual impairment;single_donor;1;1187
+HP:0000543;Optic disc pallor;single_donor;1;423479
+HP:0000545;Myopia;single_donor;1;411543
+HP:0000556;Retinal dystrophy;single_donor;1;423479
+HP:0000577;Exotropia;single_donor;1;423479
+HP:0000618;Blindness;single_donor;1;1187
+HP:0000639;Nystagmus;single_donor;1;1187
+HP:0000763;Sensory neuropathy;single_donor;1;99014
+HP:0000873;Diabetes insipidus;single_donor;1;423479
+HP:0001116;Macular coloboma;single_donor;1;423479
+HP:0001252;Hypotonia;single_donor;1;411543
+HP:0001256;Intellectual disability, mild;single_donor;1;1187
+HP:0001260;Dysarthria;single_donor;1;99014
+HP:0001262;Excessive daytime somnolence;single_donor;1;99014
+HP:0001263;Global developmental delay;single_donor;1;411543
+HP:0001270;Motor delay;single_donor;1;1187
+HP:0001285;Spastic tetraparesis;single_donor;1;423479
+HP:0001288;Gait disturbance;single_donor;1;99014
+HP:0001337;Tremor;single_donor;1;99014
+HP:0001511;Intrauterine growth retardation;single_donor;1;423479
+HP:0001525;Severe failure to thrive;single_donor;1;423479
+HP:0001761;Pes cavus;single_donor;1;99014
+HP:0001997;Gout;single_donor;1;411543
+HP:0001999;Abnormal facial shape;single_donor;1;411536
+HP:0002069;Bilateral tonic-clonic seizure;single_donor;1;423479
+HP:0002079;Hypoplasia of the corpus callosum;single_donor;1;423479
+HP:0002169;Clonus;single_donor;1;423479
+HP:0002187;Intellectual disability, profound;single_donor;1;423479
+HP:0002205;Recurrent respiratory infections;single_donor;1;411543
+HP:0002300;Mutism;single_donor;1;1187
+HP:0002342;Intellectual disability, moderate;single_donor;1;1187
+HP:0002385;Paraparesis;single_donor;1;99014
+HP:0002445;Tetraplegia;single_donor;1;1187
+HP:0002463;Language impairment;single_donor;1;99014
+HP:0002509;Limb hypertonia;single_donor;1;423479
+HP:0002650;Scoliosis;single_donor;1;99014
+HP:0002719;Recurrent infections;single_donor;1;1187
+HP:0002788;Recurrent upper respiratory tract infections;single_donor;1;1187
+HP:0002808;Kyphosis;single_donor;1;99014
+HP:0003431;Decreased motor nerve conduction velocity;single_donor;1;1187
+HP:0003444;EMG: chronic denervation signs;single_donor;1;1187
+HP:0003487;Babinski sign;single_donor;1;423479
+HP:0003537;Hypouricemia;single_donor;1;1187
+HP:0003712;Skeletal muscle hypertrophy;single_donor;1;99014
+HP:0004322;Short stature;single_donor;1;423479
+HP:0004639;Elevated amniotic fluid alpha-fetoprotein;single_donor;1;423479
+HP:0004887;Respiratory failure requiring assisted ventilation;single_donor;1;1187
+HP:0006579;Prolonged neonatal jaundice;single_donor;1;423479
+HP:0006801;Hyperactive deep tendon reflexes;single_donor;1;423479
+HP:0007178;Motor polyneuropathy;single_donor;1;411543
+HP:0007258;Severe demyelination of the white matter;single_donor;1;1187
+HP:0007328;Impaired pain sensation;single_donor;1;99014
+HP:0007377;Abnormality of somatosensory evoked potentials;single_donor;1;1187
+HP:0007965;Undetectable visual evoked potentials;single_donor;1;423479
+HP:0008058;Aplasia/Hypoplasia of the optic nerve;single_donor;1;423479
+HP:0008311;Spinal cord posterior columns myelin loss;single_donor;1;1187
+HP:0008527;Congenital sensorineural hearing impairment;single_donor;1;1187
+HP:0010536;Central sleep apnea;single_donor;1;423479
+HP:0011185;EEG with focal epileptiform discharges;single_donor;1;1187
+HP:0011471;Gastrostomy tube feeding in infancy;single_donor;1;423479
+HP:0011476;Profound sensorineural hearing impairment;single_donor;1;1187
+HP:0011903;HbH hemoglobin;single_donor;1;423479
+HP:0012389;Appendicular hypotonia;single_donor;1;1187
+HP:0012448;Delayed myelination;single_donor;1;423479
+HP:0012626;Stage 4 chronic kidney disease;single_donor;1;411536
+HP:0012736;Profound global developmental delay;single_donor;1;423479
+HP:0012759;Neurodevelopmental abnormality;single_donor;1;411543
+HP:0030211;Slow pupillary light response;single_donor;1;423479
+HP:0030272;Abnormal erythrocyte enzyme activity;single_donor;1;1187
+HP:0030921;5-minute APGAR score of 1;single_donor;1;423479
+HP:0030927;1-minute APGAR score of 0;single_donor;1;423479
+HP:0032169;Severe infection;single_donor;1;1187
+HP:0040129;Abnormal nerve conduction velocity;single_donor;1;99014

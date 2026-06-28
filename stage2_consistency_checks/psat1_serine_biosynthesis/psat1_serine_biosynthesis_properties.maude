@@ -1,0 +1,36 @@
+load ./psat1_serine_biosynthesis_model.maude
+
+--- =============================================================
+--- PROPERTIES
+--- =============================================================
+
+--- Core functionality
+--- P1: Normal PSAT produces O-phospho-L-serine
+search [1] init(input-process-normal) =>* STATE |= P-Ser .
+
+--- P2: Normal PSAT produces 2-oxoglutarate
+search [1] init(input-process-normal) =>* STATE |= alpha-KG .
+
+--- Partial activity (PSAT-hypo)
+--- P3: PSAT-hypo produces reduced O-phospho-L-serine
+search [1] init(input-process-PSAT-hypo) =>* STATE |= P-Ser-low .
+
+--- P4: PSAT-hypo causes accumulation of the upstream precursor
+search [1] init(input-process-PSAT-hypo) =>* STATE |= P-OxoPyr-acc .
+
+--- Null activity (complete block)
+--- P5: PSAT-null blocks normal O-phospho-L-serine synthesis (expected NO SOLUTION)
+search [1] init(input-process-PSAT-null) =>* STATE |= P-Ser .
+
+--- P6: PSAT-null leads to accumulation of 3-phosphooxypyruvate
+search [1] init(input-process-PSAT-null) =>* STATE |= P-OxoPyr-acc .
+
+--- Cofactor-dependent defect (PLP)
+--- P7: PLP-low induces reduced O-phospho-L-serine formation
+search [1] init(input-process-PLP-low) =>* STATE |= P-Ser-low .
+
+--- P8: PLP-low causes accumulation of the upstream precursor
+search [1] init(input-process-PLP-low) =>* STATE |= P-OxoPyr-acc .
+
+--- P9: PLP-low prevents full O-phospho-L-serine synthesis (expected NO SOLUTION)
+search [1] init(input-process-PLP-low) =>* STATE |= P-Ser .

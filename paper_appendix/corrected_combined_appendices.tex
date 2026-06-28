@@ -1,0 +1,595 @@
+% ============================================================
+% Combined appendices -- Stage 2 compact tables + Maude reproducibility tables
+% Requires: booktabs, tabularx, xltabular, array, placeins, hyperref, xcolor
+% If not already defined in the preamble, define:
+% \newcommand{\code}[1]{\texttt{#1}}
+% \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+% \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+% \newcommand{\mcell}[1]{\begin{minipage}[t]{\linewidth}\raggedright\ttfamily\scriptsize #1\end{minipage}}
+% ============================================================
+
+\FloatBarrier
+\clearpage
+\onecolumn
+\appendices
+
+
+% ============================================================
+% Appendix A
+% Stage 2 compact supplementary tables
+% ============================================================
+
+
+\section{Stage~2 Supplementary Tables and Output Files}
+\label{app:stage2_supplementary_tables}
+
+This appendix reports the compact tables needed to document the Stage~2 exact reaction-profile analysis. The complete output files are not typeset here because they are large or very wide CSV tables. The full prioritization output, the complete exact target--donor profile matches, the full ORPHA:90625 candidate list, and the Maude source files are available in the project repository.
+
+The implementation of the method described in this section is available in the GitHub repository at:
+\href{https://github.com/asma23091978/Maude_paper}{\textcolor{teal!60!black}{GitHub repository}}.
+
+\subsection{Stage~2 dataset summary}
+\label{supsec:stage2_dataset_summary}
+
+\begin{table}[htbp]
+\centering
+\caption{Compact summary of the Stage~2 dataset and exact reaction-profile output.}
+\label{tab:supp_dataset_summary}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}p{0.42\textwidth}p{0.14\textwidth}X@{}}
+\toprule
+\textbf{Parameter} & \textbf{Value} & \textbf{Details}  \\
+\midrule
+Raw rows & 134209 & All input disease--reaction rows \\
+Rows after cofactor/pathway filter & 10609 & Rows belonging to diseases with at least one cofactor and at least one pathway \\
+Profile rows after complete 6-field filter & 138 & Distinct disease--profile records with Gene, Entry, EC, Rhea\_ID, Cofactor, and Pathway \\
+Distinct valid diseases & 117 & Diseases with at least one complete reaction profile \\
+Targets (H = empty) & 32 & Diseases without HPO\_ID in the filtered dataset \\
+Donors (|H| > 0) & 85 & Diseases with at least one HPO\_ID in the filtered dataset \\
+Targets with exact donor match & 10 & HPO-unannotated targets sharing an identical profile set with at least one donor \\
+Targets with no exact match & 22 & HPO-unannotated targets with no identical donor profile \\
+Total output rows & 517 & Candidate rows plus no\_match rows \\
+Candidate output rows & 495 & Rows with candidate HPO terms \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Unmatched target diseases}
+\label{supsec:no_match_targets}
+
+The following 22 HPO-unannotated target diseases had no exact reaction-profile match with an annotated donor in the filtered Stage~2 dataset.
+
+\begin{table}[htbp]
+\centering
+\caption{HPO-unannotated target diseases with no exact reaction-profile match.}
+\label{tab:supp_unmatched_targets}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}p{0.08\textwidth}X p{0.08\textwidth}X@{}}
+\toprule
+\textbf{ORPHA} & \textbf{Target disease} & \textbf{ORPHA} & \textbf{Target disease}  \\
+\midrule
+1561 & Fatal infantile cytochrome C oxidase deficiency & 168598 & Methionine adenosyltransferase I/III deficiency \\
+199285 & Hereditary hypercarotenemia and vitamin A deficiency & 280586 & Chondrodysplasia with joint dislocations, gPAPP type \\
+284139 & Larsen-like syndrome, B3GAT3 type & 289290 & Hypermethioninemia encephalopathy due to adenosine kinase deficiency \\
+313850 & Infantile cerebellar-retinal degeneration & 319678 & Encephalopathy-hypertrophic cardiomyopathy-renal tubular disease syndrome \\
+394529 & Multiple acyl-CoA dehydrogenase deficiency, severe neonatal type & 394532 & Multiple acyl-CoA dehydrogenase deficiency, mild type \\
+401859 & Lipoic acid synthetase deficiency & 457185 & Neonatal encephalomyopathy-cardiomyopathy-respiratory distress syndrome \\
+521438 & Congenital vertebral-cardiac-renal anomalies syndrome & 528084 & Non-specific syndromic intellectual disability \\
+597733 & Oculocutaneous albinism type 8 & 647782 & Isolated micronodular adrenocortical disease \\
+658778 & COQ7-related distal hereditary motor neuropathy & 90641 & Rare mitochondrial non-syndromic sensorineural deafness \\
+93602 & Xanthinuria type II & 98676 & Autosomal recessive isolated optic atrophy \\
+99731 & Isolated sulfite oxidase deficiency & 99849 & Glycogen storage disease due to muscle beta-enolase deficiency \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Matched targets and candidate-type summary}
+\label{supsec:matched_target_summary}
+
+Table~\ref{tab:supp_target_candidate_summary} reports the number of candidate HPO terms generated for each matched target, grouped by candidate type.
+
+\begin{table}[htbp]
+\centering
+\caption{Candidate-type summary for the 10 HPO-unannotated targets with at least one exact donor match.}
+\label{tab:supp_target_candidate_summary}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}p{0.09\textwidth}X p{0.10\textwidth}p{0.10\textwidth}p{0.12\textwidth}@{}}
+\toprule
+\textbf{ORPHA} & \textbf{Target disease} & \textbf{Dominant} & \textbf{Recurrent} & \textbf{Single-donor}  \\
+\midrule
+247198 & Progressive cerebello-cerebral atrophy & 0 & 0 & 40 \\
+254905 & Isolated cytochrome C oxidase deficiency & 0 & 0 & 87 \\
+293284 & Tetrahydrobiopterin-responsive phenylketonuria & 0 & 0 & 32 \\
+369920 & Pontocerebellar hypoplasia type 9 & 0 & 0 & 9 \\
+583602 & Neu-Laxova syndrome due to phosphoserine aminotransferase deficiency & 0 & 0 & 40 \\
+642099 & Spondyloepimetaphyseal dysplasia with joint laxity, Beighton type & 0 & 0 & 83 \\
+647772 & Isolated primary pigmented nodular adrenocortical disease & 0 & 0 & 64 \\
+69723 & Tyrosinemia type 3 & 0 & 0 & 9 \\
+708895 & Tetrahydrobiopterin-unresponsive phenylketonuria & 0 & 0 & 32 \\
+90625 & Rare X-linked non-syndromic sensorineural deafness type DFN & 1 & 16 & 82 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Dominant and recurrent HPO candidates for ORPHA:90625}
+\label{supsec:orpha90625_hpo}
+
+ORPHA:90625 was the only target with multi-donor HPO support. Table~\ref{tab:supp_hpo_orpha90625} reports the dominant and recurrent candidate terms. The complete ORPHA:90625 candidate list, including all single-donor terms, is provided in the GitHub repository.
+
+\begin{table}[htbp]
+\centering
+\caption{Dominant and recurrent HPO candidates for ORPHA:90625, rare X-linked non-syndromic sensorineural deafness type DFN. Five exact donors were available; \texttt{donor\_count} indicates the number of donors carrying the term.}
+\label{tab:supp_hpo_orpha90625}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}p{0.13\textwidth}X p{0.16\textwidth}p{0.11\textwidth}p{0.10\textwidth}@{}}
+\toprule
+\textbf{HPO ID} & \textbf{HPO label} & \textbf{Candidate type} & \textbf{Donor count} & \textbf{Selected}  \\
+\midrule
+HP:0009830 & Peripheral neuropathy & \texttt{dominant} & 4 / 5 & YES \\
+HP:0000407 & Sensorineural hearing impairment & \texttt{recurrent} & 3 / 5 & -- \\
+HP:0001251 & Ataxia & \texttt{recurrent} & 3 / 5 & -- \\
+HP:0000083 & Renal insufficiency & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0000648 & Optic atrophy & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0000707 & Abnormality of the nervous system & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0000791 & Uric acid nephrolithiasis & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0001249 & Intellectual disability & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0001284 & Areflexia & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0001324 & Muscle weakness & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0001369 & Arthritis & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0001919 & Acute kidney injury & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0002149 & Hyperuricemia & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0003149 & Hyperuricosuria & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0003240 & Increased phosphoribosylpyrophosphate synthetase activity & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0008936 & Axial hypotonia & \texttt{recurrent} & 2 / 5 & -- \\
+HP:0020074 & Crystalluria & \texttt{recurrent} & 2 / 5 & -- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Complete output files}
+\label{supsec:complete_output_files}
+
+The tables printed above are compact summaries intended for readability. The larger output files are available in the GitHub repository and include the complete HPO prioritization output with 517 rows, the complete exact target--donor profile match table with all six reaction-profile fields, the full ORPHA:90625 candidate list with 99 terms, and the Maude files used for the selected consistency checks.
+
+
+\FloatBarrier
+\clearpage
+
+% ============================================================
+% Appendix B
+% Maude scenario definitions
+% ============================================================
+
+\section{Maude Scenario Definitions}
+\label{app:maude_scenarios}
+
+This appendix reports the full Maude scenario definitions used in Stage~1.
+Table~\ref{tab:maude_environments} lists the recurrent biochemical
+environments, including the baseline environment, the normal environment, and
+the disease-specific environments obtained by removing the corresponding
+functional enzyme. Table~\ref{tab:maude_input_processes} lists the input
+processes obtained by combining each environment with the fixed initial
+substrate pulse.
+
+\subsection{Biochemical environments}
+\label{app:maude_environments_section}
+
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+
+\begin{xltabular}{\textwidth}{@{}L{0.17\textwidth} L{0.18\textwidth} Y L{0.25\textwidth}@{}}
+\caption{Maude environment definitions used to provide recurrent molecular entities during the simulation.}
+\label{tab:maude_environments}\\
+
+\toprule
+\textbf{Environment class} &
+\textbf{Maude symbol} &
+\textbf{Entities provided} &
+\textbf{Role in the model} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Environment class} &
+\textbf{Maude symbol} &
+\textbf{Entities provided} &
+\textbf{Role in the model} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{4}{r}{\textit{Continued on next page}}\\
+\endfoot
+
+\bottomrule
+\multicolumn{4}{@{}p{\textwidth}@{}}{
+\footnotesize
+\textbf{Key:}
+\code{env-base} contains the entities that are always available in all simulations.
+\code{env-normal} represents the complete normal biochemical context.
+Disease environments remove the corresponding normal enzyme and are later combined
+with a pathological enzyme state in the corresponding input process.
+}
+\endlastfoot
+
+Recurring environment
+& \code{env-base}
+& \code{O2, H2O, NADH, H, GSH, ALA}
+& Basic molecular entities always present in every simulation. \\
+
+Recurring environment
+& \code{env-normal}
+& \code{env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2}
+& Complete normal biochemical context used for reference simulations. \\
+
+Disease environment
+& \code{env-no-PAH}
+& \code{env-base, alpha-KG, PLP, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2}
+& PAH is removed; used to model PAH hypoactivity or PAH-null deficiency. \\
+
+Disease environment
+& \code{env-no-DHPR}
+& \code{env-base, alpha-KG, PLP, PAH-Fe2, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2}
+& DHPR is removed; used to model defective BH4 recycling. \\
+
+Disease environment
+& \code{env-no-TAT}
+& \code{env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2}
+& TAT is removed; used to model tyrosine aminotransferase deficiency. \\
+
+Disease environment
+& \code{env-PLP-low}
+& \code{env-base, alpha-KG, PLP-low, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2}
+& Normal \code{PLP} is replaced by \code{PLP-low}; used to model PLP cofactor deficiency. \\
+
+Disease environment
+& \code{env-no-HPD}
+& \code{env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2}
+& HPD is removed; used for Hawkinsinuria and tyrosinemia type III scenarios. \\
+
+Disease environment
+& \code{env-no-HGD}
+& \code{env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, GSTZ1, FAH-Mg2-Ca2}
+& HGD is removed; used to model alkaptonuria-like scenarios. \\
+
+Disease environment
+& \code{env-no-GSTZ1}
+& \code{env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, FAH-Mg2-Ca2}
+& GSTZ1 is removed; used to model GSTZ1 deficiency. \\
+
+Disease environment
+& \code{env-no-FAH}
+& \code{env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1}
+& FAH is removed; used to model tyrosinemia type I scenarios. \\
+
+\end{xltabular}
+
+\endgroup
+
+
+
+
+\FloatBarrier
+
+\subsection{Input processes}
+\label{app:maude_input_processes_section}
+
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+
+\begin{xltabular}{\textwidth}{@{}L{0.20\textwidth} L{0.23\textwidth} L{0.25\textwidth} Y@{}}
+\caption{Maude input processes defining the initial context for each normal and pathological scenario.}
+\label{tab:maude_input_processes}\\
+
+\toprule
+\textbf{Scenario} &
+\textbf{Maude input process} &
+\textbf{Recurring context} &
+\textbf{Biological interpretation} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Scenario} &
+\textbf{Maude input process} &
+\textbf{Recurring context} &
+\textbf{Biological interpretation} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{4}{r}{\textit{Continued on next page}}\\
+\endfoot
+
+\bottomrule
+\multicolumn{4}{@{}p{\textwidth}@{}}{
+\footnotesize
+\textbf{Key:}
+All input processes share the same initial pulse,
+\code{\{(Phe, BH4)\}.0}, representing the initial availability of phenylalanine
+and tetrahydrobiopterin. The recurrent process
+\code{rec 'X . \{context\} . 'X} continuously supplies the selected normal or
+pathological environment.
+}
+\endlastfoot
+
+Normal pathway
+& \code{input-process-normal}
+& \code{env-normal}
+& Reference simulation with all enzymes and cofactors in their normal functional state. \\
+
+PAH deficiency, hypomorphic
+& \code{input-process-PAH-hypo}
+& \code{env-no-PAH, PAH-hypo}
+& Models partial PAH deficiency associated with reduced phenylalanine hydroxylation. \\
+
+PAH deficiency, null
+& \code{input-process-PAH-null}
+& \code{env-no-PAH, PAH-null}
+& Models complete PAH loss, used for a PKU-like metabolic block. \\
+
+DHPR deficiency, hypomorphic
+& \code{input-process-DHPR-hypo}
+& \code{env-no-DHPR, DHPR-hypo}
+& Models impaired BH4 recycling due to reduced DHPR activity. \\
+
+DHPR deficiency, null
+& \code{input-process-DHPR-null}
+& \code{env-no-DHPR, DHPR-null}
+& Models complete DHPR loss and severe BH4 recycling defect. \\
+
+TAT deficiency, low activity
+& \code{input-process-TAT-hypo}
+& \code{env-no-TAT, TAT-low}
+& Models reduced tyrosine aminotransferase activity, associated with tyrosinemia type II. \\
+
+TAT deficiency, null
+& \code{input-process-TAT-null}
+& \code{env-no-TAT, TAT-null}
+& Models complete TAT loss and tyrosine accumulation. \\
+
+PLP cofactor deficiency
+& \code{input-process-PLP-low}
+& \code{env-PLP-low}
+& Models pyridoxal phosphate deficiency by replacing normal \code{PLP} with \code{PLP-low}. \\
+
+HPD deficiency, hypomorphic
+& \code{input-process-HPD-hypo}
+& \code{env-no-HPD, HPD-hypo}
+& Models partial HPD deficiency, used for Hawkinsinuria-like behavior and QA production. \\
+
+HPD deficiency, null
+& \code{input-process-HPD-null}
+& \code{env-no-HPD, HPD-null}
+& Models complete HPD loss, associated with HPP accumulation and tyrosinemia type III. \\
+
+HGD deficiency, hypomorphic
+& \code{input-process-HGD-hypo}
+& \code{env-no-HGD, HGD-hypo}
+& Models partial HGD deficiency, associated with HGA accumulation. \\
+
+HGD deficiency, null
+& \code{input-process-HGD-null}
+& \code{env-no-HGD, HGD-null}
+& Models complete HGD loss, used for alkaptonuria-like behavior. \\
+
+GSTZ1 deficiency, hypomorphic
+& \code{input-process-GSTZ1-hypo}
+& \code{env-no-GSTZ1, GSTZ1-hypo}
+& Models partial GSTZ1 deficiency affecting maleylacetoacetate isomerization. \\
+
+GSTZ1 deficiency, null
+& \code{input-process-GSTZ1-null}
+& \code{env-no-GSTZ1, GSTZ1-null}
+& Models complete GSTZ1 loss and MAA accumulation. \\
+
+FAH deficiency, hypomorphic
+& \code{input-process-FAH-hypo}
+& \code{env-no-FAH, FAH-hypo}
+& Models partial FAH deficiency, associated with tyrosinemia type I toxic cascade. \\
+
+FAH deficiency, null
+& \code{input-process-FAH-null}
+& \code{env-no-FAH, FAH-null}
+& Models complete FAH loss and severe tyrosinemia type I behavior. \\
+
+\end{xltabular}
+
+\endgroup
+
+% ============================================================
+% Appendix C
+% Maude reachability and model-checking queries
+% ============================================================
+
+\section{Complete Maude Reachability and Model-Checking Queries}
+\label{app:maude_queries}
+
+This appendix provides the complete Maude commands used to evaluate the
+Stage~1 reachability and model-checking properties. The main text reports a
+compact description of the biological properties, whereas
+Table~\ref{tab:maude_properties} gives the corresponding executable Maude
+queries and their expected interpretation.
+
+\subsection{Reachability and model-checking properties}
+\label{subsec:maude_properties}
+
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+
+\begin{xltabular}{\textwidth}{@{}L{0.07\textwidth} L{0.22\textwidth} L{0.18\textwidth} Y L{0.17\textwidth}@{}}
+\caption{Reachability and model-checking properties evaluated in Maude.}
+\label{tab:maude_properties}\\
+
+\toprule
+\textbf{ID} &
+\textbf{Property / biological question} &
+\textbf{Scenario} &
+\textbf{Maude query used} &
+\textbf{Interpretation} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{ID} &
+\textbf{Property / biological question} &
+\textbf{Scenario} &
+\textbf{Maude query used} &
+\textbf{Interpretation} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{5}{r}{\textit{Continued on next page}}\\
+\endfoot
+
+\bottomrule
+\multicolumn{5}{@{}p{\textwidth}@{}}{
+\footnotesize
+\textbf{Key:}
+\code{search [1]} asks Maude to find one reachable state satisfying the target formula.
+\code{=>*} denotes zero or more rewrite steps.
+\code{STATE |= X} means that entity \code{X} is present in the reached state.
+A negative answer to a consistency query indicates that the undesired state is not reachable.
+The operator \code{modelCheck} is used for temporal reachability formulas.
+}
+\endlastfoot
+
+P1 &
+PAH state consistency: under the normal context, \code{PAH-null} should not be reachable and should not coexist with normal \code{PAH-Fe2}. &
+\code{input-process-normal} &
+\mcell{
+search [1] init(input-process-normal) =>* STATE such that STATE |= (PAH-null). \par
+search [1] init(input-process-normal) =>* STATE such that STATE |= (PAH-null) and STATE |= PAH-Fe2.
+} &
+No reachable state expected. \\
+
+P2 &
+General enzyme-state consistency: two activity states of the same enzyme should not coexist in the normal context. &
+\code{input-process-normal} &
+\mcell{
+search [1] init(input-process-normal) =>* STATE such that \par
+STATE |= (E1) /\textbackslash{} STATE |= (E2). \par
+Applied to: \par
+(PAH-Fe2, PAH-hypo), (PAH-Fe2, PAH-null), (PAH-hypo, PAH-null); \par
+(DHPR, DHPR-hypo), (DHPR, DHPR-null), (DHPR-hypo, DHPR-null); \par
+(TAT, TAT-low), (TAT, TAT-null), (TAT-low, TAT-null); \par
+(HPD-Fe2, HPD-hypo), (HPD-Fe2, HPD-null), (HPD-hypo, HPD-null); \par
+(HGD-Fe2, HGD-hypo), (HGD-Fe2, HGD-null), (HGD-hypo, HGD-null); \par
+(GSTZ1, GSTZ1-hypo), (GSTZ1, GSTZ1-null), (GSTZ1-hypo, GSTZ1-null); \par
+(FAH-Mg2-Ca2, FAH-hypo), (FAH-Mg2-Ca2, FAH-null), (FAH-hypo, FAH-null); \par
+(ArAT, ArAT-hypo).
+} &
+No coexistence expected. \\
+
+P3 &
+Normal phenylalanine metabolism: if PAH and DHPR are normal, phenylalanine accumulation should not occur. &
+\code{input-process-normal} &
+\mcell{
+search [1] init(input-process-normal) =>* STATE such that STATE |= (Phe-acc).
+} &
+No \code{Phe-acc} expected. \\
+
+P4 &
+PKU metabolic block: if PAH is absent, phenylalanine accumulates and the alternative phenylpyruvate pathway is activated. &
+\code{input-process-PAH-null} &
+\mcell{
+search [1] init(input-process-PAH-null) =>* STATE such that \par
+STATE |= (Phe-acc) /\textbackslash{} STATE |= (PPy).
+} &
+Reachable state expected. \\
+
+P5 &
+Hawkinsin formation: partial HPD deficiency produces QA, followed by Hawkinsin accumulation. &
+\code{input-process-HPD-hypo} &
+\mcell{
+search [1] init(input-process-HPD-hypo) =>* STATE such that STATE |= QA. \par
+search [1] init(input-process-HPD-hypo) =>* STATE such that STATE |= Hawkinsin-acc. \par
+red modelCheck(init(input-process-HPD-hypo), <>(QA /\textbackslash{} <> Hawkinsin-acc)).
+} &
+QA and \code{Hawkinsin-acc} expected. \\
+
+P6 &
+No Hawkinsin in normal HPD: QA and Hawkinsin should not be produced when HPD is normal. &
+\code{input-process-normal} &
+\mcell{
+search [1] init(input-process-normal) =>* STATE such that STATE |= (Hawkinsin-acc). \par
+search [1] init(input-process-normal) =>* STATE such that STATE |= (QA).
+} &
+No reachable state expected. \\
+
+P7 &
+Alkaptonuria: HGD deficiency causes HGA accumulation and BQA formation. &
+\code{input-process-HGD-hypo}; \code{input-process-HGD-null} &
+\mcell{
+search [1] init(input-process-HGD-hypo) =>* STATE such that STATE |= (HGA-acc). \par
+search [1] init(input-process-HGD-hypo) =>* STATE such that STATE |= (BQA). \par
+search [1] init(input-process-HGD-null) =>* STATE such that STATE |= (HGA-acc). \par
+search [1] init(input-process-HGD-null) =>* STATE such that STATE |= (BQA).
+} &
+\code{HGA-acc} and \code{BQA} expected. \\
+
+P8 &
+FAH deficiency toxic cascade: FAH hypo/null causes FAA accumulation, succinylacetone cascade, ALA accumulation, and low PBG. &
+\code{input-process-FAH-hypo}; \code{input-process-FAH-null} &
+\mcell{
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (FAA-acc). \par
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (SAA). \par
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (SA). \par
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (ALA-acc). \par
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (PBG-low). \par
+red modelCheck(init(input-process-FAH-hypo), <>(FAA-acc /\textbackslash{} <>(SA /\textbackslash{} <>(ALA-acc /\textbackslash{} PBG-low)))). \par
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (FAA-acc). \par
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (SA). \par
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (ALA-acc). \par
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (PBG-low).
+} &
+Toxic cascade expected. \\
+
+P9 &
+Coherence under normal PAH: phenylalanine accumulation and tyrosine accumulation should not coexist in the normal context. &
+\code{input-process-normal} &
+\mcell{
+search [1] init(input-process-normal) =>* STATE such that \par
+STATE |= (Phe-acc) /\textbackslash{} STATE |= (Tyr-acc).
+} &
+No coexistence expected. \\
+
+P10 &
+Alternative pathway under PAH deficiency: PAH hypo/null should redirect phenylalanine toward PPy and Glu production. &
+\code{input-process-PAH-hypo}; \code{input-process-PAH-null} &
+\mcell{
+search [1] init(input-process-PAH-null) =>* STATE such that \par
+STATE |= (Phe-acc) /\textbackslash{} STATE |= (PPy) /\textbackslash{} STATE |= (Glu). \par
+search [1] init(input-process-PAH-hypo) =>* STATE such that \par
+STATE |= (Phe-acc) /\textbackslash{} STATE |= (PPy) /\textbackslash{} STATE |= (Glu).
+} &
+Added query; tests alternative transamination. \\
+
+P11 &
+Complete tyrosine catabolism under normal conditions: the normal pathway should reach the final products acetoacetate and fumarate. &
+\code{input-process-normal} &
+\mcell{
+search [1] init(input-process-normal) =>* STATE such that \par
+STATE |= (AcAc) /\textbackslash{} STATE |= (Fum). \par
+red modelCheck(init(input-process-normal), <>(AcAc /\textbackslash{} Fum)).
+} &
+Added query; final products expected. \\
+
+\end{xltabular}
+
+\endgroup

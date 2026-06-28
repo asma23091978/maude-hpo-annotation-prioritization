@@ -1,0 +1,34 @@
+load ./ampd2_purine_salvage_model.maude
+
+--- =============================================================
+--- PROPERTIES
+--- =============================================================
+
+
+--- Core functionality
+--- P1: Normal AMP-deaminase produces IMP
+search [1] init(input-process-normal) =>* STATE |= IMP .
+
+--- Partial activity (enzyme-low)
+--- P2: AMP-deaminase-hypo produces reduced IMP
+search [1] init(input-process-AMP-deaminase-hypo) =>* STATE |= IMP-low .
+
+--- P3: AMP-deaminase-hypo causes AMP accumulation
+search [1] init(input-process-AMP-deaminase-hypo) =>* STATE |= AMP-acc .
+
+--- Null activity (complete block)
+--- P4: AMP-deaminase-null blocks IMP production (expected NO SOLUTION)
+search [1] init(input-process-AMP-deaminase-null) =>* STATE |= IMP .
+
+--- P5: AMP-deaminase-null leads to AMP accumulation
+search [1] init(input-process-AMP-deaminase-null) =>* STATE |= AMP-acc .
+
+--- Cofactor-dependent defect (Zn²⁺)
+--- P6: Zn-low induces an AMP-deaminase-hypo-like behavior
+search [1] init(input-process-Zn-low) =>* STATE |= IMP-low .
+
+--- P7: Zn-low prevents full IMP synthesis (expected NO SOLUTION)
+search [1] init(input-process-Zn-low) =>* STATE |= IMP .
+
+--- P8: In normal, IMP-low should be unreachable (expected NO SOLUTION)
+search [1] init(input-process-normal) =>* STATE |= IMP-low .

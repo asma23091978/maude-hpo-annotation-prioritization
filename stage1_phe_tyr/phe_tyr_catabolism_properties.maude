@@ -1,0 +1,234 @@
+load ./phe_tyr_catabolism_model.maude
+
+--- ==================================================
+--- ############################################################
+--- #  PROPERTIES 
+--- ############################################################
+
+--- ==================================================
+--- Property 1: PAH state consistency (specific for PAH)
+--- ==================================================
+--- If the environment contains only normal PAH and does not contain PAH-hypo or PAH-nulll, 
+--- the system will never reach a state where PAH (normal) and PAH-nulll appear together. 
+
+
+--- In this one, we are looking for a reachable state, using the context input-process-normal, where PAH-null is present. 
+--- If the answer is NO, then we can affirm that PAH-null is *never* produced under this context. If the Maude's answer
+--- is true, then the property is not true. 
+
+search [1] init(input-process-normal) =>* STATE such that STATE |= (PAH-null)  .
+search [1] init(input-process-normal) =>* STATE such that STATE |= (PAH-null)  and STATE |= PAH-Fe2 .
+
+--- This is to give one step of the computation
+rew [1] init(input-process-normal) . 
+--- for the next step, write 
+cont 1 . 
+
+
+--- ==================================================
+--- Property 2: Enzyme state consistency (general rule)
+--- ==================================================
+
+----If the environment assigns exactly one activity state to each enzyme (normal or low or nulll), 
+--- then the system will never reach a state where two different states of the same enzyme coexist. 
+--- here , all the cases:
+
+
+--- PAH: (PAH-Fe2 with PAH-hypo) never together
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (PAH-Fe2) /\ STATE |= (PAH-hypo) .
+
+--- PAH: (PAH-Fe2 with PAH-null) never together
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (PAH-Fe2) /\ STATE |= (PAH-null) .
+
+--- PAH: (PAH-hypo with PAH-null) never together
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (PAH-hypo) /\ STATE |= (PAH-null) .
+
+--- DHPR consistency
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (DHPR) /\ STATE |= (DHPR-hypo) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (DHPR) /\ STATE |= (DHPR-null) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (DHPR-hypo) /\ STATE |= (DHPR-null) .
+
+--- TAT consistency
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (TAT) /\ STATE |= (TAT-low) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (TAT) /\ STATE |= (TAT-null) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (TAT-low) /\ STATE |= (TAT-null) .
+
+--- HPD consistency (normal is HPD-Fe2, pathological: HPD-hypo / HPD-null)
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (HPD-Fe2) /\ STATE |= (HPD-hypo) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (HPD-Fe2) /\ STATE |= (HPD-null) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (HPD-hypo) /\ STATE |= (HPD-null) .
+
+--- HGD consistency (normal is HGD-Fe2, pathological: HGD-hypo / HGD-null)
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (HGD-Fe2) /\ STATE |= (HGD-hypo) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (HGD-Fe2) /\ STATE |= (HGD-null) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (HGD-hypo) /\ STATE |= (HGD-null) .
+
+--- GSTZ1 consistency
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (GSTZ1) /\ STATE |= (GSTZ1-hypo) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (GSTZ1) /\ STATE |= (GSTZ1-null) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (GSTZ1-hypo) /\ STATE |= (GSTZ1-null) .
+
+--- FAH consistency (normal is FAH-Mg2-Ca2, pathological: FAH-hypo / FAH-null)
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (FAH-Mg2-Ca2) /\ STATE |= (FAH-hypo) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (FAH-Mg2-Ca2) /\ STATE |= (FAH-null) .
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (FAH-hypo) /\ STATE |= (FAH-null) .
+
+--- ArAT consistency (only normal vs low exists in your model)
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (ArAT) /\ STATE |= (ArAT-hypo) .
+
+
+
+--- ==================================================
+--- Property 3: Normal phenylalanine metabolism
+--- ==================================================
+--- If PAH and DHPR are normal and Phe is present initially,
+--- then Phe accumulation (Phe acc) will never occur. 
+
+search [1] init(input-process-normal) =>* STATE such that STATE |= (Phe-acc) .
+
+--- ==================================================
+--- Property 4: PKU metabolic block (PAH-nulll)
+--- ==================================================
+--- If PAH is absent (PAH-nulll) and Phe is present, the pathway produces Phe-acc,
+--- (!! It produces Phe-acc)
+--- with activation of an alternative path such as phenylpyruvate (PPy) production. 
+
+search [1] init(input-process-PAH-null) =>* STATE such that
+  STATE |= (Phe-acc) /\ STATE |= (PPy) .
+
+
+--- ==================================================
+--- Property 5: Hawkinsin formation (partial HPD deficiency)
+--- ==================================================
+--- If HPD is low, the system produces quinone acetate (QA), which reacts with GSH and leads to Hawkinsin accumulation.
+
+search [1] init(input-process-HPD-hypo) =>* STATE such that STATE |= QA .
+search [1] init(input-process-HPD-hypo) =>* STATE such that STATE |= Hawkinsin-acc .
+red modelCheck(init(input-process-HPD-hypo), <> (QA /\ <> Hawkinsin-acc)) .
+
+
+
+
+--- ==================================================
+--- Property 6: No Hawkinsin in normal HPD
+--- ==================================================
+--- If HPD is normal, QA does not build up, so Hawkinsin is never produced. 
+
+search [1] init(input-process-normal) =>* STATE such that STATE |= (Hawkinsin-acc) .
+
+--- also QA never appears in normal context
+search [1] init(input-process-normal) =>* STATE such that STATE |= (QA) .
+
+--- ==================================================
+--- Property 7: Alkaptonuria (HGD deficiency)
+--- ==================================================
+--- If HGD is low or nulll and HGA is present, HGA accumulates (HGA-acc) and ALWAYS leads to BQA formation. 
+
+--- HGD-hypo: HGA-acc
+search [1] init(input-process-HGD-hypo) =>* STATE such that STATE |= (HGA-acc) .
+
+--- HGD-hypo: BQA (marker)
+search [1] init(input-process-HGD-hypo) =>* STATE such that STATE |= (BQA) .
+
+--- HGD-null: HGA-acc
+search [1] init(input-process-HGD-null) =>* STATE such that STATE |= (HGA-acc) .
+
+--- HGD-null: BQA
+search [1] init(input-process-HGD-null) =>* STATE such that STATE |= (BQA) .
+
+
+--- ==================================================
+--- Property 8: FAH deficiency toxic cascade
+--- ==================================================
+--- If FAH is low or nulll, FAA accumulates (FAA-acc) and triggers the succinylacetone (SA) toxic cascade, 
+--- causing ALA accumulation (ALA-acc) and low PBG (PBG-low). 
+
+--- FAH-hypo
+
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (FAA-acc) .
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (SAA) .
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (SA) .
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (ALA-acc) .
+search [1] init(input-process-FAH-hypo) =>* STATE such that STATE |= (PBG-low) .
+red modelCheck(init(input-process-FAH-hypo), <>(FAA-acc /\ <>(SA /\ <>(ALA-acc /\ PBG-low)))) .
+
+--- FAH-null
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (FAA-acc) .
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (SA) .
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (ALA-acc) .
+search [1] init(input-process-FAH-null) =>* STATE such that STATE |= (PBG-low) .
+
+
+--- ==================================================
+--- Property 9: coherence under normal PAH
+--- ==================================================
+--- Under the normal PAH context (input-process-normal), the system must never reach a state where phenylalanine accumulation (Phe-acc) 
+--- and tyrosine accumulation (Tyr-acc) are present at the same time.
+
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (Phe-acc) /\ STATE |= (Tyr-acc) .
+
+
+--- ==================================================
+--- Property 10: Alternative pathway under PAH deficiency
+--- ==================================================
+--- When PAH is low or nulll, phenylalanine is redirected to an alternative transamination pathway,
+--- resulting in PPy and Glu production.
+
+
+
+
+--- ===================================================================
+--- Property 11: Complete tyrosine catabolism under normal conditions
+--- ===================================================================
+---  When all enzymes are in their normal functional state and phenylalanine (Phe) is present initially, 
+--- the pathway proceeds without blockages and the metabolic flux is correctly completed, 
+--- leading to the production of acetoacetate (AcAc) and fumarate (Fum) as final products.
+
+--- Queries added from corrected_combined_appendices.tex, Table XVIII.
+--- P10: Alternative transamination pathway under PAH deficiency.
+search [1] init(input-process-PAH-null) =>* STATE such that
+  STATE |= (Phe-acc) /\ STATE |= (PPy) /\ STATE |= (Glu) .
+
+search [1] init(input-process-PAH-hypo) =>* STATE such that
+  STATE |= (Phe-acc) /\ STATE |= (PPy) /\ STATE |= (Glu) .
+
+--- P11: Complete tyrosine catabolism under normal conditions.
+search [1] init(input-process-normal) =>* STATE such that
+  STATE |= (AcAc) /\ STATE |= (Fum) .
+
+red modelCheck(init(input-process-normal), <>(AcAc /\ Fum)) .

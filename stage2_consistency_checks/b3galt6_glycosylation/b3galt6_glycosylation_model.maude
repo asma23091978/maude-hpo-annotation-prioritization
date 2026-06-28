@@ -1,0 +1,115 @@
+--- =============================================================
+--- galactosyltransferase – Proteoglycan Glycosylation
+--- Chondroitin / Heparan Sulfate Biosynthesis
+--- Case study: galactosyltransferase-related skeletal disorders
+---3-O-(beta-D-galactosyl-(1->4)-beta-D-xylosyl)-L-seryl-[protein] + UDP-alpha-D-galactose + Mn(2+) = 3-O-(beta-D-galactosyl-(1->3)-beta-D-galactosyl-----	---(1->4)-beta-D-xylosyl)-L-seryl-[protein] + UDP + H(+)+ Mn(2+)
+--- RHEA:11780
+--- EC 2.4.1.134 galactosylxylosylprotein 3-beta-galactosyltransferase
+--- =============================================================
+
+load ../../semantics/semantics.maude
+mod galactosyltransferase-GLYCOSYLATION is
+  inc SEMANTICS .
+
+  --- ############################################################
+  --- # ENTITY DEFINITIONS
+  --- ############################################################
+
+  ops
+    --- Substrates / acceptors
+    Prot-Xyl-Gal
+    Prot-Xyl-Gal-acc
+    UDP-Gal
+
+    --- Products
+    Prot-Xyl-Gal-Gal
+    Prot-Xyl-Gal-Gal-low
+    UDP
+    H
+
+    --- Cofactor
+    Mn
+    Mn-low
+
+    --- Enzyme states
+    galactosyltransferase
+    galactosyltransferase-hypo
+    galactosyltransferase-null
+
+    
+
+    : -> Entity [ctor] .
+
+
+  --- ############################################################
+  --- # REACTIONS
+  --- ############################################################
+
+  eq reactions =
+
+  --- Normal galactosyltransferase activity
+  [ (Prot-Xyl-Gal , UDP-Gal , Mn , galactosyltransferase) ; (galactosyltransferase-hypo , galactosyltransferase-null) ; (Prot-Xyl-Gal-Gal , UDP , H , Mn , galactosyltransferase)],
+
+  --- Partial activity (galactosyltransferase-hypo)
+  [ (Prot-Xyl-Gal , UDP-Gal , Mn , galactosyltransferase-hypo) ; galactosyltransferase ; (Prot-Xyl-Gal-Gal-low , Prot-Xyl-Gal-acc , UDP , Mn , H , galactosyltransferase-hypo)],
+
+  --- Null activity (galactosyltransferase-null)
+  [ (Prot-Xyl-Gal , UDP-Gal , galactosyltransferase-null) ; galactosyltransferase ; (Prot-Xyl-Gal-acc , UDP-Gal, galactosyltransferase-null) ],
+
+  --- Mn²⁺ limitation (cofactor-dependent defect)
+  [ (Prot-Xyl-Gal , UDP-Gal , Mn-low , galactosyltransferase) ; Mn ; (Prot-Xyl-Gal-Gal-low , Prot-Xyl-Gal-acc , UDP , Mn-low , H , galactosyltransferase)]
+
+  .
+
+
+  --- ############################################################
+  --- # ENVIRONMENTS
+  --- ############################################################
+
+  op env-base : -> SetEntity .
+  eq env-base = (UDP-Gal) .
+
+  op env-normal : -> SetEntity .
+  eq env-normal = (env-base, Mn, galactosyltransferase) .
+
+  op env-galactosyltransferase-hypo : -> SetEntity .
+  eq env-galactosyltransferase-hypo = (env-base, Mn, galactosyltransferase-hypo) .
+
+  op env-galactosyltransferase-null : -> SetEntity .
+  eq env-galactosyltransferase-null = (env-base, Mn, galactosyltransferase-null) .
+
+  op env-Mn-low : -> SetEntity .
+  eq env-Mn-low = (env-base, Mn-low, galactosyltransferase) .
+
+
+  --- ############################################################
+  --- # INPUT PROCESSES
+  --- ############################################################
+
+  op input-process-normal : -> Process .
+  eq input-process-normal =
+     ( { Prot-Xyl-Gal } . 0 )
+     ||
+     (rec 'X . { env-normal } . 'X ) .
+
+  op input-process-galactosyltransferase-hypo : -> Process .
+  eq input-process-galactosyltransferase-hypo =
+     ( { Prot-Xyl-Gal } . 0 )
+     ||
+     (rec 'X . { env-galactosyltransferase-hypo } . 'X ) .
+
+  op input-process-galactosyltransferase-null : -> Process .
+  eq input-process-galactosyltransferase-null =
+     ( { Prot-Xyl-Gal } . 0 )
+     ||
+     (rec 'X . { env-galactosyltransferase-null } . 'X ) .
+
+  op input-process-Mn-low : -> Process .
+  eq input-process-Mn-low =
+     ( { Prot-Xyl-Gal } . 0 )
+     ||
+     (rec 'X . { env-Mn-low } . 'X ) .
+
+  var STATE : State .
+
+endm

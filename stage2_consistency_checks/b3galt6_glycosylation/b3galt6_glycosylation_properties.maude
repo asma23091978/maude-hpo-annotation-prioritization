@@ -1,0 +1,30 @@
+load ./b3galt6_glycosylation_model.maude
+
+--- =============================================================
+--- PROPERTIES
+--- =============================================================
+
+--- Core functionality
+--- P1: Normal galactosyltransferase produces mature Prot-Xyl-Gal-Gal
+search [1] init(input-process-normal) =>* STATE |= Prot-Xyl-Gal-Gal .
+
+--- Partial activity (enzyme-low)
+--- P2: galactosyltransferase-hypo produces reduced Prot-Xyl-Gal-Gal
+search [1] init(input-process-galactosyltransferase-hypo) =>* STATE |= Prot-Xyl-Gal-Gal-low .
+
+--- P3: galactosyltransferase-hypo causes accumulation of Prot-Xyl-Gal
+search [1] init(input-process-galactosyltransferase-hypo) =>* STATE |= Prot-Xyl-Gal-acc .
+
+--- Null activity (complete block)
+--- P4: galactosyltransferase-null blocks Prot-Xyl-Gal-Gal synthesis (expected NO SOLUTION)
+search [1] init(input-process-galactosyltransferase-null) =>* STATE |= Prot-Xyl-Gal-Gal .
+
+--- P5: galactosyltransferase-null leads to accumulation of Prot-Xyl-Gal
+search [1] init(input-process-galactosyltransferase-null) =>* STATE |= Prot-Xyl-Gal-acc .
+
+--- P6: Mn-low induces a galactosyltransferase-hypo-like behavior
+search [1] init(input-process-Mn-low) =>* STATE |= Prot-Xyl-Gal-Gal-low .
+
+--- Cofactor-dependent phenotype
+--- P7: Mn-low prevents full Prot-Xyl-Gal-Gal synthesis (expected NO SOLUTION)
+search [1] init(input-process-Mn-low) =>* STATE |= Prot-Xyl-Gal-Gal .

@@ -1,0 +1,38 @@
+load ./sepsecs_sec_trna_biosynthesis_model.maude
+
+--- =============================================================
+--- PROPERTIES
+--- =============================================================
+
+        --- Core functionality----
+
+---Property 1: Normal SEPSECS produces Sec-tRNA-Sec
+search [1] init(input-process-normal) =>* STATE |= Sec-tRNA-Sec .
+
+
+--- P2: SEPSECS-hypo produces Sec-tRNA-Sec-low
+search [1] init(input-process-SEPSECS-hypo) =>* STATE |= Sec-tRNA-Sec-low .
+
+--- P3: SEPSECS-null causes Ser-tRNA-Sec-acc accumulation
+search [1] init(input-process-SEPSECS-null) =>* STATE |= Ser-tRNA-Sec-acc .
+
+
+       --- Phenotype differentiation---
+
+--- P4: SEPSECS-hypo leads to accumulation of Ser-tRNA-Sec-acc
+search [1] init(input-process-SEPSECS-hypo) =>* STATE |= Ser-tRNA-Sec-acc .
+
+--- P5: PLP-low mimics SEPSECS-hypo (Sec-tRNA-Sec-low is reachable)
+search [1] init(input-process-PLP-low) =>* STATE |= Sec-tRNA-Sec-low .
+
+--- P6: SEPSECS-null blocks Sec-tRNA-Sec (expected NO SOLUTION)
+search [1] init(input-process-SEPSECS-null) =>* STATE |= Sec-tRNA-Sec .
+
+
+       --- Optional negative checks----
+
+--- P7: PLP-low blocks Sec-tRNA-Sec (expected NO SOLUTION)
+search [1] init(input-process-PLP-low) =>* STATE |= Sec-tRNA-Sec .
+
+--- P8: Normal SEPSECS does not produce Sec-tRNA-Sec-low (expected NO SOLUTION)
+search [1] init(input-process-normal) =>* STATE |= Sec-tRNA-Sec-low .

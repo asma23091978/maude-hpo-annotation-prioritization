@@ -1,0 +1,127 @@
+--- =============================================================
+--- Phosphoserine Aminotransferase (PSAT)
+--- Serine Biosynthesis Pathway -- Step 2/3
+--- Case study: PSAT deficiency spectrum
+---
+--- Physiological direction used in this Maude model:
+--- 3-phosphooxypyruvate + L-glutamate + pyridoxal 5'-phosphate
+---   -> O-phospho-L-serine + 2-oxoglutarate + pyridoxal 5'-phosphate
+---
+--- EC 2.6.1.52 phosphoserine transaminase
+--- Gene: PSAT1
+--- RHEA:14329
+--- =============================================================
+
+load ../../semantics/semantics.maude
+mod PSAT-SERINE-BIOSYNTHESIS is
+  inc SEMANTICS .
+
+  --- ############################################################
+  --- # ENTITY DEFINITIONS
+  --- ############################################################
+
+  ops
+    --- Metabolites
+    P-OxoPyr
+    P-OxoPyr-acc
+    Glu
+    P-Ser
+    P-Ser-low
+    alpha-KG
+
+    --- Cofactor
+    PLP
+    PLP-low
+
+    --- Enzyme states
+    PSAT
+    PSAT-hypo
+    PSAT-null
+
+    : -> Entity [ctor] .
+
+
+  --- ############################################################
+  --- # REACTIONS
+  --- ############################################################
+
+  eq reactions =
+
+  --- Normal PSAT activity:
+  --- 3-phosphooxypyruvate + glutamate -> O-phospho-L-serine + 2-oxoglutarate
+  [ (P-OxoPyr , Glu , PLP , PSAT) ;
+    (PSAT-hypo , PSAT-null) ;
+    (P-Ser , alpha-KG , PLP , PSAT) ],
+
+  --- Partial activity (PSAT-hypo):
+  --- reduced formation of O-phospho-L-serine and accumulation of upstream precursor
+  [ (P-OxoPyr , Glu , PLP , PSAT-hypo) ;
+    PSAT ;
+    (P-Ser-low , P-OxoPyr-acc , Glu , PLP , PSAT-hypo) ],
+
+  --- Null activity (PSAT-null):
+  --- complete block of O-phospho-L-serine formation
+  [ (P-OxoPyr , Glu , PLP , PSAT-null) ;
+    PSAT ;
+    (P-OxoPyr-acc , Glu , PLP , PSAT-null) ],
+
+  --- Cofactor limitation (PLP deficiency):
+  --- PLP-low induces PSAT-hypo-like behaviour
+  [ (P-OxoPyr , Glu , PLP-low , PSAT) ;
+    PLP ;
+    (P-Ser-low , P-OxoPyr-acc , Glu , PLP-low , PSAT) ]
+
+  .
+
+
+  --- ############################################################
+  --- # ENVIRONMENTS
+  --- ############################################################
+
+  op env-base : -> SetEntity .
+  eq env-base = (Glu) .
+
+  op env-normal : -> SetEntity .
+  eq env-normal = (env-base, PLP, PSAT) .
+
+  op env-PSAT-hypo : -> SetEntity .
+  eq env-PSAT-hypo = (env-base, PLP, PSAT-hypo) .
+
+  op env-PSAT-null : -> SetEntity .
+  eq env-PSAT-null = (env-base, PLP, PSAT-null) .
+
+  op env-PLP-low : -> SetEntity .
+  eq env-PLP-low = (env-base, PLP-low, PSAT) .
+
+
+  --- ############################################################
+  --- # INPUT PROCESSES
+  --- ############################################################
+
+  op input-process-normal : -> Process .
+  eq input-process-normal =
+     ( { P-OxoPyr } . 0 )
+     ||
+     (rec 'X . { env-normal } . 'X ) .
+
+  op input-process-PSAT-hypo : -> Process .
+  eq input-process-PSAT-hypo =
+     ( { P-OxoPyr } . 0 )
+     ||
+     (rec 'X . { env-PSAT-hypo } . 'X ) .
+
+  op input-process-PSAT-null : -> Process .
+  eq input-process-PSAT-null =
+     ( { P-OxoPyr } . 0 )
+     ||
+     (rec 'X . { env-PSAT-null } . 'X ) .
+
+  op input-process-PLP-low : -> Process .
+  eq input-process-PLP-low =
+     ( { P-OxoPyr } . 0 )
+     ||
+     (rec 'X . { env-PLP-low } . 'X ) .
+
+  var STATE : State .
+
+endm

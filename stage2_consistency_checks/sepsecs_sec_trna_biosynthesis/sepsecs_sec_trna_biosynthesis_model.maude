@@ -1,0 +1,108 @@
+
+--- =============================================================
+---  Selenocysteinyl-tRNA(Sec) Biosynthesis Model
+---  Case study: SEPSECS deficiency
+---  SEPSECS, selenocysteinyl-tRNA(Sec) biosynthesis Pathway
+---  O-phospho-L-seryl-tRNA(Sec) + selenophosphate + H2O + pyridoxal 5'-phosphate  →   L-selenocysteinyl-tRNA(Sec) + 2 phosphate + pyridoxal 5'-phosphate
+---  Ser-tRNA(Sec) + selenophosphate + H2O + PLP + SEPSECS  →  Sec-tRNA(Sec) + 2 phosphate + PLP + SEPSECS
+---  EC 2.9.1.2 O-phospho-L-seryl-tRNA(Sec):L-selenocysteinyl-tRNA synthase or SEPSECS (O-phosphoseryl-tRNA(Sec) selenium transferase )
+---  RHEA:25041
+---  Date: 2026
+--- =============================================================
+
+load ../../semantics/semantics.maude
+mod SEC-TRNA-BIOSYNTHESIS is
+  inc SEMANTICS .
+
+  --- ############################################################
+  --- # ENTITY DEFINITIONS
+  --- ############################################################
+
+  ops
+    --- Substrates / Products
+    Ser-tRNA-Sec
+    Ser-tRNA-Sec-acc
+    Sec-tRNA-Sec
+    Sec-tRNA-Sec-low
+
+    selenophosphate
+    phosphate
+    H2O
+    --- Cofactor
+    PLP
+    PLP-low
+
+    --- Enzyme states
+  SEPSECS
+  SEPSECS-hypo
+  SEPSECS-null
+
+    : -> Entity [ctor] .
+
+
+  --- ############################################################
+  --- # REACTIONS
+  --- ############################################################
+
+  eq reactions =
+
+  --- Normal SEPSECS activity
+  [ (Ser-tRNA-Sec , selenophosphate , H2O , PLP , SEPSECS) ; (SEPSECS-hypo , SEPSECS-null) ; (Sec-tRNA-Sec , phosphate , phosphate , PLP , SEPSECS)],
+
+  --- Partial activity (SEPSECS-hypo → leaky reaction)
+  [ (Ser-tRNA-Sec , selenophosphate , H2O , PLP , SEPSECS-hypo) ; SEPSECS ; (Sec-tRNA-Sec-low , Ser-tRNA-Sec-acc , phosphate , PLP , SEPSECS-hypo)],
+
+  --- Null activity (SEPSECS-null → complete block)
+  [ (Ser-tRNA-Sec , selenophosphate , SEPSECS-null) ; SEPSECS ; (Ser-tRNA-Sec-acc , selenophosphate , SEPSECS-null)],
+
+  --- Cofactor limitation (PLP deficiency mimics SEPSECS-hypo)
+  [ (Ser-tRNA-Sec , selenophosphate , H2O , PLP-low , SEPSECS) ; PLP ; (Sec-tRNA-Sec-low , Ser-tRNA-Sec-acc , phosphate , PLP-low , SEPSECS)]
+.
+
+  --- ############################################################
+  --- # ENVIRONMENTS
+  --- ############################################################
+
+  op env-base : -> SetEntity .
+  eq env-base = (H2O) .
+
+  op env-normal : -> SetEntity .
+  eq env-normal = (env-base, PLP, SEPSECS) .
+
+  op env-SEPSECS-hypo : -> SetEntity .
+  eq env-SEPSECS-hypo = (env-base, PLP, SEPSECS-hypo) .
+
+  op env-SEPSECS-null : -> SetEntity .
+  eq env-SEPSECS-null = (env-base, PLP, SEPSECS-null) .
+
+  op env-PLP-low : -> SetEntity .
+  eq env-PLP-low = (env-base, PLP-low, SEPSECS) .
+
+
+  --- ############################################################
+  --- # INPUT PROCESSES: initial context
+  --- ############################################################
+
+  op input-process-normal : -> Process .
+  eq input-process-normal =
+     ( { (Ser-tRNA-Sec , selenophosphate) } . 0 )
+     || (rec 'X . { env-normal } . 'X ) .
+
+  op input-process-SEPSECS-hypo : -> Process .
+  eq input-process-SEPSECS-hypo =
+     ( { (Ser-tRNA-Sec , selenophosphate) } . 0 )
+     || (rec 'X . { env-SEPSECS-hypo } . 'X ) .
+
+  op input-process-SEPSECS-null : -> Process .
+  eq input-process-SEPSECS-null =
+     ( { (Ser-tRNA-Sec , selenophosphate) } . 0 )
+     || (rec 'X . { env-SEPSECS-null } . 'X ) .
+
+  op input-process-PLP-low : -> Process .
+  eq input-process-PLP-low =
+     ( { (Ser-tRNA-Sec , selenophosphate) } . 0 )
+     || (rec 'X . { env-PLP-low } . 'X ) .
+
+  var STATE : State .
+
+endm

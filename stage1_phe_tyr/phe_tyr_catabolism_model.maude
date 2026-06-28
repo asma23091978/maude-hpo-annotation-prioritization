@@ -1,0 +1,306 @@
+--- Phenylalanin_Tyrosine Catabolism Pathway Model 18|01|2026 
+load ../semantics/semantics.maude
+mod PHE_TYR-CATABOLISM is
+  inc SEMANTICS .
+
+  --- ############################################################
+  --- #  ENTITY DEFINITIONS
+  --- ############################################################
+
+  ops
+  Phe Phe-acc Phe-low Tyr Tyr-low Tyr-acc
+  DHPR DHPR-hypo DHPR-null
+  HPP HPP-low HPP-acc Glu Glu-low PPy
+  HGA HGA-acc HGA-low MAA MAA-low MAA-acc
+  GSH FAA FAA-low FAA-acc
+  AcAc AcAc-low AcAc-acc Fum Fum-low Fum-acc
+  CO2 H2O O2 NADH NAD H PLP PLP-low
+  BH4 BH4-low BH2 BH2-low BH2-acc
+  alpha-KG alpha-KG-low SA SAA QA Hawkinsin-acc ALA ALA-acc PBG-low BQA
+  PAH-Fe2 PAH-hypo PAH-null TAT TAT-hypo TAT-null ArAT ArAT-hypo
+  HPD-Fe2 HPD-hypo HPD-null
+  HGD-Fe2 HGD-hypo HGD-null
+  GSTZ1 GSTZ1-hypo GSTZ1-null
+  FAH-Mg2-Ca2 FAH-hypo FAH-null
+  : -> Entity [ctor] .
+
+
+  --- ############################################################
+  --- #  REACTIONS DEFINITIONS
+  --- ############################################################
+
+  eq reactions =
+
+  --- Step 1: PAH + DHPR system
+  [ (BH2 , NADH , H , DHPR) ; (DHPR-hypo , DHPR-null) ; (BH4 , NAD , DHPR) ],
+  [ (Phe , BH4 , PAH-Fe2 , O2) ; (PAH-hypo , PAH-null) ; (Tyr , BH2 , H2O , PAH-Fe2) ],
+
+  --- PAH-null
+  [ (Phe , BH4 , O2 , PAH-null) ; PAH-Fe2 ; (Phe-acc , BH4 , O2 , PAH-null) ],
+  [ (Phe-acc , alpha-KG , PLP , ArAT , PAH-null) ; PAH-Fe2 ;(PPy , Glu , PLP , Phe-acc , ArAT , PAH-null) ],
+
+  --- PAH-hypo
+  [ (Phe , BH4 , PAH-hypo , O2) ; PAH-Fe2 ; (Tyr-low , BH2-low , H2O , Phe-acc , PAH-hypo) ],
+  [ (Phe-acc , alpha-KG , PLP , ArAT-hypo , PAH-hypo) ; PAH-Fe2 ; (PPy , Glu , PLP , Phe-acc , ArAT-hypo , PAH-hypo) ], 
+
+  --- DHPR-hypo
+  [ (BH2 , NADH , H , DHPR-hypo) ; DHPR ; (BH4-low , NAD , DHPR-hypo) ],
+  [ (Phe , BH4-low , O2 , PAH-Fe2) ; (PAH-hypo , PAH-null , BH4) ; (Tyr-low , BH2-low , H2O , Phe-acc , PAH-Fe2) ],
+  [ (BH2-low , NADH , H , DHPR-hypo) ; DHPR ; (BH4-low , NAD , DHPR-hypo) ],
+  [ (Phe-acc , BH4-low , O2 , PAH-Fe2) ; (PAH-hypo , PAH-null) ; (Tyr-low , BH2-low , H2O , Phe-acc , PAH-Fe2) ],
+
+  --- DHPR-null
+  [ (BH2 , NADH , H , DHPR-null) ; DHPR ; (BH2-acc , NADH , H , DHPR-null) ],
+
+  --- Step 2: TAT 
+  [ (Tyr , PLP , alpha-KG , TAT) ; (TAT-null , TAT-low) ; (HPP , Glu , PLP , TAT) ],
+ 
+  [ (Tyr , PLP , alpha-KG , TAT-low) ; TAT ; (HPP-low , Glu-low , Tyr-acc , PLP , TAT-low) ],
+  [ (Tyr , PLP , alpha-KG , TAT-null) ; TAT ; (Tyr-acc , alpha-KG , PLP , TAT-null) ],
+
+  --- PLP deficiency (blocked if PLP is present)
+  [ (Tyr , PLP-low , alpha-KG , TAT) ; PLP ; (HPP-low , Glu-low , Tyr-acc , PLP-low , TAT) ],
+
+  --- Step 3: HPD
+  [ (HPP , O2 , HPD-Fe2) ; (HPD-null , HPD-hypo) ; (HGA , CO2 , HPD-Fe2) ],
+
+  --- HPD-hypo (Hawkinsinuria): HPP accumulates + reactive intermediate QA
+  [ (HPP , O2 , HPD-hypo) ; HPD-Fe2 ; (HGA-low , CO2 , QA , HPP-acc , HPD-hypo) ],
+
+  --- QA binds cellular thiols (GSH) -> hawkinsin-like product (marker forsists)
+  [ (QA , GSH) ; empty ; (Hawkinsin-acc) ],
+
+  --- HPD-null (Tyrosinemia III): stable HPP accumulation
+  [ (HPP , O2 , HPD-null) ; HPD-Fe2 ; (HPP-acc , HPP , O2 , HPD-null) ],
+
+  --- Step 4: HGD
+  [ (HGA , O2 , HGD-Fe2) ; (HGD-null , HGD-hypo) ; (MAA , H , HGD-Fe2) ],
+
+  [ (HGA , O2 , HGD-hypo) ; HGD-Fe2 ; (MAA-low , H , HGA-acc , HGD-hypo) ],
+
+  [ (HGA , O2 , HGD-null) ; HGD-Fe2 ; (HGA-acc , O2 , HGD-null) ],
+  [ (HGA-acc , O2) ; HGD-Fe2 ; (BQA , HGA-acc , O2) ],
+
+
+  --- Step 5: GSTZ1
+  [ (MAA , GSH , GSTZ1) ; (GSTZ1-null , GSTZ1-hypo) ; (FAA , GSH , GSTZ1) ],
+
+  [ (MAA , GSH , GSTZ1-hypo) ; GSTZ1 ; (FAA-low , MAA-acc , GSH , GSTZ1-hypo) ],
+
+  [ (MAA , GSH , GSTZ1-null) ; GSTZ1 ; (MAA-acc , GSH , GSTZ1-null) ],
+  [ (MAA-acc ,O2) ; empty ; (SAA , CO2 , MAA-acc) ],
+
+  --- Step 6: FAH
+  [ (FAA , H2O , FAH-Mg2-Ca2) ; (FAH-null , FAH-hypo) ; (AcAc , Fum , H , FAH-Mg2-Ca2) ],
+
+  --- FAH-hypo (Tyrosinemia I)
+  [ (FAA , H2O , FAH-hypo) ; FAH-Mg2-Ca2 ; (AcAc-low , Fum-low , FAA-acc , H , FAH-hypo) ],
+  [ (FAA-acc , FAH-hypo) ; FAH-Mg2-Ca2 ; (SAA , CO2 , FAA-acc , FAH-hypo) ],
+  [ (SAA) ; empty ; (SA , SAA) ],
+  [ (ALA , SA) ; empty ; (ALA-acc , SA) ],
+  [ (ALA-acc , SA) ; empty ; (PBG-low , SA) ],
+
+  --- FAH-null (severe Tyrosinemia I)
+  [ (FAA , H2O , FAH-null) ; FAH-Mg2-Ca2 ; (FAA-acc , H2O , FAH-null) ],
+  [ (FAA-acc , FAH-null) ; empty ; (SAA , FAA-acc , FAH-null) ],
+  [ (SAA) ; empty ; (SA , SAA) ],
+  [ (ALA , SA) ; empty ; (ALA-acc , SA) ],
+  [ (ALA-acc , SA) ; empty ; (PBG-low , SA) ]
+  .
+
+
+  --- ############################################################
+  --- #  RECURRING ENVIRONMENTS 
+  --- ############################################################
+
+  --- 1. Basic Environment (= INITIAL ENTITIES: ALWAYS PRESENT)
+  op env-base : -> SetEntity .
+  eq env-base = (O2, H2O, NADH, H, GSH, ALA) .
+
+
+   --- 2. Normal Environment COMPLETE (For normal simulations)
+  op env-normal : -> SetEntity .
+  eq env-normal = (env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2) .
+
+
+
+  --- ############################################################
+  --- #  DISEASE ENVIRONMENTS (Environments without the specific enzyme)
+  --- ############################################################
+
+
+ --- Environment no PAH (for PKU)  # (# Property 1)
+  op env-no-PAH : -> SetEntity .
+  eq env-no-PAH = (env-base, alpha-KG, PLP, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2) .
+
+  --- Environment no DHPR
+  op env-no-DHPR : -> SetEntity .
+  eq env-no-DHPR = (env-base, alpha-KG, PLP, PAH-Fe2, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2) .
+
+  --- Environment no TAT
+  op env-no-TAT : -> SetEntity .
+  eq env-no-TAT = (env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2) .
+
+  --- Environment for PLP Deficiency (Sostituiamo PLP con PLP-low)
+  op env-PLP-low : -> SetEntity .
+  eq env-PLP-low = (env-base, alpha-KG, PLP-low, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2) .
+
+  --- Environment no HPD (for Hawkinsinuria/Tyrosinemia III)  # (# Property 5)
+  op env-no-HPD : -> SetEntity .
+  eq env-no-HPD = (env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HGD-Fe2, GSTZ1, FAH-Mg2-Ca2) .
+
+  --- Environment no HGD (for Alkaptonuria)
+  op env-no-HGD : -> SetEntity .
+  eq env-no-HGD = (env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, GSTZ1, FAH-Mg2-Ca2) .
+
+  --- Environment no GSTZ1
+  op env-no-GSTZ1 : -> SetEntity .
+  eq env-no-GSTZ1 = (env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, FAH-Mg2-Ca2) .
+
+  --- Environment no FAH (for Tyrosinemia I)  # (Property 8)
+  op env-no-FAH : -> SetEntity .
+  eq env-no-FAH = (env-base, alpha-KG, PLP, PAH-Fe2, DHPR, ArAT, TAT, HPD-Fe2, HGD-Fe2, GSTZ1) .
+
+
+
+
+  --- ############################################################
+  --- #  INPUT PROCESSES: INITIAL CONTEXT FOR EACH SCENARIO
+  --- ############################################################
+
+  --- NORMALE
+  op input-process-normal : -> Process .
+  eq input-process-normal =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { env-normal } . 'X ) .
+
+
+  --- ############################################################
+  --- #  SCENARIO: PAH DEFICIENCY (PKU)
+  --- ############################################################
+
+  --- SCENARIO: PAH DEFICIENCY (PKU)  # ( # Property 1)
+  op input-process-PAH-hypo : -> Process .
+  eq input-process-PAH-hypo =
+     ( { (Phe, BH4) } . 0 ) ||  
+     (rec 'X . { (env-no-PAH, PAH-hypo) } . 'X ) .
+
+
+ --- Scenario PKU : PAH is missing (PAH-null instead of PAH-Fe2) # (# Property 4)
+  op input-process-PAH-null : -> Process .
+  eq input-process-PAH-null =
+     ({ (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-PAH, PAH-null) } . 'X ) .
+
+  --- ############################################################
+  --- #  SCENARIO: DHPR DEFICIENCY (BH4 Recycling Defect)
+  --- ############################################################
+
+  --- DHPR
+  op input-process-DHPR-hypo : -> Process .
+  eq input-process-DHPR-hypo =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-DHPR, DHPR-hypo) } . 'X ) .
+
+  op input-process-DHPR-null : -> Process .
+  eq input-process-DHPR-null =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-DHPR, DHPR-null) } . 'X ) .
+
+  --- ############################################################
+  --- #  SCENARIO: TAT DEFICIENCY (Tyrosinemia Type II)
+  --- ############################################################
+
+  --- TAT
+  op input-process-TAT-hypo: -> Process .
+  eq input-process-TAT-hypo=
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-TAT, TAT-low) } . 'X ) .
+
+  op input-process-TAT-null : -> Process .
+  eq input-process-TAT-null =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-TAT, TAT-null) } . 'X ) .
+
+
+  --- ############################################################
+  --- #  SCENARIO: PLP DEFICIENCY (Cofactor Defect)
+  --- ############################################################
+
+  --- PLP deficiency 
+  op input-process-PLP-low : -> Process .
+  eq input-process-PLP-low =
+     ({ (Phe, BH4) } . 0 ) || 
+     (rec 'X . { env-PLP-low} . 'X ) .
+
+
+  --- ############################################################
+  --- #  SCENARIO: HPD DEFICIENCY (Hawkinsinuria / Tyr Type III)
+  --- ############################################################
+
+  --- HPD
+  --- Scenario Hawkinsinuria : HPD is low (HPD-hypo instead of HPD-Fe2)  # (# Property 5)
+  op input-process-HPD-hypo : -> Process .
+  eq input-process-HPD-hypo =
+     ({ (Phe, BH4) } . 0 ) || 
+     (rec 'X . {( env-no-HPD, HPD-hypo) } . 'X ) .
+
+  op input-process-HPD-null : -> Process .
+  eq input-process-HPD-null =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-HPD, HPD-null) } . 'X ) .
+
+
+
+  --- ############################################################
+  --- #  SCENARIO: HGD DEFICIENCY (Alkaptonuria)
+  --- ############################################################
+
+  --- HGD
+  op input-process-HGD-hypo : -> Process .
+  eq input-process-HGD-hypo =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-HGD, HGD-hypo) } . 'X ) .
+
+ --- Scenario Alkaptonuria (Property 7): HGD is nulll (HGD-null instead of HGD-Fe2)
+  op input-process-HGD-null : -> Process .
+  eq input-process-HGD-null =
+     ({ (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-HGD, HGD-null)} . 'X ) .
+
+
+  --- ############################################################
+  --- #  SCENARIO: GSTZ1 DEFICIENCY
+  --- ############################################################
+
+  --- GSTZ1
+  op input-process-GSTZ1-hypo : -> Process .
+  eq input-process-GSTZ1-hypo =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-GSTZ1, GSTZ1-hypo) } . 'X ) .
+
+  op input-process-GSTZ1-null : -> Process .
+  eq input-process-GSTZ1-null =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-GSTZ1, GSTZ1-null) } . 'X ) .
+
+
+  --- ############################################################
+  --- #  SCENARIO: FAH DEFICIENCY (Tyrosinemia Type I)
+  --- ############################################################
+  
+  --- Scenario Tyrosinemia I : FAH is low (FAH-hypo instead of FAH-Mg2-Ca2) # (# Property 8)
+  --- FAH
+  op input-process-FAH-hypo : -> Process .
+  eq input-process-FAH-hypo =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-FAH, FAH-hypo) } . 'X ) .
+
+
+  op input-process-FAH-null : -> Process .
+  eq input-process-FAH-null =
+     ( { (Phe, BH4) } . 0 ) || 
+     (rec 'X . { (env-no-FAH, FAH-null) } . 'X ) .
+
+  var STATE : State . 
+endm
