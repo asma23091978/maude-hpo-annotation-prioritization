@@ -1,13 +1,20 @@
 # Data
 
-This folder contains the input dataset used by the Stage 2 exact reaction-profile matching script.
+# Data
 
-File:
+This folder contains the input dataset used for the Stage 2 reaction-profile matching analysis.
 
-- `dataset_finale_Stoichiometry_CLEAN.csv`
-
-The Python script expects this file at this relative path by default:
+The compressed input file is:
 
 ```text
-data/dataset_finale_Stoichiometry_CLEAN.csv
+dataset_finale_Stoichiometry_CLEAN.csv.gz
 ```
+
+The Python script expects the dataset at:
+
+```text
+data/dataset_finale_Stoichiometry_CLEAN.csv.gz
+```
+
+The file contains rare-disease, gene, enzyme, reaction, cofactor, pathway, and HPO annotation information used to build complete six-field reaction profiles.
+
