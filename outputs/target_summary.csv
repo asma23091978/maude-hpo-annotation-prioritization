@@ -1,0 +1,33 @@
+﻿ORPHAcode_target,DiseaseName_target,n_exact_donors,n_candidate_associations,n_single_match,n_recurrent,n_dominant,n_fully_supported,match_status
+1561,Fatal infantile cytochrome C oxidase deficiency,0,0,0,0,0,0,no_match
+168598,Methionine adenosyltransferase I/III deficiency,0,0,0,0,0,0,no_match
+199285,Hereditary hypercarotenemia and vitamin A deficiency,0,0,0,0,0,0,no_match
+247198,Progressive cerebello-cerebral atrophy,1,40,40,0,0,0,matched
+254905,Isolated cytochrome C oxidase deficiency,1,87,87,0,0,0,matched
+280586,"Chondrodysplasia with joint dislocations, gPAPP type",0,0,0,0,0,0,no_match
+284139,"Larsen-like syndrome, B3GAT3 type",0,0,0,0,0,0,no_match
+289290,Hypermethioninemia encephalopathy due to adenosine kinase deficiency,0,0,0,0,0,0,no_match
+293284,Tetrahydrobiopterin-responsive phenylketonuria,1,32,32,0,0,0,matched
+313850,Infantile cerebellar-retinal degeneration,0,0,0,0,0,0,no_match
+319678,Encephalopathy-hypertrophic cardiomyopathy-renal tubular disease syndrome,0,0,0,0,0,0,no_match
+369920,Pontocerebellar hypoplasia type 9,1,9,9,0,0,0,matched
+394529,"Multiple acyl-CoA dehydrogenase deficiency, severe neonatal type",0,0,0,0,0,0,no_match
+394532,"Multiple acyl-CoA dehydrogenase deficiency, mild type",0,0,0,0,0,0,no_match
+401859,Lipoic acid synthetase deficiency,0,0,0,0,0,0,no_match
+457185,Neonatal encephalomyopathy-cardiomyopathy-respiratory distress syndrome,0,0,0,0,0,0,no_match
+521438,Congenital vertebral-cardiac-renal anomalies syndrome,0,0,0,0,0,0,no_match
+528084,Non-specific syndromic intellectual disability,0,0,0,0,0,0,no_match
+583602,Neu-Laxova syndrome due to phosphoserine aminotransferase deficiency,1,40,40,0,0,0,matched
+597733,Oculocutaneous albinism type 8,0,0,0,0,0,0,no_match
+642099,"Spondyloepimetaphyseal dysplasia with joint laxity, Beighton type",1,83,83,0,0,0,matched
+647772,Isolated primary pigmented nodular adrenocortical disease,1,64,64,0,0,0,matched
+647782,Isolated micronodular adrenocortical disease,0,0,0,0,0,0,no_match
+658778,COQ7-related distal hereditary motor neuropathy,0,0,0,0,0,0,no_match
+69723,Tyrosinemia type 3,1,9,9,0,0,0,matched
+708895,Tetrahydrobiopterin-unresponsive phenylketonuria,1,32,32,0,0,0,matched
+90625,Rare X-linked non-syndromic sensorineural deafness type DFN,5,99,82,16,1,0,matched
+90641,Rare mitochondrial non-syndromic sensorineural deafness,0,0,0,0,0,0,no_match
+93602,Xanthinuria type II,0,0,0,0,0,0,no_match
+98676,Autosomal recessive isolated optic atrophy,0,0,0,0,0,0,no_match
+99731,Isolated sulfite oxidase deficiency,0,0,0,0,0,0,no_match
+99849,Glycogen storage disease due to muscle beta-enolase deficiency,0,0,0,0,0,0,no_match

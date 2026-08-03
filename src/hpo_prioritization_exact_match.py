@@ -1,299 +1,131 @@
-"""
-Stage 2: Rare-disease dataset expansion and HPO prioritization
-==============================================================
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Stage 2 exact biochemical-profile matching and HPO prioritization.
 
-Implements the exact reaction-profile matching method described in the paper.
-The script uses repository-relative paths by default:
+This script reproduces the final Python/Pandas analysis reported in the paper.
+It excludes Maude consistency checks and starts from the integrated dataset:
 
-  input : data/dataset_finale_Stoichiometry_CLEAN.csv
-  output: outputs/hpo_prioritization_results.csv
+    data/dataset_finale_Stoichiometry_CLEAN.csv.gz
 
-Optional command-line arguments can override these defaults:
-
-  python src/hpo_prioritization_exact_match.py --input data/dataset_finale_Stoichiometry_CLEAN.csv --output outputs/hpo_prioritization_results.csv
+A disease profile is the order-independent set of complete descriptors
+(Gene, Entry, EC, Rhea_ID, Cofactor, Pathway). An HPO-unannotated disease is
+matched to an HPO-annotated disease only when their complete profile sets are
+identical.
 """
 
 from __future__ import annotations
-
-from pathlib import Path
-from typing import Dict, List
 import argparse
-import pandas as pd
-
+from pathlib import Path
+from stage2_core import (
+    FULL_PROFILE,
+    candidate_type_summary,
+    load_integrated_dataset,
+    run_exact_profile_matching,
+    save_summary_table,
+    target_summary,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT_FILE = REPO_ROOT / "data" / "dataset_finale_Stoichiometry_CLEAN.csv"
-DEFAULT_OUTPUT_FILE = REPO_ROOT / "outputs" / "hpo_prioritization_results.csv"
+DEFAULT_INPUT = REPO_ROOT / 'data' / 'dataset_finale_Stoichiometry_CLEAN.csv.gz'
+DEFAULT_OUTPUT = REPO_ROOT / 'outputs' / 'hpo_prioritization_results.csv'
 
-USECOLS = [
-    "ORPHAcode", "DiseaseName", "Gene", "Entry",
-    "Rhea_ID", "EC", "Cofactor", "Pathway",
-    "HPO_ID", "HPO_Label",
-]
-
-PROFILE_KEYS = ["Gene", "Entry", "EC", "Rhea_ID", "Cofactor", "Pathway"]
-
+PAPER_EXPECTED_COUNTS = {
+    'raw_rows': 134209,
+    'raw_diseases': 1276,
+    'rows_after_filter': 10609,
+    'complete_profile_diseases': 117,
+    'unannotated_diseases': 32,
+    'annotated_diseases': 85,
+    'matched_unannotated_diseases': 10,
+    'unmatched_unannotated_diseases': 22,
+    'candidate_associations': 495,
+    'total_output_rows': 517,
+    'unique_candidate_hpo_terms': 401,
+}
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Exact reaction-profile matching for candidate HPO annotation prioritization."
+        description='Run exact six-field biochemical-profile matching and candidate HPO prioritization.'
     )
-    parser.add_argument(
-        "--input",
-        type=Path,
-        default=DEFAULT_INPUT_FILE,
-        help="Input CSV file. Default: data/dataset_finale_Stoichiometry_CLEAN.csv",
-    )
-    parser.add_argument(
-        "--output",
-        type=Path,
-        default=DEFAULT_OUTPUT_FILE,
-        help="Output CSV file. Default: outputs/hpo_prioritization_results.csv",
-    )
+    parser.add_argument('--input', type=Path, default=DEFAULT_INPUT,
+                        help='Integrated Stage 2 CSV or CSV.GZ.')
+    parser.add_argument('--output', type=Path, default=DEFAULT_OUTPUT,
+                        help='Main output CSV.')
+    parser.add_argument('--check-paper-counts', action='store_true',
+                        help='Fail when the input does not reproduce the paper counts.')
     return parser.parse_args()
 
-
-def normalise_missing_values(df: pd.DataFrame) -> pd.DataFrame:
-    for col in df.columns:
-        df[col] = df[col].str.strip()
-        df[col] = df[col].replace(
-            {
-                "": pd.NA,
-                "nan": pd.NA,
-                "NaN": pd.NA,
-                "NAN": pd.NA,
-                "none": pd.NA,
-                "None": pd.NA,
-                "NONE": pd.NA,
-                "null": pd.NA,
-                "Null": pd.NA,
-                "NULL": pd.NA,
-            }
+def check_counts(dataset_stats, matching_stats) -> None:
+    observed = {
+        'raw_rows': dataset_stats.raw_rows,
+        'raw_diseases': dataset_stats.raw_diseases,
+        'rows_after_filter': dataset_stats.rows_after_filter,
+        'complete_profile_diseases': matching_stats.complete_profile_diseases,
+        'unannotated_diseases': matching_stats.unannotated_diseases,
+        'annotated_diseases': matching_stats.annotated_diseases,
+        'matched_unannotated_diseases': matching_stats.matched_unannotated_diseases,
+        'unmatched_unannotated_diseases': matching_stats.unmatched_unannotated_diseases,
+        'candidate_associations': matching_stats.candidate_associations,
+        'total_output_rows': matching_stats.total_output_rows,
+        'unique_candidate_hpo_terms': matching_stats.unique_candidate_hpo_terms,
+    }
+    differences = {
+        name: (PAPER_EXPECTED_COUNTS[name], value)
+        for name, value in observed.items()
+        if value != PAPER_EXPECTED_COUNTS[name]
+    }
+    if differences:
+        details = '\n'.join(
+            f'  {name}: expected {expected}, found {found}'
+            for name, (expected, found) in differences.items()
         )
-    return df
-
-
-def normalise_cofactor(val: object) -> object:
-    """Normalize cofactor strings as sorted comma-separated sets.
-
-    This makes the comparison order-independent, so for example
-    "Fe²⁺, BH4" and "BH4, Fe²⁺" are treated as the same cofactor set.
-    """
-    if pd.isna(val):
-        return val
-    parts = [p.strip() for p in str(val).split(",") if p.strip()]
-    return ", ".join(sorted(parts))
-
-
-def build_profile_set(group: pd.DataFrame) -> frozenset:
-    """Return P(d), the set of complete six-field reaction profiles for one disease."""
-    return frozenset(
-        tuple(row[k] for k in PROFILE_KEYS)
-        for _, row in group.iterrows()
-    )
-
+        raise RuntimeError('The input does not reproduce the paper counts:\n' + details)
 
 def main() -> None:
     args = parse_args()
     input_file = args.input if args.input.is_absolute() else REPO_ROOT / args.input
     output_file = args.output if args.output.is_absolute() else REPO_ROOT / args.output
-
-    if not input_file.exists():
-        raise FileNotFoundError(f"Input file not found: {input_file}")
-
-    print(f"Loading dataset from: {input_file}")
-    df = pd.read_csv(input_file, sep=";", dtype=str, low_memory=False)
-    df.columns = df.columns.str.strip()
-
-    missing_cols = sorted(set(USECOLS) - set(df.columns))
-    if missing_cols:
-        raise ValueError(f"Missing required columns in input file: {missing_cols}")
-
-    df = df[USECOLS].copy()
-    df = normalise_missing_values(df)
-    df["Cofactor"] = df["Cofactor"].apply(normalise_cofactor)
-
-    print(f"  Raw rows: {len(df):,}")
-
-    # Stage 2 methodological filter:
-    # retain diseases with at least one cofactor and at least one pathway annotation.
-    diseases_with_cofactor = set(df.loc[df["Cofactor"].notna(), "ORPHAcode"])
-    diseases_with_pathway = set(df.loc[df["Pathway"].notna(), "ORPHAcode"])
-    valid_orpha_set = diseases_with_cofactor & diseases_with_pathway
-
-    df = df[df["ORPHAcode"].isin(valid_orpha_set)].copy()
-    print(f"  Rows after Stage-2 cofactor/pathway filter: {len(df):,}")
-
-    # Canonical HPO_ID -> HPO_Label mapping: one label per HPO ID, first occurrence retained.
-    hpo_label_map: Dict[str, str] = (
-        df[["HPO_ID", "HPO_Label"]]
-        .dropna(subset=["HPO_ID"])
-        .drop_duplicates(subset=["HPO_ID"])
-        .set_index("HPO_ID")["HPO_Label"]
-        .to_dict()
-    )
-
-    # Build reaction profiles P(d), requiring all six profile fields.
-    profile_df = (
-        df[["ORPHAcode", "DiseaseName"] + PROFILE_KEYS]
-        .drop_duplicates()
-        .dropna(subset=PROFILE_KEYS, how="any")
-    )
-
-    print("Building reaction profiles P(d) ...")
-    disease_profiles = (
-        profile_df
-        .groupby("ORPHAcode")[PROFILE_KEYS]
-        .apply(build_profile_set)
-        .rename("profile_set")
-        .reset_index()
-    )
-
-    disease_names = df[["ORPHAcode", "DiseaseName"]].drop_duplicates("ORPHAcode")
-    disease_profiles = disease_profiles.merge(disease_names, on="ORPHAcode", how="left")
-
-    # Build HPO sets H(d), counted strictly by HPO_ID.
-    print("Building HPO sets H(d) ...")
-    disease_hpo = (
-        df[["ORPHAcode", "HPO_ID"]]
-        .dropna(subset=["HPO_ID"])
-        .drop_duplicates()
-        .groupby("ORPHAcode")["HPO_ID"]
-        .apply(set)
-        .rename("hpo_set")
-        .reset_index()
-    )
-
-    diseases = disease_profiles.merge(disease_hpo, on="ORPHAcode", how="left")
-    diseases["hpo_set"] = diseases["hpo_set"].apply(lambda x: x if isinstance(x, set) else set())
-    diseases["n_hpo"] = diseases["hpo_set"].apply(len)
-
-    print(f"  Total distinct valid diseases: {len(diseases):,}")
-
-    # Classify targets and donors.
-    targets = diseases[diseases["n_hpo"] == 0].reset_index(drop=True)
-    donors = diseases[diseases["n_hpo"] > 0].reset_index(drop=True)
-
-    print(f"  Target diseases  (H=∅):   {len(targets):,}")
-    print(f"  Donor diseases (|H|>0):   {len(donors):,}")
-
-    # Exact reaction-profile matching.
-    print("Running exact reaction-profile matching ...")
-    donor_profile_index: Dict[frozenset, List[int]] = {}
-    for idx, row in donors.iterrows():
-        donor_profile_index.setdefault(row["profile_set"], []).append(idx)
-
-    results = []
-
-    for _, target in targets.iterrows():
-        d0_code = target["ORPHAcode"]
-        d0_name = target["DiseaseName"]
-        d0_prof = target["profile_set"]
-
-        matched_donors = donors.loc[donor_profile_index.get(d0_prof, [])]
-        n_exact = len(matched_donors)
-
-        if n_exact == 0:
-            results.append(
-                {
-                    "ORPHAcode_target": d0_code,
-                    "DiseaseName_target": d0_name,
-                    "n_exact_donors": 0,
-                    "ORPHAcode_donors": "",
-                    "DiseaseName_donors": "",
-                    "HPO_ID": "",
-                    "HPO_Label": "",
-                    "donor_count": 0,
-                    "Supporting_ORPHAcode_donors": "",
-                    "candidate_type": "no_match",
-                    "is_selected": False,
-                    "is_fully_supported": False,
-                }
-            )
-            continue
-
-        hpo_donor_count: Dict[str, int] = {}
-        hpo_donor_codes: Dict[str, List[str]] = {}
-
-        for _, donor in matched_donors.iterrows():
-            dk_code = str(donor["ORPHAcode"])
-            for hpo_id in donor["hpo_set"]:
-                hpo_donor_count[hpo_id] = hpo_donor_count.get(hpo_id, 0) + 1
-                hpo_donor_codes.setdefault(hpo_id, []).append(dk_code)
-
-        donor_codes_str = "|".join(matched_donors["ORPHAcode"].astype(str).tolist())
-        donor_names_str = "|".join(matched_donors["DiseaseName"].fillna("").tolist())
-
-        recurrent_counts = [c for c in hpo_donor_count.values() if c >= 2]
-        max_multi_support = max(recurrent_counts) if recurrent_counts else 0
-
-        for hpo_id, count in hpo_donor_count.items():
-            if count == 1:
-                ctype = "single_donor"
-            elif count >= 2:
-                if count == max_multi_support:
-                    ctype = "fully_supported" if count == n_exact else "dominant"
-                else:
-                    ctype = "recurrent"
-            else:
-                ctype = "single_donor"
-
-            is_selected = ctype in ("dominant", "fully_supported")
-            is_fully_supported = ctype == "fully_supported"
-
-            results.append(
-                {
-                    "ORPHAcode_target": d0_code,
-                    "DiseaseName_target": d0_name,
-                    "n_exact_donors": n_exact,
-                    "ORPHAcode_donors": donor_codes_str,
-                    "DiseaseName_donors": donor_names_str,
-                    "HPO_ID": hpo_id,
-                    "HPO_Label": hpo_label_map.get(hpo_id, ""),
-                    "donor_count": count,
-                    "Supporting_ORPHAcode_donors": "|".join(hpo_donor_codes[hpo_id]),
-                    "candidate_type": ctype,
-                    "is_selected": is_selected,
-                    "is_fully_supported": is_fully_supported,
-                }
-            )
-
-    # Assemble, sort, and export.
-    results_df = pd.DataFrame(results)
-
-    type_order = {
-        "fully_supported": 0,
-        "dominant": 1,
-        "recurrent": 2,
-        "single_donor": 3,
-        "no_match": 4,
-    }
-    results_df["_type_order"] = results_df["candidate_type"].map(type_order)
-    results_df = (
-        results_df
-        .sort_values(
-            ["ORPHAcode_target", "_type_order", "donor_count", "HPO_ID"],
-            ascending=[True, True, False, True],
-        )
-        .drop(columns=["_type_order"])
-        .reset_index(drop=True)
-    )
-
     output_file.parent.mkdir(parents=True, exist_ok=True)
-    results_df.to_csv(output_file, sep=";", index=False, encoding="utf-8-sig")
 
-    print(f"\nDone. Results written to:\n  {output_file}")
-    print(f"  Total rows in output: {len(results_df):,}")
+    dataframe, dataset_stats = load_integrated_dataset(
+        input_file, apply_cofactor_pathway_filter=True
+    )
+    results, matching_stats = run_exact_profile_matching(
+        dataframe,
+        profile_keys=FULL_PROFILE,
+        completeness_keys=FULL_PROFILE,
+    )
 
-    summary = results_df.groupby("candidate_type")["ORPHAcode_target"].nunique()
-    print("\nTarget diseases with >=1 candidate per type:")
-    print(summary.to_string())
+    results.to_csv(output_file, sep=';', index=False, encoding='utf-8-sig')
+    save_summary_table(dataset_stats, matching_stats,
+                       output_file.parent / 'stage2_summary.csv')
+    candidate_type_summary(results).to_csv(
+        output_file.parent / 'candidate_type_summary.csv',
+        index=False, encoding='utf-8-sig'
+    )
+    targets = target_summary(results)
+    targets.to_csv(output_file.parent / 'target_summary.csv',
+                   index=False, encoding='utf-8-sig')
+    targets[targets['match_status'] == 'no_match'].to_csv(
+        output_file.parent / 'unmatched_diseases.csv',
+        index=False, encoding='utf-8-sig'
+    )
 
-    matched = results_df[results_df["candidate_type"] != "no_match"]["ORPHAcode_target"].nunique()
-    no_match = results_df[results_df["candidate_type"] == "no_match"]["ORPHAcode_target"].nunique()
-    print(f"\nTargets with >=1 exact donor match : {matched:,}")
-    print(f"Targets with no match             : {no_match:,}")
+    if args.check_paper_counts:
+        check_counts(dataset_stats, matching_stats)
 
+    print('=' * 72)
+    print('STAGE 2: EXACT PROFILE MATCHING AND HPO PRIORITIZATION')
+    print('=' * 72)
+    print(f'Raw rows:                         {dataset_stats.raw_rows:,}')
+    print(f'Raw diseases:                     {dataset_stats.raw_diseases:,}')
+    print(f'Rows after cofactor/pathway filter: {dataset_stats.rows_after_filter:,}')
+    print(f'Diseases with complete profiles:   {matching_stats.complete_profile_diseases:,}')
+    print(f'HPO-unannotated diseases:          {matching_stats.unannotated_diseases:,}')
+    print(f'HPO-annotated diseases:            {matching_stats.annotated_diseases:,}')
+    print(f'Matched / unmatched:               {matching_stats.matched_unannotated_diseases}/{matching_stats.unmatched_unannotated_diseases}')
+    print(f'Candidate associations:            {matching_stats.candidate_associations:,}')
+    print(f'Results written to: {output_file}')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
