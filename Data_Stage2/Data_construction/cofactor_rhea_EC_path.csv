@@ -1,0 +1,1126 @@
+EC number,Cofactor,Cofactor_normalized,Rhea ID,Pathway
+5.6.2.4,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P51979}; Note=Might have a zinc-finger. {ECO:0000250|UniProtKB:P51979};,METAL,RHEA:13065,
+2.7.7.40,,,RHEA:12456 RHEA:53872 RHEA:53612,Protein modification;protein glycosylation. .
+2.3.1.181,,,RHEA:17665,Protein modification;protein lipoylation via endogenous pathway;protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-protein]: step 1/2.
+4.2.1.134,,,RHEA:45812 RHEA:39159 RHEA:39155 RHEA:39175 RHEA:39187 RHEA:39199 RHEA:39211,Lipid metabolism;fatty acid biosynthesis. .
+2.5.1.26,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250|UniProtKB:P97275};,FAD,RHEA:36171 RHEA:40659 RHEA:40727,Glycerolipid metabolism;ether lipid biosynthesis.
+2.8.2.2,,,RHEA:22552 RHEA:51216 RHEA:52348 RHEA:52368 RHEA:52356,
+7.1.1.2,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250|UniProtKB:Q56224}; Note=Binds 2 [4Fe-4S] cluster. {ECO:0000250|UniProtKB:Q56224};,,RHEA:29091,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+2.7.1.137; 2.7.1.153,,,RHEA:21292 RHEA:12709 RHEA:43396,Phospholipid metabolism;phosphatidylinositol phosphate biosynthesis. .
+3.1.4.17,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:15938621, ECO:0000269|PubMed:19828435, ECO:0000269|PubMed:23899287}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions. {ECO:0000269|PubMed:15938621, ECO:0000269|PubMed:19828435, ECO:0000269|PubMed:23899287}; COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:15938621, ECO:0000269|PubMed:19828435, ECO:0000269|PubMed:23899287}; Note=Binds 2 divalent metal cations per subunit. Site 2 has a preference for magnesium ions. {ECO:0000269|PubMed:15938621, ECO:0000269|PubMed:19828435, ECO:0000269|PubMed:23899287};",METAL,RHEA:14653 RHEA:16957 RHEA:25277,
+2.7.7.6,,,RHEA:21248,
+3.6.5.5,,,RHEA:19669,
+2.7.1.137; 2.7.1.153; 2.7.1.154,"COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:10805725, ECO:0000269|PubMed:9337861}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10805725, ECO:0000269|PubMed:9337861}; Note=Ca(2+) or Mg(2+). Mn(2+) cannot be used. {ECO:0000269|PubMed:10805725, ECO:0000269|PubMed:9337861};",METAL,RHEA:18373 RHEA:12709 RHEA:21292,
+2.7.11.21,,,RHEA:17989 RHEA:46608,
+1.14.11.4,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250|UniProtKB:P24802}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000250|UniProtKB:P24802};,METAL,RHEA:16569,
+3.6.4.13,,,RHEA:13065,
+4.6.1.19,,,RHEA:68052 RHEA:81383 RHEA:81323,
+3.1.3.11,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:16213487, ECO:0000269|PubMed:24086250}; Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000269|PubMed:16213487, ECO:0000269|PubMed:24086250};",METAL,RHEA:11064,Carbohydrate biosynthesis;gluconeogenesis.
+2.7.1.35,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10987144, ECO:0000269|PubMed:17766369, ECO:0000269|PubMed:19351586, ECO:0000269|PubMed:22879864, ECO:0000269|Ref.16}; Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:10987144}; Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000269|PubMed:10987144}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:10987144}; Note=Zn(2+) is the most effective divalent metal cation in vitro, followed by Co(2+), Mn(2+) and Mg(2+). {ECO:0000269|PubMed:10987144};",METAL,RHEA:10224 RHEA:25104 RHEA:25108,Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxal 5'-phosphate from pyridoxal: step 1/1. .;Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxine 5'-phosphate from pyridoxine: step 1/1. .;Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxamine 5'-phosphate from pyridoxamine: step 1/1. .
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+7.6.2.8,,,RHEA:17873,
+2.1.1.364,,,RHEA:60264,
+2.7.7.49,,,RHEA:22508,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.7.6,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:33558764, ECO:0000269|PubMed:34675218}; Note=Two Mg(2+) ions are coordinated by both the catalytic residues and the nucleic acid substrate to enhance substrate recognition and catalytic efficiency. {ECO:0000250|UniProtKB:P24928, ECO:0000269|PubMed:33558764, ECO:0000269|PubMed:34675218};",METAL,RHEA:21248,
+3.6.5.2,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:35768504, ECO:0000269|PubMed:35830882, ECO:0000269|PubMed:35831509, ECO:0000269|PubMed:36175670}; Note=Binds 1 magnesium ion per subunit. {ECO:0000269|PubMed:35768504, ECO:0000269|PubMed:35830882, ECO:0000269|PubMed:35831509, ECO:0000269|PubMed:36175670};",METAL,RHEA:19669,
+1.14.11.18,"COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000269|PubMed:10744784, ECO:0000269|PubMed:16186124, ECO:0000269|PubMed:9326939}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000269|PubMed:10744784, ECO:0000269|PubMed:16186124}; COFACTOR: Name=ATP; Xref=ChEBI:CHEBI:30616; Evidence={ECO:0000269|PubMed:10744784}; COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10744784};",METAL,RHEA:16065 RHEA:44000 RHEA:54596 RHEA:54600 RHEA:54604 RHEA:54612 RHEA:54616 RHEA:54620 RHEA:54624 RHEA:54628 RHEA:54632 RHEA:55172 RHEA:55176 RHEA:55180 RHEA:55184 RHEA:55192,Lipid metabolism;fatty acid metabolism.
+2.7.11.1; 2.7.11.4,,,RHEA:17301 RHEA:17989,Protein modification. .
+2.7.11.1; 2.7.11.10,,,RHEA:19073 RHEA:17989 RHEA:46608,
+2.7.11.1,"COFACTOR: Note=Unlike other protein kinases, does not require a divalent cation such as magnesium for catalytic activity. {ECO:0000269|PubMed:18423203};",,RHEA:17989 RHEA:46608,
+7.2.2.10,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P04191};,METAL,RHEA:18105,
+2.1.1.364,,,RHEA:60264 RHEA:60268 RHEA:60272,
+1.14.11.68,COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000250}; COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:17825402};,METAL,RHEA:60224,
+2.7.11.10,,,RHEA:19073,
+2.3.1.51,,,RHEA:19709 RHEA:37131 RHEA:37143 RHEA:37155 RHEA:37159 RHEA:37171 RHEA:37175 RHEA:33187 RHEA:37187 RHEA:37139 RHEA:37179 RHEA:37183 RHEA:35907 RHEA:35915 RHEA:35903 RHEA:35899 RHEA:37603,Phospholipid metabolism;CDP-diacylglycerol biosynthesis;CDP-diacylglycerol from sn-glycerol 3-phosphate: step 2/3.
+1.14.19.17; 5.2.1.-,,,RHEA:46544 RHEA:19141 RHEA:55348 RHEA:55352 RHEA:55356 RHEA:55360,
+2.7.10.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:25029443};,METAL,RHEA:10596,
+2.3.1.42,,,RHEA:17657 RHEA:40715,Membrane lipid metabolism;glycerophospholipid metabolism. .
+2.3.1.50,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000250};,pyridoxal 5'-phosphate,RHEA:14761 RHEA:33683 RHEA:35675 RHEA:35679,Lipid metabolism;sphingolipid metabolism. .
+2.3.1.50,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000250};,pyridoxal 5'-phosphate,RHEA:14761 RHEA:33683,Lipid metabolism;sphingolipid metabolism.
+2.4.1.255,,,RHEA:48904 RHEA:48908 RHEA:48904 RHEA:48908,Protein modification;protein glycosylation. .
+3.1.3.16,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250}; Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000250};,METAL,RHEA:20629 RHEA:47004,
+5.4.2.8,,,RHEA:11140,Nucleotide-sugar biosynthesis;GDP-alpha-D-mannose biosynthesis;alpha-D-mannose 1-phosphate from D-fructose 6-phosphate: step 2/2.
+3.1.3.86,,,RHEA:25528 RHEA:43548 RHEA:43556,
+2.6.1.42,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:12269802, ECO:0000269|PubMed:16141215, ECO:0000269|PubMed:17050531};",pyridoxal 5'-phosphate,RHEA:18321 RHEA:24801 RHEA:24813,
+1.14.11.2,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000255|PROSITE-ProRule:PRU00805}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|PROSITE-ProRule:PRU00805}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000305|PubMed:9211872};,METAL,RHEA:18945,
+3.6.4.13,,,RHEA:13065,
+1.14.15.18,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:O35084};,heme,RHEA:20573 RHEA:49064 RHEA:49068 RHEA:49048,Hormone biosynthesis;vitamin D biosynthesis. .
+1.14.11.68,COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000269|PubMed:17761849}; COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:17761849};,METAL,RHEA:60224,
+1.14.11.80,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250|UniProtKB:Q6N021}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250|UniProtKB:Q6N021}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:Q6N021}; Note=The zinc ions have a structural role. {ECO:0000250|UniProtKB:Q6N021};,METAL,RHEA:52636 RHEA:53828 RHEA:53832,
+1.1.1.37; 1.1.1.399; 1.1.1.95,,,RHEA:12641 RHEA:49612 RHEA:21432,Amino-acid biosynthesis;L-serine biosynthesis;L-serine from 3-phospho-D-glycerate: step 1/3.
+1.5.5.2,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:15662599};,FAD,RHEA:23784,Amino-acid degradation;L-proline degradation into L-glutamate;L-glutamate from L-proline: step 1/2.
+3.2.1.28,,,RHEA:32675,
+4.6.1.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:15385642}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:15385642}; Note=Binds 2 magnesium ions per subunit. Is also active with manganese (in vitro). {ECO:0000250|UniProtKB:P30803};,METAL,RHEA:15389,
+2.7.4.24,,,RHEA:37459 RHEA:10276,
+2.7.11.25,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305|PubMed:16289117};,METAL,RHEA:17989 RHEA:46608,
+3.1.3.36,,,RHEA:22764,
+7.6.2.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9Y2Q0};,METAL,RHEA:38583 RHEA:38567,
+2.3.2.13,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250};,METAL,RHEA:54816,
+4.2.1.1,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:11493685};,METAL,RHEA:10748,
+1.14.11.65,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};,METAL,RHEA:60188,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.5.1.18; 5.2.1.2,COFACTOR: Name=glutathione; Xref=ChEBI:CHEBI:57925; Note=Glutathione is required for the MAAI activity.;,,RHEA:14817 RHEA:16437,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 5/6.
+2.8.1.8,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000255|HAMAP-Rule:MF_03123}; Note=Binds 2 [4Fe-4S] clusters per subunit. One cluster is coordinated with 3 cysteines and an exchangeable S-adenosyl-L-methionine. {ECO:0000255|HAMAP-Rule:MF_03123};,,RHEA:16585,Protein modification;protein lipoylation via endogenous pathway;protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-protein]: step 2/2. .
+6.1.1.22,,,RHEA:11180,
+2.4.1.223,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:Q9ES89};,METAL,RHEA:16221,Glycan metabolism;heparan sulfate biosynthesis. .
+3.6.4.13,,,RHEA:13065,
+4.6.1.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P30803}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:P30803}; Note=Binds 2 magnesium ions per subunit. Is also active with manganese (in vitro). {ECO:0000250|UniProtKB:P30803};,METAL,RHEA:15389,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+3.6.5.5,,,RHEA:19669,
+2.7.1.68,,,RHEA:14425 RHEA:40363 RHEA:40367 RHEA:40379 RHEA:40383 RHEA:40375 RHEA:40387,
+1.14.99.66,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:15620353, ECO:0000269|PubMed:15811342, ECO:0000269|PubMed:16956976, ECO:0000269|PubMed:21300290, ECO:0000269|PubMed:23721412};",FAD,RHEA:60244,
+6.2.1.15; 6.2.1.3,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:15421 RHEA:19713 RHEA:30751 RHEA:36139 RHEA:52116 RHEA:52112 RHEA:52108 RHEA:52088 RHEA:52016 RHEA:52012 RHEA:52008,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+1.14.11.4; 2.4.1.50; 2.4.1.66,"COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:30089812, ECO:0000269|PubMed:9724729}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000269|PubMed:30089812, ECO:0000269|PubMed:9724729}; COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:30089812};",METAL,RHEA:16569 RHEA:12637 RHEA:12576,
+2.7.10.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305}; Note=Mn(2+) was used in the in vitro kinase assay but Mg(2+) is likely to be the in vivo cofactor. {ECO:0000305|PubMed:7615558};,METAL,RHEA:10596,
+1.1.1.22,,,RHEA:23596,Nucleotide-sugar biosynthesis;UDP-alpha-D-glucuronate biosynthesis;UDP-alpha-D-glucuronate from UDP-alpha-D-glucose: step 1/1. .
+3.1.1.4; 3.1.1.5; 3.1.2.2,,,RHEA:15801 RHEA:36231 RHEA:41223 RHEA:38779 RHEA:40811 RHEA:40427 RHEA:40519 RHEA:40431 RHEA:63304 RHEA:15177 RHEA:40435 RHEA:40831 RHEA:40827 RHEA:41067 RHEA:40479 RHEA:16645 RHEA:40463 RHEA:40467 RHEA:52812 RHEA:63256,
+2.4.1.83,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q8U4M3}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:Q8U4M3}; Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:Q8U4M3}; Note=Binds 1 divalent metal cation. {ECO:0000250|UniProtKB:Q8U4M3};,METAL,RHEA:21184,Protein modification;protein glycosylation. .
+7.1.1.2,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000305}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000305};,,RHEA:29091,
+7.1.1.2,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Note=Binds 1 [4Fe-4S] cluster.;,,RHEA:29091,
+2.7.7.49; 2.7.7.7; 3.6.4.12,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:25775267, ECO:0000269|PubMed:27311885};",METAL,RHEA:22508 RHEA:13065 RHEA:22508,
+7.1.1.2,,,RHEA:29091,
+3.6.4.13,,,RHEA:13065,
+2.8.1.14,,,RHEA:47040,
+1.14.19.20,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000250|UniProtKB:P53045};,METAL,RHEA:54320 RHEA:46556 RHEA:47184,Steroid biosynthesis;cholesterol biosynthesis. .
+1.1.1.42,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:19935646}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:19935646}; Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000269|PubMed:19935646};,METAL,RHEA:19629,
+1.14.14.26; 1.14.14.29,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:P22680};,heme,RHEA:24308 RHEA:19041 RHEA:46124 RHEA:46464 RHEA:46460 RHEA:46204 RHEA:46200 RHEA:46192 RHEA:43896 RHEA:46196,Lipid metabolism;bile acid biosynthesis. .;Steroid hormone biosynthesis. .
+2.3.1.20; 2.3.1.76,,,RHEA:10868 RHEA:11488 RHEA:37911 RHEA:38219 RHEA:38175 RHEA:55340 RHEA:55344 RHEA:37915 RHEA:38379 RHEA:38307 RHEA:38211 RHEA:38171 RHEA:38071 RHEA:38163 RHEA:38167 RHEA:55296 RHEA:38435 RHEA:38439,Lipid metabolism;glycerolipid metabolism.
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.6.4.10,,,RHEA:13065,
+2.7.11.22,,,RHEA:17989 RHEA:46608,
+5.6.2.4,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:28653661, ECO:0000312|PDB:5LST}; Note=Binds a Zn(2+) ion per subunit. {ECO:0000269|PubMed:28653661, ECO:0000312|PDB:5LST};",METAL,RHEA:13065,
+2.4.1.135,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035;,METAL,RHEA:24168,Protein modification;protein glycosylation.
+1.2.1.36,,,RHEA:16177 RHEA:42080 RHEA:75119,Cofactor metabolism;retinol metabolism. .
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.5.1.2,,,RHEA:15889,
+1.14.11.66,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};,METAL,RHEA:60200,
+2.3.1.135,,,RHEA:17469 RHEA:43904 RHEA:55320 RHEA:56240 RHEA:56244 RHEA:56248,Cofactor metabolism;retinol metabolism.
+3.1.4.53,"COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000250}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions, while site 2 has a preference for magnesium and/or manganese ions. {ECO:0000250};",METAL,RHEA:25277,"Purine metabolism;3',5'-cyclic AMP degradation;AMP from 3',5'-cyclic AMP: step 1/1."
+2.7.1.25; 2.7.7.4,,,RHEA:18133 RHEA:24152,Sulfur metabolism;sulfate assimilation. .
+6.1.1.20,,,RHEA:19413,
+5.4.2.3,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9P4V2}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:Q9P4V2};,METAL,RHEA:23804,Nucleotide-sugar biosynthesis;UDP-N-acetyl-alpha-D-glucosamine biosynthesis;N-acetyl-alpha-D-glucosamine 1-phosphate from alpha-D-glucosamine 6-phosphate (route I): step 2/2. .
+2.7.7.80; 2.8.1.11,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-Rule:MF_03049}; Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03049};,METAL,RHEA:43616 RHEA:48612,tRNA modification;5-methoxycarbonylmethyl-2-thiouridine-tRNA biosynthesis. .;Cofactor biosynthesis;molybdopterin biosynthesis. .
+4.1.2.27,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:24809814};,pyridoxal 5'-phosphate,RHEA:18593 RHEA:33507,Lipid metabolism;sphingolipid metabolism. .
+7.6.2.1,,,RHEA:38583 RHEA:38567 RHEA:38903 RHEA:39051,
+1.1.1.363; 1.1.1.47; 3.1.1.31,,,RHEA:15841 RHEA:38215 RHEA:12556 RHEA:62064 RHEA:62068 RHEA:62072 RHEA:62076 RHEA:62088 RHEA:14293 RHEA:14405 RHEA:62080,Carbohydrate degradation;pentose phosphate pathway;D-ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage): step 1/3. .;Carbohydrate degradation;pentose phosphate pathway;D-ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage): step 2/3. .;Carbohydrate degradation;pentose phosphate pathway;D-ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage). .
+1.13.11.18,"COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:19136963, ECO:0000269|PubMed:23144459, ECO:0000269|PubMed:25596185}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000269|PubMed:19136963, ECO:0000269|PubMed:23144459, ECO:0000269|PubMed:25596185};",METAL,RHEA:12981,
+2.7.7.6,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:34887565}; Note=Two Mg(2+) ions are coordinated by both the catalytic residues and the nucleic acid substrate to enhance substrate recognition and catalytic efficiency. {ECO:0000250|UniProtKB:P24928, ECO:0000269|PubMed:34887565};",METAL,RHEA:21248,
+4.6.1.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:15385642}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:15385642}; Note=Binds 2 magnesium ions per subunit. Is also active with manganese (in vitro). {ECO:0000250|UniProtKB:P30803};,METAL,RHEA:15389,
+3.1.3.48,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:O00167}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:O00167};,METAL,RHEA:10684,
+3.6.4.13,,,RHEA:13065,
+4.1.1.9,,,RHEA:18781,Metabolic intermediate biosynthesis;acetyl-CoA biosynthesis;acetyl-CoA from malonyl-CoA: step 1/1.
+2.3.2.13,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250}; Note=Binds up to 3 Ca(2+) cations per subunit. {ECO:0000250};,METAL,RHEA:54816,
+2.1.2.5; 4.3.1.4,,,RHEA:15097 RHEA:22736,Amino-acid degradation;L-histidine degradation into L-glutamate;L-glutamate from N-formimidoyl-L-glutamate (transferase route): step 1/1. .
+2.8.1.12,,,RHEA:26333,Cofactor biosynthesis;molybdopterin biosynthesis. .
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+2.1.1.357,,,RHEA:60312 RHEA:60308,
+1.1.1.27,,,RHEA:23444,Fermentation;pyruvate fermentation to lactate;(S)-lactate from pyruvate: step 1/1. .
+1.4.1.3,,,RHEA:15133 RHEA:11612,
+1.5.1.3,,,RHEA:15009,"Cofactor biosynthesis;tetrahydrofolate biosynthesis;5,6,7,8-tetrahydrofolate from 7,8-dihydrofolate: step 1/1."
+1.6.2.2,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:15953014, ECO:0000269|PubMed:1898726};",FAD,RHEA:46680 RHEA:46680,
+1.8.1.7,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:16910673, ECO:0000269|PubMed:18638483, ECO:0000269|PubMed:2585516, ECO:0000269|PubMed:3656429, ECO:0000269|PubMed:8626496, ECO:0000269|PubMed:9174360, ECO:0000269|PubMed:9546215}; Note=Binds 1 FAD per subunit. {ECO:0000269|PubMed:16910673, ECO:0000269|PubMed:18638483, ECO:0000269|PubMed:2585516, ECO:0000269|PubMed:3656429, ECO:0000269|PubMed:8626496, ECO:0000269|PubMed:9174360, ECO:0000269|PubMed:9546215};",FAD,RHEA:11740,
+7.1.1.9,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:30030519}; Note=Binds 2 heme A groups non-covalently per subunit. {ECO:0000269|PubMed:30030519}; COFACTOR: Name=Cu cation; Xref=ChEBI:CHEBI:23378; Evidence={ECO:0000269|PubMed:30030519}; Note=Binds a copper B center. {ECO:0000269|PubMed:30030519};,heme,RHEA:11436,Energy metabolism;oxidative phosphorylation. .
+7.1.1.9,COFACTOR: Name=Cu cation; Xref=ChEBI:CHEBI:23378; Evidence={ECO:0000269|PubMed:30030519}; Note=Binds a dinuclear copper A center per subunit. {ECO:0000269|PubMed:30030519};,,RHEA:11436,
+7.1.1.9,,,RHEA:11436,
+1.14.16.1,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250|UniProtKB:P04176};,METAL,RHEA:20273,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 1/6.
+1.15.1.1,COFACTOR: Name=Cu cation; Xref=ChEBI:CHEBI:23378; Evidence={ECO:0000269|PubMed:17888947}; Note=Binds 1 copper ion per subunit. {ECO:0000269|PubMed:17888947}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:17888947}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:17888947};,METAL,RHEA:20696,
+1.11.1.27; 1.11.1.9; 1.16.3.1; 1.16.3.4,"COFACTOR: Name=Cu(2+); Xref=ChEBI:CHEBI:29036; Evidence={ECO:0000269|PubMed:17242517, ECO:0000269|PubMed:23843990, ECO:0000269|Ref.29}; Note=Binds 6 Cu(2+) cations per monomer. {ECO:0000269|PubMed:17242517, ECO:0000269|PubMed:23843990, ECO:0000269|Ref.29};",METAL,RHEA:11148 RHEA:30083 RHEA:62632 RHEA:78539 RHEA:16833,
+2.1.3.3,,,RHEA:19513,Nitrogen metabolism;urea cycle;L-citrulline from L-ornithine and carbamoyl phosphate: step 1/1. .
+2.3.2.13,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:9988734}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000269|PubMed:9988734};,METAL,RHEA:54816,
+2.4.2.1,,,RHEA:27646 RHEA:13233 RHEA:27738 RHEA:27750,Purine metabolism;purine nucleoside salvage. .
+2.4.2.8,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Note=Binds 2 magnesium ions per subunit. The magnesium ions are essentially bound to the substrate and have few direct interactions with the protein.;,METAL,RHEA:17973 RHEA:25424,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from hypoxanthine: step 1/1.
+2.6.1.1; 2.6.1.7,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;,pyridoxal 5'-phosphate,RHEA:21824 RHEA:65560,
+2.7.10.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P00520};,METAL,RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.11.1; 2.7.2.3,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:18463139};,METAL,RHEA:14801 RHEA:17989,Carbohydrate degradation;glycolysis;pyruvate from D-glyceraldehyde 3-phosphate: step 2/5. .
+2.7.4.3; 2.7.4.4; 2.7.4.6,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P05081};,METAL,RHEA:24036 RHEA:12973 RHEA:23100 RHEA:79899 RHEA:78311 RHEA:44640 RHEA:18113 RHEA:79859 RHEA:27686 RHEA:25098 RHEA:79863 RHEA:79867 RHEA:79875 RHEA:27690 RHEA:79871 RHEA:69180,
+3.5.4.4,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000305|Ref.25}; Note=Binds 1 zinc ion per subunit. {ECO:0000305|Ref.25};,METAL,RHEA:24408 RHEA:28190 RHEA:79047,
+4.2.1.1; 4.2.1.69,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:11076507, ECO:0000269|PubMed:12499545, ECO:0000269|PubMed:1336460, ECO:0000269|PubMed:1433293, ECO:0000269|PubMed:1909891, ECO:0000269|PubMed:19583303, ECO:0000269|PubMed:3151019, ECO:0000269|PubMed:3151020, ECO:0000269|PubMed:7761440, ECO:0000269|PubMed:7803386, ECO:0000269|PubMed:7901850, ECO:0000269|PubMed:8218160, ECO:0000269|PubMed:8262987, ECO:0000269|PubMed:8331673, ECO:0000269|PubMed:8399159, ECO:0000269|PubMed:8431430, ECO:0000269|PubMed:8451242, ECO:0000269|PubMed:8482389, ECO:0000269|PubMed:8639494, ECO:0000269|PubMed:8987974, ECO:0000269|PubMed:9398308, ECO:0000269|PubMed:9865942}; Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000269|PubMed:19583303}; Note=Zinc. Can also use cobalt(II) with lower efficiency, but not copper(II), nickel(II) and manganese(II). {ECO:0000269|PubMed:19583303};",METAL,RHEA:10748 RHEA:23056,
+6.3.4.5,,,RHEA:10932,Amino-acid biosynthesis;L-arginine biosynthesis;L-arginine from L-ornithine and carbamoyl phosphate: step 2/3. .;Nitrogen metabolism;urea cycle;(N(omega)-L-arginino)succinate from L-aspartate and L-citrulline: step 1/1. .
+2.7.7.84,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:23319625};,METAL,RHEA:34407,
+3.6.5.2,,,RHEA:19669,
+3.6.5.2,,,RHEA:19669,
+3.6.5.2,,,RHEA:19669,
+1.16.3.1,,,RHEA:11148,
+7.1.1.2,,,RHEA:29091,
+7.1.1.2,,,RHEA:29091,
+7.1.1.2,,,RHEA:29091,
+7.1.1.2,,,RHEA:29091,
+7.1.1.2,,,RHEA:29091,
+7.1.1.2,,,RHEA:29091,
+7.1.1.2,,,RHEA:29091,
+1.1.1.34,,,RHEA:15989,Metabolic intermediate biosynthesis;(R)-mevalonate biosynthesis;(R)-mevalonate from acetyl-CoA: step 3/3.
+1.11.1.6,"COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:10656833, ECO:0000269|PubMed:10666617}; COFACTOR: Name=NADP(+); Xref=ChEBI:CHEBI:58349; Evidence={ECO:0000269|PubMed:10656833};",NADP(+);heme,RHEA:20309,
+2.7.11.1,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Note=Binds 2 Zn(2+) ions per subunit.;,METAL,RHEA:17989 RHEA:46608,
+3.2.1.51,,,RHEA:12288 RHEA:48224 RHEA:49308,
+4.1.2.13,,,RHEA:14729,Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 4/4.
+1.15.1.1,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:10852710, ECO:0000269|PubMed:11580280, ECO:0000269|PubMed:1394426, ECO:0000269|PubMed:19265433, ECO:0000269|PubMed:9537987, ECO:0000269|PubMed:9537988}; Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000269|PubMed:10852710, ECO:0000269|PubMed:11580280, ECO:0000269|PubMed:1394426, ECO:0000269|PubMed:19265433, ECO:0000269|PubMed:9537987, ECO:0000269|PubMed:9537988};",METAL,RHEA:20696,
+2.3.1.43; 3.1.1.47,,,RHEA:21204 RHEA:17777 RHEA:43216 RHEA:43224 RHEA:53448 RHEA:53456 RHEA:53464 RHEA:53460 RHEA:53468 RHEA:53472 RHEA:53476 RHEA:53516 RHEA:53520 RHEA:40811 RHEA:40427 RHEA:53636,
+2.6.1.13,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:9514741};,pyridoxal 5'-phosphate,RHEA:25160,Amino-acid biosynthesis;L-proline biosynthesis;L-glutamate 5-semialdehyde from L-ornithine: step 1/1. .
+4.3.2.1,,,RHEA:24020,Amino-acid biosynthesis;L-arginine biosynthesis;L-arginine from L-ornithine and carbamoyl phosphate: step 3/3. .;Nitrogen metabolism;urea cycle;L-arginine and fumarate from (N(omega)-L-arginino)succinate: step 1/1. .
+2.7.10.1,,,RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+2.1.1.45,,,RHEA:12104,Pyrimidine metabolism;dTTP biosynthesis. .
+7.2.2.13,,,RHEA:18353,
+4.1.2.13,,,RHEA:14729 RHEA:30851,Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 4/4. .;Carbohydrate biosynthesis;gluconeogenesis. .;Carbohydrate metabolism;fructose metabolism. .
+3.5.3.1,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:16141327, ECO:0000269|PubMed:17469833, ECO:0000269|PubMed:17562323, ECO:0000269|PubMed:18802628}; Note=Binds 2 manganese ions per subunit. {ECO:0000269|PubMed:16141327, ECO:0000269|PubMed:17469833, ECO:0000269|PubMed:17562323, ECO:0000269|PubMed:18802628, ECO:0000269|PubMed:21728378};",METAL,RHEA:20569,Nitrogen metabolism;urea cycle;L-ornithine and urea from L-arginine: step 1/1. .
+1.2.1.3,,,RHEA:16185,Alcohol metabolism;ethanol degradation;acetate from ethanol: step 2/2.
+1.14.14.19; 1.14.14.32,"COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:22266943, ECO:0000269|PubMed:25301938};",heme,RHEA:65760 RHEA:46308 RHEA:50236 RHEA:14753 RHEA:53216 RHEA:53220 RHEA:50244 RHEA:53224 RHEA:47220 RHEA:53228,Steroid hormone biosynthesis. .;Steroid biosynthesis;glucocorticoid biosynthesis. .
+1.14.15.6,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:21636783};,heme,RHEA:35739 RHEA:34335 RHEA:34339 RHEA:34343,Lipid metabolism;C21-steroid hormone metabolism. .;Steroid metabolism;cholesterol metabolism. .
+2.7.11.13,"COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000255|PROSITE-ProRule:PRU00041, ECO:0000269|Ref.15}; Note=Binds 3 Ca(2+) ions per subunit. The ions are bound to the C2 domain. {ECO:0000269|Ref.15};",METAL,RHEA:17989 RHEA:46608,
+1.11.2.2,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Note=Binds 1 Ca(2+) ion per monomer.; COFACTOR: Name=heme b; Xref=ChEBI:CHEBI:60344; Note=Binds 1 heme b (iron(II)-protoporphyrin IX) group covalently per monomer.;,METAL;heme b,RHEA:28218,
+6.4.1.3,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|PROSITE-ProRule:PRU00409}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|PROSITE-ProRule:PRU00409}; Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000255|PROSITE-ProRule:PRU00409}; COFACTOR: Name=biotin; Xref=ChEBI:CHEBI:57586; Evidence={ECO:0000255|PROSITE-ProRule:PRU01066, ECO:0000269|PubMed:6765947};",METAL;biotin,RHEA:23720 RHEA:59520,Metabolic intermediate metabolism;propanoyl-CoA degradation;succinyl-CoA from propanoyl-CoA: step 1/3. .
+6.4.1.3,,,RHEA:23720 RHEA:59520,Metabolic intermediate metabolism;propanoyl-CoA degradation;succinyl-CoA from propanoyl-CoA: step 1/3. .
+3.1.3.1; 3.9.1.1,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P05187}; Note=Binds 1 Mg(2+) ion. {ECO:0000250|UniProtKB:P05187}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:25775211}; Note=Binds 2 Zn(2+) ions. {ECO:0000269|PubMed:25775211}; COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:11395499, ECO:0000269|PubMed:25775211};",METAL,RHEA:15017 RHEA:24576 RHEA:20533 RHEA:16089 RHEA:12977 RHEA:13065 RHEA:61436 RHEA:29375,
+4.1.1.37,,,RHEA:19865 RHEA:31239,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;coproporphyrinogen-III from 5-aminolevulinate: step 4/4. .
+2.7.10.1,,,RHEA:10596,
+2.7.10.2,,,RHEA:10596,
+3.1.1.8,,,RHEA:21964,
+3.2.1.22,,,RHEA:21112 RHEA:48020,
+7.1.2.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305|PubMed:37244256};,METAL,RHEA:57720,
+2.4.1.1,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:10949035, ECO:0000269|PubMed:10980448, ECO:0000269|PubMed:12204691, ECO:0007744|PDB:1EM6, ECO:0007744|PDB:1EXV, ECO:0007744|PDB:1FA9, ECO:0007744|PDB:1FC0, ECO:0007744|PDB:1L5Q, ECO:0007744|PDB:1L5R, ECO:0007744|PDB:1L5S, ECO:0007744|PDB:1L7X};",pyridoxal 5'-phosphate,RHEA:41732,
+5.3.1.9,,,RHEA:11816,Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 2/4. .
+3.1.1.32; 3.1.1.34,,,RHEA:12044 RHEA:18689 RHEA:38575 RHEA:38699 RHEA:40475 RHEA:41384,
+3.2.1.52,,,RHEA:48276 RHEA:47940 RHEA:47968 RHEA:64372 RHEA:64384,
+3.3.2.9,,,RHEA:23900 RHEA:55764 RHEA:44048 RHEA:44044 RHEA:26132,
+1.14.16.2,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250|UniProtKB:P04177};,METAL,RHEA:18201,Catecholamine biosynthesis;dopamine biosynthesis;dopamine from L-tyrosine: step 1/2. .
+1.1.1.27,,,RHEA:23444,Fermentation;pyruvate fermentation to lactate;(S)-lactate from pyruvate: step 1/1. .
+1.11.1.8,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000255|PROSITE-ProRule:PRU00298}; Note=Binds 1 Ca(2+) ion per heterodimer. {ECO:0000255|PROSITE-ProRule:PRU00298}; COFACTOR: Name=heme b; Xref=ChEBI:CHEBI:60344; Evidence={ECO:0000255|PROSITE-ProRule:PRU00298}; Note=Binds 1 heme b (iron(II)-protoporphyrin IX) group covalently per heterodimer. {ECO:0000255|PROSITE-ProRule:PRU00298};,METAL;heme b,RHEA:23336 RHEA:48956 RHEA:48960 RHEA:48964 RHEA:48968,Hormone biosynthesis;thyroid hormone biosynthesis.
+2.7.10.2,,,RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+3.2.1.52,,,RHEA:48276 RHEA:47940 RHEA:47968 RHEA:64372 RHEA:64384,
+5.4.2.11; 5.4.2.4,,,RHEA:17765 RHEA:15901,
+2.4.2.7,,,RHEA:16609,Purine metabolism;AMP biosynthesis via salvage pathway;AMP from adenine: step 1/1. .
+6.1.1.15; 6.1.1.17,,,RHEA:23540 RHEA:14305,
+2.7.7.12,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:27005423}; Note=Binds 2 zinc ions per subunit. {ECO:0000305|PubMed:27005423};,METAL,RHEA:13989,Carbohydrate metabolism;galactose metabolism. .
+2.7.10.2,,,RHEA:10596,
+2.7.10.1,"COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:11445581, ECO:0000269|PubMed:25242331, ECO:0000269|PubMed:31535977, ECO:0000269|PubMed:9575150};",METAL,RHEA:10596,
+4.2.1.2,,,RHEA:12460 RHEA:12460 RHEA:12460,Carbohydrate metabolism;tricarboxylic acid cycle;(S)-malate from fumarate: step 1/1. .
+2.7.10.1,,,RHEA:10596,
+7.6.2.1; 7.6.2.2,,,RHEA:36439 RHEA:38583 RHEA:38943 RHEA:38903,
+3.2.1.31,,,RHEA:17633,
+2.7.1.11,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:16109,Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 3/4. .
+6.3.5.4,,,RHEA:12228,Amino-acid biosynthesis;L-asparagine biosynthesis;L-asparagine from L-aspartate (L-Gln route): step 1/1.
+2.5.1.61,COFACTOR: Name=dipyrromethane; Xref=ChEBI:CHEBI:60342; Note=Binds 1 dipyrromethane group covalently. {ECO:0000269|PubMed:18936296};,,RHEA:13185,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;coproporphyrinogen-III from 5-aminolevulinate: step 2/4. .
+3.4.24.11,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:14747736, ECO:0000269|PubMed:17704566}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:14747736, ECO:0000269|PubMed:17704566};",METAL,RHEA:71459 RHEA:71467 RHEA:71475 RHEA:71479,
+1.2.4.1,"COFACTOR: Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937; Evidence={ECO:0000269|PubMed:12651851, ECO:0000269|PubMed:19081061}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:12651851};",METAL;thiamine diphosphate,RHEA:19189,
+7.1.1.8,COFACTOR: Name=heme c; Xref=ChEBI:CHEBI:61717; Evidence={ECO:0000269|PubMed:28844695}; Note=Binds 1 heme c group covalently per subunit. {ECO:0000269|PubMed:28844695};,heme c,RHEA:11484,
+3.1.3.48,,,RHEA:10684,
+2.7.10.1,,,RHEA:10596,
+2.7.10.2,,,RHEA:10596,
+1.14.14.1; 1.14.14.55; 1.14.14.56; 1.14.14.73,"COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:15256616, ECO:0000269|PubMed:15258162};",heme,RHEA:17149 RHEA:47212 RHEA:47280 RHEA:47332 RHEA:47336 RHEA:47208 RHEA:47292 RHEA:47204 RHEA:53260 RHEA:53264 RHEA:46296 RHEA:53444 RHEA:53212 RHEA:53200 RHEA:47256 RHEA:47252 RHEA:47260 RHEA:55832 RHEA:55828 RHEA:50256 RHEA:46128 RHEA:46140 RHEA:46144 RHEA:50264 RHEA:52284 RHEA:52288 RHEA:52296 RHEA:52292 RHEA:49860 RHEA:49856 RHEA:39779 RHEA:52120 RHEA:52124 RHEA:53140 RHEA:53144 RHEA:53148 RHEA:42092 RHEA:51984 RHEA:20149 RHEA:55928 RHEA:55924 RHEA:32895 RHEA:49160,Steroid hormone biosynthesis. .;Cofactor metabolism;retinol metabolism. .;Steroid metabolism;cholesterol metabolism. .;Lipid metabolism;fatty acid metabolism. .
+1.14.14.16,COFACTOR: Name=heme b; Xref=ChEBI:CHEBI:60344; Evidence={ECO:0000269|PubMed:25855791};,heme b,RHEA:50304 RHEA:50308,
+3.1.6.2,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:12657638}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000269|PubMed:12657638};,METAL,RHEA:19873 RHEA:31055,
+2.7.10.1,,,RHEA:10596,
+1.14.17.1,"COFACTOR: Name=Cu(2+); Xref=ChEBI:CHEBI:29036; Evidence={ECO:0000269|PubMed:8546710, ECO:0000305|PubMed:27152332}; Note=Binds 2 copper ions per subunit. {ECO:0000305|PubMed:27152332};",METAL,RHEA:19117,Catecholamine biosynthesis;(R)-noradrenaline biosynthesis;(R)-noradrenaline from dopamine: step 1/1. .
+1.5.1.34,,,RHEA:17869 RHEA:17865,
+3.1.3.11,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:7809062}; Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000250|UniProtKB:P00636};,METAL,RHEA:11064,Carbohydrate biosynthesis;gluconeogenesis.
+3.1.4.37,,,RHEA:14489,
+1.14.14.18,,,RHEA:21764,
+2.7.10.1,,,RHEA:10596,
+1.8.1.4,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:15946682, ECO:0000269|PubMed:16442803}; Note=Binds 1 FAD per subunit. {ECO:0000269|PubMed:15946682, ECO:0000269|PubMed:16442803};",FAD,RHEA:15045,
+2.7.10.2,,,RHEA:10596,
+3.2.1.108; 3.2.1.62,,,RHEA:10076 RHEA:69639 RHEA:30679 RHEA:69647 RHEA:69655 RHEA:69659 RHEA:69663 RHEA:69667 RHEA:69671 RHEA:69675 RHEA:69679 RHEA:69683 RHEA:69687 RHEA:69699 RHEA:69703 RHEA:69707 RHEA:69711,
+2.7.7.7,,,RHEA:22508,
+2.7.10.2,,,RHEA:10596,
+2.3.1.12,COFACTOR: Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088; Evidence={ECO:0000305|PubMed:25525879}; Note=Binds 2 lipoyl cofactors covalently. {ECO:0000269|PubMed:25525879};,(R)-lipoate,RHEA:17017,
+3.1.3.48,,,RHEA:10684,
+2.7.10.1,,,RHEA:10596,
+4.2.1.75,,,RHEA:18965,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;coproporphyrinogen-III from 5-aminolevulinate: step 3/4. .
+3.6.4.10,,,RHEA:13065,
+3.1.3.2,,,RHEA:15017,
+3.1.1.3; 3.1.1.32; 3.1.1.5,,,RHEA:12044 RHEA:15177 RHEA:18689 RHEA:38575 RHEA:38699 RHEA:40475 RHEA:41384 RHEA:38511 RHEA:38391 RHEA:40499 RHEA:40435 RHEA:38651,
+2.4.2.10; 4.1.1.23,,,RHEA:10380 RHEA:11596,Pyrimidine metabolism;UMP biosynthesis via de novo pathway;UMP from orotate: step 1/2. .;Pyrimidine metabolism;UMP biosynthesis via de novo pathway;UMP from orotate: step 2/2. .
+1.2.4.1,"COFACTOR: Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937; Evidence={ECO:0000269|PubMed:12651851, ECO:0000269|PubMed:19081061};",thiamine diphosphate,RHEA:19189,
+2.3.1.168,COFACTOR: Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088; Evidence={ECO:0000250|UniProtKB:P11181}; Note=Binds 1 lipoyl cofactor covalently. {ECO:0000250|UniProtKB:P11181};,(R)-lipoate,RHEA:18865,
+2.4.1.1,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000250|UniProtKB:P00489};,pyridoxal 5'-phosphate,RHEA:41732,
+3.6.5.2,,,RHEA:19669,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+1.3.8.7,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:15159392, ECO:0000269|PubMed:15975918, ECO:0000269|PubMed:8823176, ECO:0000269|Ref.23};",FAD,RHEA:14477 RHEA:43456 RHEA:43464 RHEA:48180 RHEA:48176 RHEA:47296 RHEA:47316 RHEA:43448,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .
+2.7.10.1,,,RHEA:10596,
+1.1.1.49,,,RHEA:15841,Carbohydrate degradation;pentose phosphate pathway;D-ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage): step 1/3. .
+6.4.1.1,COFACTOR: Name=biotin; Xref=ChEBI:CHEBI:57586; Evidence={ECO:0000269|PubMed:18297087}; COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000269|PubMed:18297087};,METAL;biotin,RHEA:20844,Carbohydrate biosynthesis;gluconeogenesis. .
+1.14.14.14,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:19129847};,heme,RHEA:38191 RHEA:38195 RHEA:38199 RHEA:38203 RHEA:38207 RHEA:47208 RHEA:53200 RHEA:53204 RHEA:53276,Steroid hormone biosynthesis. .
+1.5.1.5; 3.5.4.9; 6.3.4.3,,,RHEA:22812 RHEA:23700 RHEA:20221,One-carbon metabolism;tetrahydrofolate interconversion. .
+1.11.1.7,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000255|PROSITE-ProRule:PRU00298}; Note=Binds 1 Ca(2+) ion per heterodimer. {ECO:0000255|PROSITE-ProRule:PRU00298}; COFACTOR: Name=heme b; Xref=ChEBI:CHEBI:60344; Note=Binds 1 heme b (iron(II)-protoporphyrin IX) covalently through ester linkages to hydroxylated methyl groups formed auto-catalytically with hydrogen peroxide at the heme C-1 and C-5 positions. The ester linkage to Asp-232 was observed in 30% of the chains.;,METAL;heme b,RHEA:56136,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.11.22,,,RHEA:17989 RHEA:46608,
+4.1.1.17,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:17407445, ECO:0000269|PubMed:26443277};",pyridoxal 5'-phosphate,RHEA:22964,Amine and polyamine biosynthesis;putrescine biosynthesis via L-ornithine pathway;putrescine from L-ornithine: step 1/1.
+6.1.1.21,,,RHEA:17313,
+1.2.4.4,COFACTOR: Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937; Evidence={ECO:0000269|PubMed:10745006}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10745006};,METAL;thiamine diphosphate,RHEA:13457,
+3.4.15.1,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:12540854, ECO:0000269|PubMed:16476442, ECO:0000269|PubMed:1649623, ECO:0000269|PubMed:20826823, ECO:0000269|PubMed:23056909, ECO:0000269|PubMed:26403559, ECO:0000269|PubMed:7961923}; Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000269|PubMed:12540854, ECO:0000269|PubMed:16476442, ECO:0000269|PubMed:1649623}; COFACTOR: [Isoform Testis-specific]: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:1649623, ECO:0000269|PubMed:21810173, ECO:0000269|PubMed:24297181}; Note=Isoform Testis-specific only binds 1 Zn(2+) ion per subunit. {ECO:0000269|PubMed:1649623, ECO:0000269|PubMed:21810173, ECO:0000269|PubMed:24297181}; COFACTOR: Name=chloride; Xref=ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:11432860, ECO:0000269|PubMed:12540854, ECO:0000269|PubMed:16476442}; Note=Binds 3 chloride ions per subunit. {ECO:0000269|PubMed:12540854, ECO:0000269|PubMed:16476442}; COFACTOR: [Isoform Testis-specific]: Name=chloride; Xref=ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:24297181};",METAL,RHEA:63560 RHEA:71451 RHEA:71459 RHEA:71463 RHEA:71471 RHEA:71475 RHEA:71455 RHEA:71483 RHEA:71487 RHEA:70675,
+2.7.10.2,,,RHEA:10596 RHEA:10596 RHEA:10596 RHEA:10596,
+3.4.13.9,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:17081196, ECO:0000269|PubMed:28677335}; Note=Binds 2 manganese ions per subunit. {ECO:0000269|PubMed:28677335};",METAL,RHEA:76407,
+3.2.2.27,,,RHEA:81459 RHEA:81455,
+5.6.1.6,,,RHEA:29823 RHEA:28695 RHEA:13065,
+7.2.2.13,,,RHEA:18353,
+3.1.3.2,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Note=Binds 2 iron ions per subunit.;,METAL,RHEA:15017,
+4.2.1.24,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:11032836, ECO:0000269|PubMed:28045381}; Note=Binds 8 zinc ions per octamer. Requires four zinc ions per octamer for full catalytic activity. Can bind up to 2 zinc ions per subunit. {ECO:0000269|PubMed:11032836};",METAL,RHEA:24064,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;coproporphyrinogen-III from 5-aminolevulinate: step 1/4. .
+2.4.1.11,,,RHEA:18549,Glycan biosynthesis;glycogen biosynthesis. .
+4.2.1.11,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Note=Mg(2+) is required for catalysis and for stabilizing the dimer.;,METAL,RHEA:10164,Carbohydrate degradation;glycolysis;pyruvate from D-glyceraldehyde 3-phosphate: step 4/5. .
+5.3.2.1; 5.3.3.12,,,RHEA:17097 RHEA:13041,
+2.5.1.1; 2.5.1.10,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:19309137}; Note=Binds 2 Mg(2+) ions per subunit. {ECO:0000269|PubMed:19309137};,METAL,RHEA:22408 RHEA:19361,Isoprenoid biosynthesis;farnesyl diphosphate biosynthesis;farnesyl diphosphate from geranyl diphosphate and isopentenyl diphosphate: step 1/1.;Isoprenoid biosynthesis;geranyl diphosphate biosynthesis;geranyl diphosphate from dimethylallyl diphosphate and isopentenyl diphosphate: step 1/1.
+1.14.18.1,COFACTOR: Name=Cu(2+); Xref=ChEBI:CHEBI:29036; Evidence={ECO:0000250|UniProtKB:Q9ZP19}; Note=Binds 2 copper ions per subunit. {ECO:0000250|UniProtKB:Q9ZP19};,METAL,RHEA:34287 RHEA:18117 RHEA:68388,
+3.2.2.6,,,RHEA:16301,
+6.1.1.12,,,RHEA:19649,
+1.4.3.3,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:16616139, ECO:0000269|PubMed:17088322, ECO:0000269|PubMed:17303072, ECO:0000269|PubMed:18455394, ECO:0000269|PubMed:19438227, ECO:0000269|PubMed:20521334, ECO:0000269|PubMed:20603179, ECO:0000269|PubMed:23566269, ECO:0000269|PubMed:23631755, ECO:0000269|PubMed:25001371, ECO:0000269|PubMed:25701391, ECO:0000269|PubMed:29274788, ECO:0000269|PubMed:29326945, ECO:0000269|PubMed:30265959, ECO:0000269|PubMed:31799256, ECO:0000269|PubMed:32730563, ECO:0000269|PubMed:34041270, ECO:0000269|PubMed:35482677, ECO:0000269|PubMed:37558109, ECO:0000269|PubMed:38035964};",FAD,RHEA:21816 RHEA:22688 RHEA:78791 RHEA:70971 RHEA:78211 RHEA:37583 RHEA:78207 RHEA:70963 RHEA:78259 RHEA:70951 RHEA:78247 RHEA:78203,
+2.7.11.1,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250}; Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+2.3.1.225; 6.3.1.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P09606}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:18005987};,METAL,RHEA:16169 RHEA:36683,
+3.6.5.2,,,RHEA:19669,
+5.4.2.11; 5.4.2.4,,,RHEA:15901 RHEA:17765,
+3.1.6.8,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:12888274}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000269|PubMed:12888274};,METAL,RHEA:21300,
+1.14.15.4,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:P19099};,heme,RHEA:15629 RHEA:46100 RHEA:46104,Steroid biosynthesis;glucocorticoid biosynthesis. .;Steroid hormone biosynthesis. .
+1.3.8.1,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|Ref.10}; Note=Binds 1 FAD per subunit. {ECO:0000269|Ref.10};,FAD,RHEA:47196 RHEA:24004 RHEA:43456 RHEA:43464,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .
+3.1.1.3,,,RHEA:12044 RHEA:40475 RHEA:38575 RHEA:13933 RHEA:38455,
+2.7.10.1,,,RHEA:10596,
+1.6.2.4,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000255|HAMAP-Rule:MF_03212, ECO:0000269|PubMed:21808038}; Note=Binds 1 FAD per monomer. {ECO:0000255|HAMAP-Rule:MF_03212, ECO:0000269|PubMed:21808038}; COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000255|HAMAP-Rule:MF_03212, ECO:0000269|PubMed:21808038}; Note=Binds 1 FMN per monomer. {ECO:0000255|HAMAP-Rule:MF_03212, ECO:0000269|PubMed:21808038};",FAD;FMN,RHEA:24040,
+3.1.4.35,"COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000250}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions, while site 2 has a preference for magnesium and/or manganese ions. {ECO:0000250};",METAL,RHEA:16957,
+7.2.2.10,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P11607};,METAL,RHEA:18105,
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108;,METAL,RHEA:33179,
+3.7.1.2,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:P35505}; COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P35505};,METAL,RHEA:10244,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 6/6.
+3.2.1.49,,,RHEA:48212 RHEA:49304 RHEA:48412,
+3.1.4.12; 3.1.4.3,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:8702487, ECO:0000269|PubMed:9660788}; Note=Binds 2 Zn(2+) ions per subunit (PubMed:27349982, PubMed:27725636). {ECO:0000269|PubMed:27349982, ECO:0000269|PubMed:27725636, ECO:0000269|PubMed:8702487, ECO:0000269|PubMed:9660788};",METAL,RHEA:19253 RHEA:54284 RHEA:45304 RHEA:10604 RHEA:19253,
+2.7.11.11,,,RHEA:17989 RHEA:46608,
+2.6.1.5,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|Ref.8};,pyridoxal 5'-phosphate,RHEA:15093,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 2/6.
+6.3.4.2,,,RHEA:26426,Pyrimidine metabolism;CTP biosynthesis via de novo pathway;CTP from UDP: step 2/2. .
+2.7.10.1,,,RHEA:10596,
+5.6.2.3,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:22678361, ECO:0000269|PubMed:8413672}; COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000269|PubMed:22678361, ECO:0000269|PubMed:31253769}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000269|PubMed:22678361, ECO:0000269|PubMed:31253769};",METAL,RHEA:13065,
+3.1.4.35,,,RHEA:16957,
+1.14.15.4; 1.14.15.5,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:23322723};,heme,RHEA:15629 RHEA:46104 RHEA:11872 RHEA:50792 RHEA:46100 RHEA:76151 RHEA:76019 RHEA:76023,Steroid biosynthesis. .
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:P10686};,METAL,RHEA:33179 RHEA:43484,
+2.7.1.1,,,RHEA:22740 RHEA:16125 RHEA:17825 RHEA:11028 RHEA:10948,Carbohydrate metabolism;hexose metabolism. .;Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 1/4. .
+7.1.1.2,COFACTOR: Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135; Evidence={ECO:0000269|PubMed:28844695}; Note=Binds 1 [2Fe-2S] cluster. {ECO:0000269|PubMed:28844695};,,RHEA:29091,
+2.3.2.2; 3.4.19.13; 3.4.19.14,,,RHEA:23904 RHEA:28807 RHEA:59468 RHEA:31563 RHEA:53512,Lipid metabolism;leukotriene D4 biosynthesis. .;Sulfur metabolism;glutathione metabolism. .
+5.6.2.4,,,RHEA:13065,
+2.7.10.2; 2.7.11.1,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:16179258, ECO:0000303|PubMed:31246429};",METAL,RHEA:17989 RHEA:46608 RHEA:10596,
+3.1.1.13; 3.1.1.3; 3.1.1.6,,,RHEA:12044 RHEA:38575 RHEA:47864 RHEA:10100 RHEA:33875 RHEA:12957 RHEA:47348 RHEA:52052 RHEA:52048 RHEA:40435 RHEA:52056 RHEA:52060 RHEA:52064 RHEA:52068 RHEA:52072 RHEA:52076 RHEA:52080 RHEA:52084 RHEA:52092 RHEA:52096,
+2.4.2.4,,,RHEA:16037,Pyrimidine metabolism;dTMP biosynthesis via salvage pathway;dTMP from thymine: step 1/2. .
+7.2.2.10,,,RHEA:18105,
+4.6.1.2,,,RHEA:13665,
+4.1.1.28,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:22143761};,pyridoxal 5'-phosphate,RHEA:12272 RHEA:18533,Catecholamine biosynthesis;dopamine biosynthesis;dopamine from L-tyrosine: step 2/2. .
+2.7.11.1,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:12084720, ECO:0000269|PubMed:21986944};",METAL,RHEA:17989 RHEA:46608,
+1.1.1.205,COFACTOR: Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000255|HAMAP-Rule:MF_03156};,,RHEA:11708,Purine metabolism;XMP biosynthesis via de novo pathway;XMP from IMP: step 1/1. .
+3.5.1.26,,,RHEA:11544,
+1.4.3.21; 1.4.3.4,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:16129825, ECO:0000269|PubMed:18391214};",FAD,RHEA:26414 RHEA:51168 RHEA:16153 RHEA:27946 RHEA:30591 RHEA:69076 RHEA:69072 RHEA:59596 RHEA:59416 RHEA:25265,
+7.6.2.1,,,RHEA:66272 RHEA:66272 RHEA:36439 RHEA:38903,
+2.6.1.44; 2.6.1.51,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:10960483};,pyridoxal 5'-phosphate,RHEA:22852 RHEA:24248,
+3.1.3.35; 3.1.3.5; 3.1.3.89; 3.1.3.91; 3.1.3.99,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:22997138, ECO:0000269|PubMed:23142347, ECO:0000269|PubMed:34403084};",METAL,RHEA:12484 RHEA:36167 RHEA:11080 RHEA:29367 RHEA:27718 RHEA:29375 RHEA:27714 RHEA:29359 RHEA:29371 RHEA:29363,
+2.3.1.57,,,RHEA:11116 RHEA:28150 RHEA:33099,Amine and polyamine degradation;putrescine degradation;N-acetylputrescine from putrescine: step 1/1. .
+2.3.1.48; 2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608 RHEA:45948,
+1.1.1.8,,,RHEA:11092,
+2.7.10.1,,,RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+1.2.4.4,COFACTOR: Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937; Evidence={ECO:0000269|PubMed:10745006};,thiamine diphosphate,RHEA:13457,
+2.1.1.6,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P22734}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:P22734};,METAL,RHEA:17877 RHEA:53108 RHEA:53104 RHEA:53100 RHEA:53096 RHEA:53092 RHEA:53088,
+5.4.99.2,"COFACTOR: Name=adenosylcob(III)alamin; Xref=ChEBI:CHEBI:18408; Evidence={ECO:0000269|PubMed:1978672, ECO:0000269|PubMed:21138732, ECO:0000269|PubMed:28943303, ECO:0000269|PubMed:29056341};",,RHEA:22888,
+4.1.1.21; 6.3.2.6,,,RHEA:22628 RHEA:10792,Purine metabolism;IMP biosynthesis via de novo pathway;5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate: step 1/2. .;Purine metabolism;IMP biosynthesis via de novo pathway;5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate from 5-amino-1-(5-phospho-D-ribosyl)imidazole (carboxylase route): step 1/1. .
+2.3.1.155; 2.3.1.16; 2.3.1.176,,,RHEA:16865 RHEA:10408 RHEA:21564 RHEA:31203 RHEA:18161 RHEA:40343 RHEA:46344 RHEA:31111 RHEA:31087 RHEA:31183 RHEA:31091 RHEA:35279 RHEA:47400 RHEA:62960 RHEA:62960,
+2.4.1.17,,,RHEA:21032 RHEA:52460 RHEA:53048 RHEA:53004 RHEA:53072 RHEA:52868 RHEA:52880 RHEA:63720 RHEA:63588 RHEA:63696 RHEA:75099 RHEA:79067 RHEA:79071 RHEA:79075 RHEA:79907 RHEA:79915 RHEA:79919 RHEA:79927 RHEA:79935 RHEA:79951 RHEA:79955,
+3.1.4.1; 3.6.1.9,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P06802}; Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250|UniProtKB:P06802};,METAL,RHEA:23996 RHEA:14245 RHEA:29395 RHEA:29391 RHEA:27762 RHEA:58808 RHEA:32039 RHEA:25277,
+2.7.10.1,,,RHEA:10596,
+2.3.1.37,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:32499479};,pyridoxal 5'-phosphate,RHEA:12921 RHEA:12921 RHEA:12921 RHEA:12921,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;5-aminolevulinate from glycine: step 1/1. .
+2.7.10.1,,,RHEA:10596,
+2.7.11.11,,,RHEA:17989 RHEA:46608,
+2.7.11.11,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:12420224};,METAL,RHEA:17989 RHEA:46608,
+2.3.2.13,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Note=Binds 1 Ca(2+) ion per subunit.;,METAL,RHEA:54816,
+4.2.1.1,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:8942978};,METAL,RHEA:10748,
+4.98.1.1,"COFACTOR: Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135; Evidence={ECO:0000269|PubMed:11175906, ECO:0000269|PubMed:17261801}; Note=Binds 1 [2Fe-2S] cluster. {ECO:0000269|PubMed:11175906, ECO:0000269|PubMed:17261801, ECO:0000269|PubMed:8276824};",,RHEA:22584,Porphyrin-containing compound metabolism;protoheme biosynthesis;protoheme from protoporphyrin-IX: step 1/1. .
+3.5.4.6,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250}; Note=Binds 1 zinc ion per subunit. {ECO:0000250};,METAL,RHEA:14777,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from AMP: step 1/1. .
+5.2.1.8,,,RHEA:16237,
+1.4.4.2,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000250|UniProtKB:P15505};,pyridoxal 5'-phosphate,RHEA:24304,
+6.1.1.2,,,RHEA:24080,
+2.7.10.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305|PubMed:7615558}; Note=Mn(2+) was used in the in vitro kinase assay but Mg(2+) is likely to be the in vivo cofactor. {ECO:0000305|PubMed:7615558};,METAL,RHEA:10596,
+3.13.2.1,"COFACTOR: Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000269|PubMed:12590576, ECO:0000269|PubMed:9586999}; Note=Binds 1 NAD(+) per subunit. {ECO:0000269|PubMed:12590576, ECO:0000269|PubMed:9586999};",NAD(+),RHEA:21708,Amino-acid biosynthesis;L-homocysteine biosynthesis;L-homocysteine from S-adenosyl-L-homocysteine: step 1/1.
+2.3.1.21,,,RHEA:12661 RHEA:17177 RHEA:44828 RHEA:40279 RHEA:44832 RHEA:44840 RHEA:44844 RHEA:44848 RHEA:44852 RHEA:44856 RHEA:44860,Lipid metabolism;fatty acid beta-oxidation. .
+2.7.4.9,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:18469};,METAL,RHEA:13517,Pyrimidine metabolism;dTTP biosynthesis. .
+1.17.4.1,,,RHEA:23252,
+4.2.1.152; 5.3.99.5,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:11097184};,heme,RHEA:17137 RHEA:48644 RHEA:55556 RHEA:48636 RHEA:48856,Lipid metabolism;fatty acid metabolism. .
+2.7.11.13,,,RHEA:17989 RHEA:46608,
+2.3.1.9,,,RHEA:21036 RHEA:30719,Lipid metabolism;fatty acid beta-oxidation. .
+2.7.7.48; 2.7.7.6; 3.1.13.-,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:27193682}; Note=Two Mg(2+) ions are coordinated by both the catalytic residues and the nucleic acid substrate to enhance substrate recognition and catalytic efficiency. {ECO:0000269|PubMed:27193682};,METAL,RHEA:21248 RHEA:21248 RHEA:77763,
+4.6.1.2,,,RHEA:13665,
+2.8.1.2,,,RHEA:21740,
+3.6.4.13,,,RHEA:13065,
+2.1.1.37,,,RHEA:13681,
+1.1.1.145; 5.3.3.1,,,RHEA:24076 RHEA:14709 RHEA:43924 RHEA:43928 RHEA:43932 RHEA:43936,Lipid metabolism;steroid biosynthesis. .
+1.3.8.1; 1.3.8.4,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:9214289};,FAD,RHEA:12276 RHEA:43456 RHEA:43464 RHEA:24004,Amino-acid degradation;L-leucine degradation;(S)-3-hydroxy-3-methylglutaryl-CoA from 3-isovaleryl-CoA: step 1/3.
+6.1.1.3,,,RHEA:24624,
+6.1.1.9,,,RHEA:10704,
+3.1.1.2; 3.1.1.81; 3.1.8.1,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Note=Binds 2 calcium ions per subunit.;,METAL,RHEA:17309 RHEA:22576,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.3.1.299,,,RHEA:61476 RHEA:36547 RHEA:43044 RHEA:36691 RHEA:67596 RHEA:36615 RHEA:36555,Lipid metabolism;sphingolipid metabolism. .
+2.1.3.2; 3.5.1.2; 3.5.2.3; 6.3.4.16; 6.3.5.5,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:24332717, ECO:0000269|PubMed:7766613}; Note=Binds 3 Zn(2+) ions per subunit (for dihydroorotase activity). {ECO:0000269|PubMed:24332717, ECO:0000269|PubMed:7766613}; COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|PROSITE-ProRule:PRU00409}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|PROSITE-ProRule:PRU00409}; Note=Binds 4 magnesium or manganese ions per subunit. {ECO:0000255|PROSITE-ProRule:PRU00409};",METAL,RHEA:18633 RHEA:15889 RHEA:18029 RHEA:20013 RHEA:24296,Pyrimidine metabolism;UMP biosynthesis via de novo pathway;(S)-dihydroorotate from bicarbonate: step 1/3. .;Pyrimidine metabolism;UMP biosynthesis via de novo pathway;(S)-dihydroorotate from bicarbonate: step 2/3. .;Pyrimidine metabolism;UMP biosynthesis via de novo pathway;(S)-dihydroorotate from bicarbonate: step 3/3. .
+1.4.3.13,COFACTOR: Name=Cu cation; Xref=ChEBI:CHEBI:23378; Evidence={ECO:0000250|UniProtKB:P16636}; COFACTOR: Name=lysine tyrosylquinone residue; Xref=ChEBI:CHEBI:20489; Evidence={ECO:0000250|UniProtKB:P33072}; Note=Contains 1 lysine tyrosylquinone. {ECO:0000250|UniProtKB:P33072};,,RHEA:24544,
+2.3.1.6,,,RHEA:18821,
+7.1.1.2,COFACTOR: Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135; Evidence={ECO:0000250|UniProtKB:Q56223}; Note=Binds 1 [2Fe-2S] cluster per subunit. {ECO:0000250|UniProtKB:Q56223}; COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250|UniProtKB:Q56223}; Note=Binds 2 [4Fe-4S] clusters per subunit. {ECO:0000250|UniProtKB:Q56223};,,RHEA:29091,
+2.7.7.7; 3.1.11.-,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000250};,,RHEA:22508,
+2.7.11.24,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+1.1.1.146; 1.1.1.201,,,RHEA:11388 RHEA:68616 RHEA:42200 RHEA:20233 RHEA:68656 RHEA:53820 RHEA:47540 RHEA:65056 RHEA:65060 RHEA:68980 RHEA:68976 RHEA:69436 RHEA:69440 RHEA:69452 RHEA:69456,Steroid metabolism. .
+3.1.3.25; 3.1.3.94,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:17068342, ECO:0000269|PubMed:8718889, ECO:0000269|PubMed:9462881, ECO:0000303|PubMed:23027737, ECO:0000303|PubMed:8068621};",METAL,RHEA:24056 RHEA:27670 RHEA:44152 RHEA:30739 RHEA:30735 RHEA:44156 RHEA:44160 RHEA:82131 RHEA:29315 RHEA:19933 RHEA:16689 RHEA:35603 RHEA:13105 RHEA:37343,Polyol metabolism;myo-inositol biosynthesis;myo-inositol from D-glucose 6-phosphate: step 2/2.
+2.7.10.1,,,RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+1.14.11.67,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};,METAL,RHEA:60208,
+2.7.10.1,,,RHEA:10596,
+2.2.1.1,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:3248678}; Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:3248678}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:3248678}; Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000269|PubMed:3248678}; Note=Binds 1 Mg(2+) ion per subunit. Can also utilize other divalent metal cations, such as Ca(2+), Mn(2+) and Co(2+). {ECO:0000269|PubMed:3248678}; COFACTOR: Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937; Evidence={ECO:0000269|PubMed:3248678}; Note=Binds 1 thiamine pyrophosphate per subunit. {ECO:0000269|PubMed:3248678};",METAL;thiamine diphosphate,RHEA:10508,
+1.14.13.39,"COFACTOR: Name=heme b; Xref=ChEBI:CHEBI:60344; Evidence={ECO:0000269|PubMed:25286850}; COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250|UniProtKB:P29476}; Note=Binds 1 FAD. {ECO:0000250|UniProtKB:P29476}; COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000250|UniProtKB:P35228}; Note=Binds 1 FMN. {ECO:0000250|UniProtKB:P35228}; COFACTOR: Name=(6R)-L-erythro-5,6,7,8-tetrahydrobiopterin; Xref=ChEBI:CHEBI:59560; Evidence={ECO:0000269|PubMed:25286850}; Note=Tetrahydrobiopterin (BH4). May stabilize the dimeric form of the enzyme. {ECO:0000269|PubMed:25286850};",FAD;FMN;heme b,RHEA:19897,
+2.7.10.2,,,RHEA:10596,
+1.2.4.1,COFACTOR: Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937; Evidence={ECO:0000250|UniProtKB:P08559}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P08559};,METAL;thiamine diphosphate,RHEA:19189,
+1.2.1.88,,,RHEA:30235,Amino-acid degradation;L-proline degradation into L-glutamate;L-glutamate from L-proline: step 2/2. .
+1.11.1.24,,,RHEA:62620,
+4.2.1.17; 5.3.3.8,,,RHEA:16105 RHEA:45228 RHEA:45736 RHEA:26558 RHEA:31079 RHEA:26518 RHEA:45584 RHEA:31175 RHEA:30547 RHEA:31191,Lipid metabolism;fatty acid beta-oxidation. .
+2.7.10.1,,,RHEA:10596,
+4.3.2.2,,,RHEA:16853 RHEA:23920,Purine metabolism;AMP biosynthesis via de novo pathway;AMP from IMP: step 2/2.;Purine metabolism;IMP biosynthesis via de novo pathway;5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate: step 2/2.
+2.7.1.40,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305|PubMed:11960989}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:11960989}; COFACTOR: Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000305|PubMed:11960989};,METAL,RHEA:18157,Carbohydrate degradation;glycolysis;pyruvate from D-glyceraldehyde 3-phosphate: step 5/5. .
+3.5.4.16,,,RHEA:17473,"Cofactor biosynthesis;7,8-dihydroneopterin triphosphate biosynthesis;7,8-dihydroneopterin triphosphate from GTP: step 1/1. ."
+1.3.1.22,,,RHEA:54384 RHEA:50820 RHEA:21952,
+6.3.4.16,,,RHEA:18029,
+1.14.13.148; 1.14.13.32; 1.14.13.8,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692;,FAD,RHEA:31979 RHEA:24468 RHEA:69819 RHEA:58720 RHEA:10796,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.1.2.3; 3.5.4.10,,,RHEA:22192 RHEA:59144 RHEA:18445 RHEA:62676,Purine metabolism;IMP biosynthesis via de novo pathway;5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide (10-formyl THF route): step 1/1. .;Purine metabolism;IMP biosynthesis via de novo pathway;IMP from 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide: step 1/1. .
+2.7.1.30,,,RHEA:21644,Polyol metabolism;glycerol degradation via glycerol kinase pathway;sn-glycerol 3-phosphate from glycerol: step 1/1. .
+1.5.1.2,,,RHEA:14109 RHEA:14105,Amino-acid biosynthesis;L-proline biosynthesis;L-proline from L-glutamate 5-semialdehyde: step 1/1.
+1.13.11.27,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000250|UniProtKB:P32755}; Note=Binds 1 Fe cation per subunit. {ECO:0000250|UniProtKB:P32755};,METAL,RHEA:16189,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 3/6.
+4.4.1.1; 4.4.1.2,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:10212249, ECO:0000269|PubMed:18476726, ECO:0000269|PubMed:19019829, ECO:0000269|PubMed:19961860};",pyridoxal 5'-phosphate,RHEA:14005 RHEA:24931 RHEA:14501 RHEA:24923 RHEA:31151,Amino-acid biosynthesis;L-cysteine biosynthesis;L-cysteine from L-homocysteine and L-serine: step 2/2. .
+3.6.1.23,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:8805593};,METAL,RHEA:10248,Pyrimidine metabolism;dUMP biosynthesis;dUMP from dCTP (dUTP route): step 2/2. .
+7.6.2.2; 7.6.2.3,,,RHEA:19121 RHEA:38951 RHEA:38963 RHEA:60128 RHEA:33147 RHEA:60160 RHEA:74887 RHEA:81611 RHEA:81695 RHEA:81699,
+3.6.4.12,,,RHEA:13065,
+3.6.4.12,,,RHEA:13065,
+2.1.2.1,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:25619277, ECO:0000305|PubMed:29364879};",pyridoxal 5'-phosphate,RHEA:15481,One-carbon metabolism;tetrahydrofolate interconversion. .
+5.3.1.8,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P34948}; Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P34948};,METAL,RHEA:12356,Nucleotide-sugar biosynthesis;GDP-alpha-D-mannose biosynthesis;alpha-D-mannose 1-phosphate from D-fructose 6-phosphate: step 1/2.
+4.2.1.1,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P23589};,METAL,RHEA:10748,
+1.1.1.153,,,RHEA:18953 RHEA:32627,
+4.2.1.22,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:23981774};,pyridoxal 5'-phosphate,RHEA:10112,Amino-acid biosynthesis;L-cysteine biosynthesis;L-cysteine from L-homocysteine and L-serine: step 1/2. .
+2.7.1.1,,,RHEA:22740 RHEA:16125 RHEA:17825 RHEA:11028,Carbohydrate metabolism;hexose metabolism. .;Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 1/4. .
+3.1.3.9,,,RHEA:16689,Carbohydrate biosynthesis;gluconeogenesis. .
+2.7.10.1,,,RHEA:10596,
+7.2.2.8,,,RHEA:25792,
+2.7.1.32; 2.7.1.82,,,RHEA:12837 RHEA:13069 RHEA:10596,Phospholipid metabolism;phosphatidylcholine biosynthesis;phosphocholine from choline: step 1/1. .;Phospholipid metabolism;phosphatidylethanolamine biosynthesis;phosphatidylethanolamine from ethanolamine: step 1/3. .
+3.1.4.35,"COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000250|UniProtKB:Q07343}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions, while site 2 has a preference for magnesium and/or manganese ions. {ECO:0000250|UniProtKB:Q07343};",METAL,RHEA:16957,
+4.1.3.4,COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000269|PubMed:12874287};,METAL,RHEA:24404,Metabolic intermediate metabolism;(S)-3-hydroxy-3-methylglutaryl-CoA degradation;acetoacetate from (S)-3-hydroxy-3-methylglutaryl-CoA: step 1/1.
+2.7.10.1,,,RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+2.7.12.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10409742};,METAL,RHEA:17989 RHEA:46608 RHEA:10596,
+1.3.3.3,,,RHEA:18257,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;protoporphyrinogen-IX from coproporphyrinogen-III (O2 route): step 1/1. .
+5.4.2.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:26972339}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000269|PubMed:26972339};,METAL,RHEA:23536 RHEA:68748 RHEA:68752,
+2.7.10.1,,,RHEA:10596,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+2.3.1.61,COFACTOR: Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088; Evidence={ECO:0000250|UniProtKB:P11179}; Note=Binds 1 lipoyl cofactor covalently. {ECO:0000250|UniProtKB:P11179};,(R)-lipoate,RHEA:15213,Amino-acid degradation;L-lysine degradation via saccharopine pathway;glutaryl-CoA from L-lysine: step 6/6.;Carbohydrate metabolism;tricarboxylic acid cycle. .
+1.11.1.12; 1.11.1.9,,,RHEA:19057 RHEA:16833 RHEA:69412 RHEA:69651 RHEA:76687 RHEA:48888 RHEA:48620 RHEA:76691 RHEA:50708 RHEA:76695 RHEA:76699 RHEA:76703 RHEA:76707 RHEA:76711 RHEA:76715 RHEA:76731,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+1.1.1.62; 1.1.1.64,,,RHEA:69284 RHEA:14981 RHEA:24616 RHEA:46628 RHEA:42120 RHEA:42156 RHEA:53480 RHEA:53484 RHEA:53488,Hormone biosynthesis;testosterone biosynthesis. .;Steroid metabolism. .
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+2.5.1.21,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:24531458};,METAL,RHEA:32295 RHEA:32299 RHEA:22672 RHEA:22228 RHEA:22232,Terpene metabolism;lanosterol biosynthesis;lanosterol from farnesyl diphosphate: step 1/3. .
+2.4.1.198,,,RHEA:14789,Glycolipid biosynthesis;glycosylphosphatidylinositol-anchor biosynthesis. .
+2.2.1.2,,,RHEA:17053,Carbohydrate degradation;pentose phosphate pathway;D-glyceraldehyde 3-phosphate and beta-D-fructose 6-phosphate from D-ribose 5-phosphate and D-xylulose 5-phosphate (non-oxidative stage): step 2/3. .
+4.1.1.90,,,RHEA:45140,
+3.1.1.13,,,RHEA:10100 RHEA:33875 RHEA:35667 RHEA:38379 RHEA:44712 RHEA:40967 RHEA:78019 RHEA:39939,
+7.1.2.2,,,RHEA:57720,
+3.6.4.10,,,RHEA:13065,
+3.6.4.13,,,RHEA:13065,
+3.6.4.12; 3.6.4.13,,,RHEA:13065 RHEA:13065,
+3.1.1.4,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250};,METAL,RHEA:15801 RHEA:38779 RHEA:40427 RHEA:40815 RHEA:40431 RHEA:41215 RHEA:44524 RHEA:45424 RHEA:40467 RHEA:40463,Lipid metabolism;phospholipid metabolism. .;Lipid metabolism;leukotriene B4 biosynthesis. .;Lipid metabolism;leukotriene C4 biosynthesis. .
+5.3.3.12,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P29812}; Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250|UniProtKB:P29812};,METAL,RHEA:13041,Pigment biosynthesis;melanin biosynthesis. .
+1.1.1.37; 1.1.1.96,,,RHEA:21432 RHEA:10780 RHEA:57172,
+1.1.1.37,,,RHEA:21432,
+1.1.1.211; 2.3.1.-; 4.2.1.17,,,RHEA:16105 RHEA:20724 RHEA:31199 RHEA:31075 RHEA:31163 RHEA:52656 RHEA:31195 RHEA:31187 RHEA:31179 RHEA:31167 RHEA:31159 RHEA:43680 RHEA:43676 RHEA:43672,Lipid metabolism;fatty acid beta-oxidation. .
+3.6.5.3,,,RHEA:19669,
+2.3.1.255,,,RHEA:50496 RHEA:50500 RHEA:50504 RHEA:50508 RHEA:50512 RHEA:50516,
+1.14.11.67,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:17320160}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000269|PubMed:17320160};,METAL,RHEA:60208,
+3.1.1.3; 3.1.1.4,,,RHEA:12044 RHEA:15801 RHEA:38555 RHEA:44432 RHEA:44436 RHEA:44440 RHEA:35667 RHEA:38495 RHEA:44676 RHEA:38323 RHEA:38327 RHEA:38331 RHEA:38379 RHEA:38387 RHEA:13933 RHEA:39987,
+6.1.1.5,,,RHEA:11060,
+2.7.1.137; 2.7.1.153; 2.7.11.1,,,RHEA:21292 RHEA:12709 RHEA:17989 RHEA:55632 RHEA:43396,Phospholipid metabolism;phosphatidylinositol phosphate biosynthesis. .
+2.7.10.2; 2.7.11.1,,,RHEA:17989 RHEA:46608 RHEA:10596,
+2.7.1.67,,,RHEA:19877,
+1.5.1.53,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:20236116, ECO:0000269|PubMed:29891918};",FAD,RHEA:19817,One-carbon metabolism;tetrahydrofolate interconversion. .
+2.3.1.137; 2.3.1.7,,,RHEA:21136 RHEA:44976 RHEA:44980 RHEA:44972 RHEA:17177 RHEA:44828 RHEA:44984 RHEA:44988 RHEA:44992 RHEA:44996 RHEA:45000 RHEA:44860 RHEA:45004,
+3.5.1.12,,,RHEA:77171 RHEA:13081,
+2.7.10.2,,,RHEA:10596,
+2.7.10.2,,,RHEA:10596,
+3.5.1.15,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:17194761, ECO:0000269|PubMed:18293939}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:17194761, ECO:0000269|PubMed:18293939};",METAL,RHEA:10872 RHEA:59408,
+1.3.8.5,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|Ref.15};,FAD,RHEA:43780 RHEA:48256 RHEA:65296 RHEA:24004 RHEA:44180 RHEA:43464 RHEA:48272 RHEA:65344,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .;Amino-acid degradation;L-isoleucine degradation. .
+5.6.2.4,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:8056767}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:8056767}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:19151156, ECO:0000269|PubMed:25831490, ECO:0000312|PDB:2V1X, ECO:0007744|PDB:2WWY, ECO:0007744|PDB:4U7D}; Note=Binds 1 Zn(2+) per monomer (PubMed:19151156). {ECO:0000269|PubMed:19151156, ECO:0000269|PubMed:25831490};",METAL,RHEA:13065 RHEA:51908,
+3.6.4.12,,,RHEA:13065,
+3.6.4.6,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P18708}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:P18708};,METAL,RHEA:13065,
+2.7.12.2,,,RHEA:17989 RHEA:46608 RHEA:10596,
+1.13.11.6,"COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000255|HAMAP-Rule:MF_03019, ECO:0000269|PubMed:28375145, ECO:0000269|PubMed:7514594};",METAL,RHEA:17953,Cofactor biosynthesis;NAD(+) biosynthesis;quinolinate from L-kynurenine: step 3/3. .
+2.4.1.186,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:22160680, ECO:0000269|PubMed:30356213}; Note=Divalent metal ions. Required for self-glucosylation. Manganese is the most effective.;",METAL,RHEA:23360 RHEA:56560,Glycan biosynthesis;glycogen biosynthesis. .
+2.4.99.18,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:31831667}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:B9KDD4};,METAL,RHEA:22980,Protein modification;protein glycosylation. .
+3.1.1.4; 3.1.1.5,,,RHEA:15801 RHEA:36231 RHEA:15177 RHEA:40427 RHEA:41075 RHEA:40519 RHEA:40811 RHEA:41307 RHEA:41071 RHEA:41067 RHEA:41123 RHEA:40451 RHEA:40435 RHEA:53704 RHEA:53700 RHEA:53696 RHEA:53692 RHEA:53688 RHEA:41271 RHEA:41099 RHEA:41087,Membrane lipid metabolism;glycerophospholipid metabolism. .;Lipid metabolism;arachidonate metabolism. .;Lipid metabolism;prostaglandin biosynthesis. .;Lipid metabolism;leukotriene B4 biosynthesis. .
+1.2.1.36,,,RHEA:42080 RHEA:16177 RHEA:75119,Cofactor metabolism;retinol metabolism. .
+6.1.1.18,,,RHEA:20121,
+7.1.1.8,COFACTOR: Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135; Evidence={ECO:0000250|UniProtKB:P13272}; Note=Binds 1 [2Fe-2S] cluster per subunit. Fe-S cluster delivery to the Rieske protein is mediated by components of the iron sulfur (Fe-S) cluster assembly machinery that reside in the mitochondrial matrix (including HSC20 and LYRM7). {ECO:0000269|PubMed:28380382};,,RHEA:11484,
+1.17.1.4; 1.17.3.2,COFACTOR: Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135; Evidence={ECO:0000269|PubMed:17301077}; Note=Binds 2 [2Fe-2S] clusters. {ECO:0000269|PubMed:17301077}; COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:17301077}; COFACTOR: Name=Mo-molybdopterin; Xref=ChEBI:CHEBI:71302; Evidence={ECO:0000269|PubMed:17301077}; Note=Binds 1 Mo-molybdopterin (Mo-MPT) cofactor per subunit. {ECO:0000269|PubMed:17301077};,FAD,RHEA:16669 RHEA:24670 RHEA:21132,
+5.4.99.7,,,RHEA:14621,Terpene metabolism;lanosterol biosynthesis;lanosterol from farnesyl diphosphate: step 3/3.
+6.3.2.2,,,RHEA:13285 RHEA:72067,Sulfur metabolism;glutathione biosynthesis;glutathione from L-cysteine and L-glutamate: step 1/2. .
+6.3.2.3,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10369661}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000269|PubMed:10369661};,METAL,RHEA:13557 RHEA:72075,Sulfur metabolism;glutathione biosynthesis;glutathione from L-cysteine and L-glutamate: step 2/2. .
+2.7.8.29,,,RHEA:27606 RHEA:45088,Phospholipid metabolism;phosphatidylserine biosynthesis.
+2.1.2.10,,,RHEA:16945,
+2.7.11.1; 2.7.11.26,,,RHEA:17989 RHEA:46608 RHEA:12801 RHEA:53904,
+1.1.1.42,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P33198}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:P33198}; Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000250|UniProtKB:P33198};,METAL,RHEA:19629,
+2.7.1.137; 2.7.1.153; 2.7.1.154; 2.7.11.1,,,RHEA:12709 RHEA:21292 RHEA:18373 RHEA:17989,Phospholipid metabolism;phosphatidylinositol phosphate biosynthesis. .
+1.13.11.11,"COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000255|HAMAP-Rule:MF_03020, ECO:0000269|PubMed:25066423, ECO:0000269|PubMed:27762317, ECO:0000269|PubMed:28285122}; Note=Binds 1 heme group per subunit. {ECO:0000255|HAMAP-Rule:MF_03020, ECO:0000269|PubMed:27762317};",heme,RHEA:24536,Amino-acid degradation;L-tryptophan degradation via kynurenine pathway;L-kynurenine from L-tryptophan: step 1/2. .
+5.3.1.6,,,RHEA:14657,Carbohydrate degradation;pentose phosphate pathway;D-ribose 5-phosphate from D-ribulose 5-phosphate (non-oxidative stage): step 1/1. .
+2.7.11.22; 2.7.11.23,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608 RHEA:10216,
+2.5.1.46,COFACTOR: Name=NAD(+); Xref=ChEBI:CHEBI:57540;,NAD(+),RHEA:33299,Protein modification;eIF5A hypusination. .
+3.6.5.3,,,RHEA:19669,
+1.2.1.3; 1.2.1.31; 1.2.1.8,,,RHEA:69759 RHEA:12308 RHEA:15305 RHEA:16185 RHEA:67276 RHEA:44100 RHEA:69767 RHEA:67248,Amine and polyamine biosynthesis;betaine biosynthesis via choline pathway;betaine from betaine aldehyde: step 1/1. .
+2.7.7.15,,,RHEA:18997,Phospholipid metabolism;phosphatidylcholine biosynthesis;phosphatidylcholine from phosphocholine: step 1/2. .
+6.1.1.16,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P21888}; Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P21888};,METAL,RHEA:17773,
+6.1.1.21,,,RHEA:17313,
+6.1.1.11,,,RHEA:12292 RHEA:42580,Aminoacyl-tRNA biosynthesis;selenocysteinyl-tRNA(Sec) biosynthesis;L-seryl-tRNA(Sec) from L-serine and tRNA(Sec): step 1/1.
+3.1.3.16,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250}; Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000250};,METAL,RHEA:20629 RHEA:47004,
+3.6.4.12,,,RHEA:13065,
+1.3.8.9,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:18227065, ECO:0000269|PubMed:9461620};",FAD,RHEA:19181 RHEA:48176 RHEA:47296 RHEA:47316 RHEA:43448 RHEA:47240 RHEA:47236 RHEA:47228 RHEA:47232 RHEA:19181 RHEA:47316 RHEA:43448 RHEA:47304 RHEA:47240 RHEA:47300 RHEA:47236,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .
+2.7.7.51; 3.6.1.29; 3.6.2.1; 3.9.1.-,,,RHEA:13893 RHEA:17041 RHEA:19197 RHEA:67916,
+7.1.1.2,COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000269|PubMed:28844695}; Note=Binds 1 FMN. {ECO:0000269|PubMed:28844695}; COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000269|PubMed:28844695}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000269|PubMed:28844695};,FMN,RHEA:29091,
+1.21.99.3; 1.21.99.4,,,RHEA:19745 RHEA:18897 RHEA:82575 RHEA:82571 RHEA:82899 RHEA:82895 RHEA:83783 RHEA:83795 RHEA:83803 RHEA:83827 RHEA:83811 RHEA:83823 RHEA:83831 RHEA:83835 RHEA:83751,
+2.7.1.77; 3.1.3.5; 3.1.3.99,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:17405878, ECO:0000269|PubMed:21396942, ECO:0007744|PDB:2J2C, ECO:0007744|PDB:2JC9, ECO:0007744|PDB:2JCM, ECO:0007744|PDB:2XCV, ECO:0007744|PDB:2XCW, ECO:0007744|PDB:2XJB, ECO:0007744|PDB:2XJC, ECO:0007744|PDB:2XJD, ECO:0007744|PDB:2XJE}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000269|PubMed:17405878, ECO:0000269|PubMed:21396942, ECO:0007744|PDB:2J2C, ECO:0007744|PDB:2JC9, ECO:0007744|PDB:2JCM, ECO:0007744|PDB:2XCV, ECO:0007744|PDB:2XCW, ECO:0007744|PDB:2XJB, ECO:0007744|PDB:2XJC, ECO:0007744|PDB:2XJD, ECO:0007744|PDB:2XJE};",METAL,RHEA:12484 RHEA:19961 RHEA:27718 RHEA:27714 RHEA:29383 RHEA:29379 RHEA:28530 RHEA:69584 RHEA:69580 RHEA:69572 RHEA:69588 RHEA:69592 RHEA:69596,
+6.3.3.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:10488,
+6.3.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q4V7C6};,METAL,RHEA:11680,Purine metabolism;GMP biosynthesis;GMP from XMP (L-Gln route): step 1/1.
+3.6.1.5,"COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:8529670, ECO:0000269|PubMed:8626624, ECO:0000269|PubMed:8955160}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:8529670, ECO:0000269|PubMed:8955160};",METAL,RHEA:36795 RHEA:23680 RHEA:36799 RHEA:20988 RHEA:13065 RHEA:61436 RHEA:64908 RHEA:29387 RHEA:64880 RHEA:64904 RHEA:19669 RHEA:22156 RHEA:77735 RHEA:28330 RHEA:35207 RHEA:64896 RHEA:64900 RHEA:64876,
+2.7.1.3,,,RHEA:18145,Carbohydrate metabolism;fructose metabolism.
+2.1.1.8,,,RHEA:19301,
+1.1.1.41,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:28098230, ECO:0000269|PubMed:28139779}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:28139779}; Note=Divalent metal cations; Mn(2+) or Mg(2+). Activity higher in presence of Mn(2+) than of Mg(2+). Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000269|PubMed:28139779};",METAL,RHEA:23632,
+1.3.3.4,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:21048046}; Note=Binds 1 FAD per subunit. {ECO:0000269|PubMed:21048046};,FAD,RHEA:25576,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;protoporphyrin-IX from protoporphyrinogen-IX: step 1/1. .
+2.1.4.1,,,RHEA:13201 RHEA:75939 RHEA:75943 RHEA:75947,Amine and polyamine biosynthesis;creatine biosynthesis;creatine from L-arginine and glycine: step 1/2. .
+3.6.5.5,,,RHEA:19669,
+3.6.1.17,COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000250|UniProtKB:Q9U2M7}; Note=Divalent metal ions. {ECO:0000250|UniProtKB:Q9U2M7};,METAL,RHEA:22484 RHEA:67592 RHEA:67588,
+2.7.11.22; 2.7.11.23,,,RHEA:17989 RHEA:46608 RHEA:10216,
+3.1.2.2; 3.1.2.22,,,RHEA:19233 RHEA:16645 RHEA:84099 RHEA:84103,
+7.2.2.13,,,RHEA:18353,
+3.6.5.2,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:15933719, ECO:0000269|PubMed:20028791};",METAL,RHEA:19669,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:19026641};,METAL,RHEA:19669,
+3.6.5.2,,,RHEA:19669,
+3.1.4.35,"COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000250}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions, while site 2 has a preference for magnesium and/or manganese ions. {ECO:0000250};",METAL,RHEA:16957,
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:7890667}; Note=Binds 5 Ca(2+) ions per subunit. Two of the Ca(2+) ions are bound to the C2 domain. {ECO:0000305|PubMed:7890667};,METAL,RHEA:33179 RHEA:43484,
+2.7.10.2,,,RHEA:10596,
+2.7.1.6,,,RHEA:13553,Carbohydrate metabolism;galactose metabolism. .
+1.2.1.3; 1.2.1.94,,,RHEA:16185 RHEA:49832 RHEA:36135 RHEA:33739 RHEA:39015 RHEA:44016 RHEA:44020 RHEA:44168 RHEA:44104 RHEA:44172 RHEA:44100 RHEA:44108 RHEA:24216,
+1.2.1.24,,,RHEA:13217,Amino-acid degradation;4-aminobutanoate degradation. .
+1.8.3.1,COFACTOR: Name=heme b; Xref=ChEBI:CHEBI:60344; Evidence={ECO:0000269|PubMed:12832761}; Note=Binds 1 heme b (iron(II)-protoporphyrin IX) group non-covalently per subunit. {ECO:0000269|PubMed:12832761}; COFACTOR: Name=Mo-molybdopterin; Xref=ChEBI:CHEBI:71302; Evidence={ECO:0000250|UniProtKB:P07850}; Note=Binds 1 Mo-molybdopterin (Mo-MPT) cofactor per subunit. {ECO:0000250|UniProtKB:P07850};,heme b,RHEA:24600,Energy metabolism;sulfur metabolism. .
+3.10.1.1,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:24816101}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000269|PubMed:24816101};,METAL,RHEA:17881,
+3.1.6.1,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:P15289}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250|UniProtKB:P15289};,METAL,RHEA:17261,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+1.3.1.3,,,RHEA:11524 RHEA:14037 RHEA:46644 RHEA:46664 RHEA:46632 RHEA:46640 RHEA:46652 RHEA:46656 RHEA:46660 RHEA:46668 RHEA:46672 RHEA:47076 RHEA:47080 RHEA:46636 RHEA:53484,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+2.7.10.2,,,RHEA:10596,
+2.7.1.107,,,RHEA:10272 RHEA:40335 RHEA:40323 RHEA:40331 RHEA:40351 RHEA:40339 RHEA:40355 RHEA:40327,Lipid metabolism;glycerolipid metabolism. .
+2.5.1.22,,,RHEA:19973,Amine and polyamine biosynthesis;spermine biosynthesis;spermine from spermidine: step 1/1. .
+2.8.2.8; 3.5.1.-,,,RHEA:70587 RHEA:21980,[Isoform 1]: Glycan metabolism;heparan sulfate biosynthesis. .;[Isoform 1]: Glycan metabolism;heparin biosynthesis. .
+1.3.1.24,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:8631357}; Note=Binds 1 zinc ion per subunit. {ECO:0000305|PubMed:8631357};,METAL,RHEA:15797 RHEA:15793,Porphyrin-containing compound metabolism;protoheme degradation.
+2.7.11.21,,,RHEA:17989 RHEA:46608,
+6.2.1.4; 6.2.1.5,,,RHEA:17661 RHEA:22120,Carbohydrate metabolism;tricarboxylic acid cycle;succinate from succinyl-CoA (ligase route): step 1/1. .
+4.1.1.33,,,RHEA:23732,Steroid biosynthesis;cholesterol biosynthesis. .
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+4.4.1.17,,,RHEA:22648,
+2.7.11.24,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10508788}; Note=Binds 2 magnesium ions. {ECO:0000269|PubMed:10508788};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.24,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10715136};,METAL,RHEA:17989 RHEA:46608,
+2.7.7.7; 3.1.11.-; 4.2.99.-,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:26056153};,METAL,RHEA:22508 RHEA:77911 RHEA:76255,
+5.6.2.4,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:24816114, ECO:0000269|PubMed:25901030}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:24816114, ECO:0000269|PubMed:25901030};",METAL,RHEA:13065,
+6.1.1.19,,,RHEA:20301,
+6.1.1.1,,,RHEA:10220,
+2.7.10.1,,,RHEA:10596,
+3.2.1.46,,,RHEA:14297 RHEA:43908 RHEA:43412,
+2.7.4.3,,,RHEA:12973,
+2.4.1.11,,,RHEA:18549,Glycan biosynthesis;glycogen biosynthesis. .
+2.3.3.10,,,RHEA:10188,Metabolic intermediate biosynthesis;(R)-mevalonate biosynthesis;(R)-mevalonate from acetyl-CoA: step 2/3. .
+1.2.1.41; 2.7.2.11,,,RHEA:14877 RHEA:19541,Amino-acid biosynthesis;L-proline biosynthesis;L-glutamate 5-semialdehyde from L-glutamate: step 1/2. .;Amino-acid biosynthesis;L-proline biosynthesis;L-glutamate 5-semialdehyde from L-glutamate: step 2/2. .
+3.6.4.6,,,RHEA:13065,
+2.3.1.155; 2.3.1.16,,,RHEA:21564 RHEA:31111 RHEA:31203 RHEA:31087 RHEA:31183 RHEA:31091 RHEA:18161,Lipid metabolism;fatty acid beta-oxidation. .
+2.7.1.20,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:9070863}; Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000269|PubMed:9070863};,METAL,RHEA:20824,Purine metabolism;AMP biosynthesis via salvage pathway;AMP from adenosine: step 1/1.
+3.5.4.37,,,RHEA:10120,
+1.8.3.2,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000255|PROSITE-ProRule:PRU00654, ECO:0000269|PubMed:20593814, ECO:0000269|PubMed:21383138};",FAD,RHEA:17357,
+2.8.3.5,,,RHEA:24564 RHEA:25480,Ketone metabolism;succinyl-CoA degradation;acetoacetyl-CoA from succinyl-CoA: step 1/1. .
+6.1.1.10,,,RHEA:13481,
+3.5.1.98,,,RHEA:58196,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+4.2.3.3; 5.3.1.1,,,RHEA:18585 RHEA:17937,Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate from glycerone phosphate: step 1/1. .;Carbohydrate biosynthesis;gluconeogenesis. .
+3.6.5.2,,,RHEA:19669,
+2.7.6.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:15609,Metabolic intermediate biosynthesis;5-phospho-alpha-D-ribose 1-diphosphate biosynthesis;5-phospho-alpha-D-ribose 1-diphosphate from D-ribose 5-phosphate (route I): step 1/1. .
+3.6.5.2,,,RHEA:19669,
+3.6.5.4,,,RHEA:19669,
+3.6.5.2,,,RHEA:19669,
+4.2.1.96,,,RHEA:11920,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:12777804};,METAL,RHEA:19669,
+2.3.1.254,,,RHEA:50484 RHEA:50492 RHEA:50480 RHEA:50488,
+3.6.5.2,,,RHEA:19669,
+3.1.3.16; 3.1.3.53,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250}; Note=Binds 2 manganese ions per subunit. {ECO:0000250};,METAL,RHEA:20629 RHEA:47004 RHEA:12849 RHEA:53988,
+1.8.1.9,,,RHEA:20345,
+3.6.5.2,,,RHEA:19669,
+3.1.3.16,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:17055435, ECO:0000269|PubMed:33243860, ECO:0000269|PubMed:34762484}; Name=Fe(3+); Xref=ChEBI:CHEBI:29034; Evidence={ECO:0000269|PubMed:38123684}; Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:38123684}; Note=Binds 2 metal ions per subunit. Can be two manganese ions, or one iron ion and one zinc ion. {ECO:0000269|PubMed:17055435, ECO:0000269|PubMed:38123684};",METAL,RHEA:20629 RHEA:47004,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+1.14.14.1; 1.14.14.78; 1.14.14.79; 1.14.14.94,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:P24464};,heme,RHEA:17149 RHEA:39755 RHEA:50164 RHEA:39791 RHEA:40155 RHEA:53572 RHEA:53552 RHEA:53556 RHEA:53568 RHEA:53564 RHEA:48660 RHEA:48664 RHEA:49376 RHEA:40079 RHEA:39055 RHEA:39043 RHEA:39719 RHEA:40083 RHEA:39059 RHEA:39047 RHEA:39735 RHEA:39731 RHEA:22176 RHEA:48676 RHEA:48648 RHEA:41520 RHEA:41516 RHEA:45108 RHEA:45112,Lipid metabolism;arachidonate metabolism. .;Lipid metabolism;leukotriene B4 degradation. .;Cofactor degradation;phylloquinone degradation. .
+3.1.3.3,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:15291819, ECO:0000269|PubMed:31205021}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000269|PubMed:15291819, ECO:0000269|PubMed:31205021};",METAL,RHEA:21208 RHEA:24873,Amino-acid biosynthesis;L-serine biosynthesis;L-serine from 3-phospho-D-glycerate: step 3/3. .
+7.6.2.1,,,RHEA:67188 RHEA:66132 RHEA:67192 RHEA:13065,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.5.4.37,COFACTOR: Name=1D-myo-inositol hexakisphosphate; Xref=ChEBI:CHEBI:58130; Evidence={ECO:0000269|PubMed:16141067}; Note=Binds 1 myo-inositol hexakisphosphate (IP6) per subunit. {ECO:0000269|PubMed:16141067};,,RHEA:10120,
+2.7.11.25,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+2.6.1.19; 2.6.1.22,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000250|UniProtKB:P80147}; Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135; Evidence={ECO:0000250|UniProtKB:P80147}; Note=Binds 1 [2Fe-2S] cluster per homodimer. {ECO:0000250|UniProtKB:P80147};,pyridoxal 5'-phosphate,RHEA:23352 RHEA:13993,
+3.6.5.2,,,RHEA:19669,
+7.2.2.10,,,RHEA:18105 RHEA:66820,
+7.6.2.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9Y2Q0};,METAL,RHEA:38567 RHEA:66132,
+2.5.1.6,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P13444}; Note=Binds 2 magnesium ions per subunit. The magnesium ions interact primarily with the substrate. {ECO:0000250|UniProtKB:P13444}; COFACTOR: Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000250|UniProtKB:P13444}; Note=Binds 1 potassium ion per subunit. The potassium ion interacts primarily with the substrate. {ECO:0000250|UniProtKB:P13444};,METAL,RHEA:21080,Amino-acid biosynthesis;S-adenosyl-L-methionine biosynthesis;S-adenosyl-L-methionine from L-methionine: step 1/1. .
+2.7.11.22,,,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.4.1.92,,,RHEA:12588 RHEA:43268 RHEA:43272 RHEA:41816 RHEA:47564 RHEA:43276 RHEA:47580 RHEA:62516 RHEA:43300,Sphingolipid metabolism. .
+3.5.4.6,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250}; Note=Binds 1 zinc ion per subunit. {ECO:0000250};,METAL,RHEA:14777,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from AMP: step 1/1. .
+3.5.4.6,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250}; Note=Binds 1 zinc ion per subunit. {ECO:0000250};,METAL,RHEA:14777,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from AMP: step 1/1. .
+7.2.2.10,,,RHEA:18105,
+3.1.3.36; 3.1.3.56; 3.1.3.86,,,RHEA:22764 RHEA:25528 RHEA:11392 RHEA:19797,
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108;,METAL,RHEA:33179 RHEA:43484,
+2.7.10.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:17717073};,METAL,RHEA:10596,
+4.6.1.2,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:23505436, ECO:0000269|PubMed:24669844}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:23505436, ECO:0000269|PubMed:24669844}; Note=Also has activity with Mn(2+) (in vitro). {ECO:0000269|PubMed:23505436, ECO:0000269|PubMed:24669844};",METAL,RHEA:13665,
+1.3.5.2,COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000269|PubMed:10673429}; Note=Binds 1 FMN per subunit. {ECO:0000269|PubMed:10673429};,FMN,RHEA:30187,Pyrimidine metabolism;UMP biosynthesis via de novo pathway;orotate from (S)-dihydroorotate (quinone route): step 1/1.
+1.2.1.27,,,RHEA:76615 RHEA:20804 RHEA:76623 RHEA:76627,
+1.14.15.15,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:P17177};,heme,RHEA:34631 RHEA:53812 RHEA:47380 RHEA:47376 RHEA:47344 RHEA:46588 RHEA:40231 RHEA:46400 RHEA:46436 RHEA:46432 RHEA:46428 RHEA:45236 RHEA:46092 RHEA:34627 RHEA:14373,Hormone biosynthesis;cholecalciferol biosynthesis. .;Steroid metabolism;cholesterol degradation. .;Lipid metabolism;bile acid biosynthesis. .
+2.7.12.2,,,RHEA:17989 RHEA:46608 RHEA:10596,
+2.7.10.1,,,RHEA:10596,
+1.14.11.4,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:8621606}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000269|PubMed:8621606};,METAL,RHEA:16569,
+4.6.1.2,,,RHEA:13665,
+2.1.1.367,,,RHEA:60280,
+3.5.1.14,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:12933810}; Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000269|PubMed:12933810};,METAL,RHEA:15565 RHEA:67440 RHEA:67368,
+4.2.3.12,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250}; Note=Binds 1 zinc ion per subunit. {ECO:0000250};,METAL,RHEA:22048,"Cofactor biosynthesis;tetrahydrobiopterin biosynthesis;tetrahydrobiopterin from 7,8-dihydroneopterin triphosphate: step 1/3."
+2.7.1.36,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P17256};,METAL,RHEA:17065,Isoprenoid biosynthesis;isopentenyl diphosphate biosynthesis via mevalonate pathway;isopentenyl diphosphate from (R)-mevalonate: step 1/3. .
+7.4.2.14,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:11532960, ECO:0000269|PubMed:25377891, ECO:0007744|PDB:1JJ7};",METAL,RHEA:65972,
+7.4.2.14,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:25377891};,METAL,RHEA:65972,
+7.2.2.8,,,RHEA:25792,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+2.7.10.1,,,RHEA:10596,
+3.6.5.5,,,RHEA:19669,
+2.7.10.2,,,RHEA:10596,
+3.1.1.23; 3.1.1.79,,,RHEA:32731 RHEA:12044 RHEA:15245 RHEA:38379 RHEA:38383 RHEA:33875 RHEA:38575 RHEA:13933 RHEA:38455 RHEA:26132 RHEA:38487 RHEA:38491 RHEA:38563 RHEA:39935 RHEA:39939 RHEA:38659,Glycerolipid metabolism;triacylglycerol degradation.
+2.7.10.2; 2.7.11.13,,,RHEA:17989 RHEA:46608 RHEA:10596,
+3.1.3.48,,,RHEA:10684,
+1.1.1.102,,,RHEA:22640,Lipid metabolism;sphingolipid metabolism.
+2.7.10.2,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:10196129, ECO:0000269|PubMed:9218782, ECO:0000269|Ref.50}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:10196129, ECO:0000269|PubMed:9218782, ECO:0000269|Ref.50};",METAL,RHEA:10596,
+2.6.1.16,,,RHEA:13237,Nucleotide-sugar biosynthesis;UDP-N-acetyl-alpha-D-glucosamine biosynthesis;alpha-D-glucosamine 6-phosphate from D-fructose 6-phosphate: step 1/1. .
+2.7.7.7; 3.1.11.-,,,RHEA:22508,
+1.14.15.16,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:Q09128};,heme,RHEA:24964 RHEA:24972 RHEA:24976 RHEA:24984 RHEA:24988 RHEA:49192 RHEA:24968 RHEA:49196 RHEA:49268 RHEA:46616 RHEA:49212 RHEA:49204 RHEA:49396,
+2.3.2.13,"COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:11980702, ECO:0000269|PubMed:12679341}; Note=Binds 3 Ca(2+) cations per subunit. Binds 1 Ca(2+) as a zymogen, and binds 2 more Ca(2+) cations, or other divalent metal cations, after proteolytic processing. {ECO:0000269|PubMed:11980702, ECO:0000269|PubMed:12679341};",METAL,RHEA:54816,
+3.1.3.16,"COFACTOR: Name=Fe(3+); Xref=ChEBI:CHEBI:29034; Evidence={ECO:0000269|PubMed:12218175, ECO:0000269|PubMed:17498738, ECO:0000269|PubMed:22343722, ECO:0000269|PubMed:26248042, ECO:0000269|PubMed:27974827, ECO:0000269|PubMed:8524402}; Note=Binds 1 Fe(3+) ion per subunit. {ECO:0000269|PubMed:12218175, ECO:0000269|PubMed:17498738, ECO:0000269|PubMed:22343722, ECO:0000269|PubMed:26248042, ECO:0000269|PubMed:27974827, ECO:0000269|PubMed:8524402}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:12218175, ECO:0000269|PubMed:17498738, ECO:0000269|PubMed:22343722, ECO:0000269|PubMed:26248042, ECO:0000269|PubMed:27974827, ECO:0000269|PubMed:8524402}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:12218175, ECO:0000269|PubMed:17498738, ECO:0000269|PubMed:22343722, ECO:0000269|PubMed:26248042, ECO:0000269|PubMed:27974827, ECO:0000269|PubMed:8524402};",METAL,RHEA:20629 RHEA:47004,
+3.6.4.13,,,RHEA:13065,
+1.4.3.13,COFACTOR: Name=Cu cation; Xref=ChEBI:CHEBI:23378; Evidence={ECO:0000250|UniProtKB:P16636}; COFACTOR: Name=lysine tyrosylquinone residue; Xref=ChEBI:CHEBI:20489; Evidence={ECO:0000250|UniProtKB:P33072}; Note=Contains 1 lysine tyrosylquinone. {ECO:0000250|UniProtKB:P33072};,,RHEA:24544,
+1.1.1.35; 4.2.1.17; 5.3.3.8,,,RHEA:16105 RHEA:20724 RHEA:45900 RHEA:45228 RHEA:22432 RHEA:31119 RHEA:31159 RHEA:31163 RHEA:40259 RHEA:40267 RHEA:47464 RHEA:49932 RHEA:31187 RHEA:45752 RHEA:45748 RHEA:45736 RHEA:31191 RHEA:30547,Lipid metabolism;fatty acid beta-oxidation. .
+3.1.4.53,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:14609333, ECO:0000269|PubMed:15260978, ECO:0000269|PubMed:15576036, ECO:0000269|PubMed:17582435}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions. {ECO:0000269|PubMed:14609333, ECO:0000269|PubMed:15260978, ECO:0000269|PubMed:15576036, ECO:0000269|PubMed:17582435}; COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:15260978, ECO:0000269|PubMed:15576036}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:Q07343}; Note=Binds 2 divalent metal cations per subunit (PubMed:15260978, PubMed:15576036). Site 2 has a preference for magnesium and/or manganese ions (By similarity). {ECO:0000250|UniProtKB:Q07343, ECO:0000269|PubMed:15260978, ECO:0000269|PubMed:15576036};",METAL,RHEA:25277,"Purine metabolism;3',5'-cyclic AMP degradation;AMP from 3',5'-cyclic AMP: step 1/1. ."
+4.6.1.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P19754}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:P19754}; Note=Binds 2 magnesium ions per subunit. Is also active with manganese (in vitro). {ECO:0000250|UniProtKB:P30803};,METAL,RHEA:15389,
+2.7.10.2,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250}; Note=Binds 1 zinc ion per subunit. {ECO:0000250};,METAL,RHEA:10596,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+2.4.1.143,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:29666272};,METAL,RHEA:12941,Protein modification;protein glycosylation. .
+2.4.1.41,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:16434399, ECO:0000269|PubMed:24954443, ECO:0000269|PubMed:25939779, ECO:0000269|PubMed:7592619};",METAL,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation. .
+2.4.3.6,,,RHEA:52316,Protein modification;protein glycosylation.
+1.14.11.16,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000250|UniProtKB:Q28056};,METAL,RHEA:11508,
+2.7.10.1,,,RHEA:10596,
+1.3.1.2,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250|UniProtKB:Q28943}; Note=Binds 2 FAD. {ECO:0000250|UniProtKB:Q28943}; COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000250|UniProtKB:Q28943}; Note=Binds 2 FMN. {ECO:0000250|UniProtKB:Q28943}; COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250|UniProtKB:Q28943}; Note=Binds 4 [4Fe-4S] clusters. Contains approximately 16 iron atoms per subunit. {ECO:0000250|UniProtKB:Q28943};,FAD;FMN,RHEA:18093 RHEA:58284,Amino-acid biosynthesis;beta-alanine biosynthesis. .
+2.5.1.141,,,RHEA:28070,
+3.1.3.48,,,RHEA:10684,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+2.7.1.24; 2.7.7.3,,,RHEA:19801 RHEA:18245,Cofactor biosynthesis;coenzyme A biosynthesis;CoA from (R)-pantothenate: step 4/5.;Cofactor biosynthesis;coenzyme A biosynthesis;CoA from (R)-pantothenate: step 5/5. .
+6.4.1.2,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|PROSITE-ProRule:PRU00409, ECO:0000255|PROSITE-ProRule:PRU00969}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|PROSITE-ProRule:PRU00409, ECO:0000255|PROSITE-ProRule:PRU00969}; Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000255|PROSITE-ProRule:PRU00409, ECO:0000255|PROSITE-ProRule:PRU00969}; COFACTOR: Name=biotin; Xref=ChEBI:CHEBI:57586; Evidence={ECO:0000255|PROSITE-ProRule:PRU01066, ECO:0000269|PubMed:29899443};",METAL;biotin,RHEA:11308,Lipid metabolism;malonyl-CoA biosynthesis;malonyl-CoA from acetyl-CoA: step 1/1. .
+3.1.1.47,,,RHEA:17777 RHEA:41376 RHEA:41372 RHEA:41368 RHEA:40479 RHEA:41183 RHEA:41203 RHEA:41191 RHEA:41195 RHEA:41199 RHEA:41159 RHEA:40483 RHEA:41179 RHEA:41151 RHEA:41155,
+2.4.2.28,,,RHEA:11852,Amino-acid biosynthesis;L-methionine biosynthesis via salvage pathway;S-methyl-5-thio-alpha-D-ribose 1-phosphate from S-methyl-5'-thioadenosine (phosphorylase route): step 1/1. .
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:22153498};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+1.8.3.4,,,RHEA:11812,Organosulfur degradation. .
+2.7.4.6,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P22392};,METAL,RHEA:44640 RHEA:18113,
+2.3.2.27; 2.7.11.25,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+2.7.11.12,,,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.1.4.4,,,RHEA:14445 RHEA:44868 RHEA:44872,
+7.1.1.1,,,RHEA:47992,
+3.1.3.95,,,RHEA:12316 RHEA:39019 RHEA:42328 RHEA:45632 RHEA:45636,
+2.7.11.1,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:10608806};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.11.17,,,RHEA:17989 RHEA:46608,
+2.7.11.17,,,RHEA:17989 RHEA:46608,
+3.1.3.95,,,RHEA:39019 RHEA:12316 RHEA:42328 RHEA:45632,
+2.7.11.23; 2.7.12.1,,,RHEA:17989 RHEA:46608 RHEA:10596 RHEA:10216,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:24856514};,METAL,RHEA:19669,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+3.2.1.106,,,RHEA:55988,Glycan metabolism;N-glycan degradation. .
+4.2.1.18; 4.2.1.56,,,RHEA:21536 RHEA:13785 RHEA:31079 RHEA:68456,Amino-acid degradation;L-leucine degradation;(S)-3-hydroxy-3-methylglutaryl-CoA from 3-isovaleryl-CoA: step 3/3. .
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+3.1.4.35,,,RHEA:16957,
+2.7.11.12,,,RHEA:17989 RHEA:46608,
+2.7.11.22; 2.7.11.23,,,RHEA:10216 RHEA:17989 RHEA:46608,
+2.3.1.65; 3.1.2.2; 3.1.2.27,,,RHEA:14001 RHEA:16645 RHEA:14541 RHEA:31511 RHEA:40147 RHEA:30139 RHEA:40783 RHEA:40787 RHEA:40791 RHEA:30135 RHEA:40119 RHEA:47100 RHEA:49788 RHEA:49784 RHEA:49792 RHEA:49772 RHEA:49780,
+3.5.2.2,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|Ref.5}; Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000269|Ref.5};,METAL,RHEA:16121,
+3.1.4.17,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:Q01064}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions. {ECO:0000250|UniProtKB:Q01064}; COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q01064}; Note=Binds 2 divalent metal cations per subunit. Site 2 has a preference for magnesium ions. {ECO:0000250|UniProtKB:Q01064};,METAL,RHEA:14653 RHEA:16957 RHEA:25277,
+3.6.4.13,,,RHEA:13065,
+2.7.10.2,,,RHEA:10596,
+2.1.1.2,,,RHEA:10656,Amine and polyamine biosynthesis;creatine biosynthesis;creatine from L-arginine and glycine: step 2/2.
+5.1.3.2; 5.1.3.7,"COFACTOR: Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000269|PubMed:10801319, ECO:0000269|PubMed:22654673, ECO:0000303|PubMed:11279032, ECO:0000303|PubMed:11279193};",NAD(+),RHEA:22168 RHEA:20517,Carbohydrate metabolism;galactose metabolism.
+3.1.4.17,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:34272366}; Note=Binds 2 divalent metal cations per subunit. {ECO:0000269|PubMed:34272366}; COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:34272366}; Note=Binds 2 divalent metal cations per subunit. {ECO:0000269|PubMed:34272366};,METAL,RHEA:14653 RHEA:25277 RHEA:16957 RHEA:70575,
+2.4.1.41,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:9295285};,METAL,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation.
+2.7.10.2; 2.7.11.1,,,RHEA:10596 RHEA:17989 RHEA:46608,
+3.1.3.4,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:20231281}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:20231281}; Note=Mg(2+) and, at a lesser extent, Mn(2+). {ECO:0000269|PubMed:20231281};",METAL,RHEA:27429 RHEA:27429 RHEA:43296 RHEA:43292 RHEA:43288 RHEA:43284 RHEA:43280 RHEA:33335 RHEA:43260 RHEA:43256 RHEA:41255 RHEA:43252 RHEA:43248 RHEA:43240 RHEA:43244 RHEA:43236 RHEA:27429 RHEA:43296 RHEA:43292 RHEA:43288 RHEA:43284 RHEA:43280 RHEA:43260 RHEA:43256 RHEA:41255 RHEA:43252 RHEA:43248 RHEA:43240 RHEA:43244 RHEA:27429 RHEA:43296 RHEA:43292 RHEA:43288 RHEA:43284 RHEA:43280 RHEA:43260 RHEA:43256 RHEA:41255 RHEA:43252 RHEA:43248 RHEA:43240 RHEA:43244,
+3.2.1.207,,,RHEA:56000 RHEA:55996,Glycan metabolism;N-glycan metabolism. .
+1.3.1.70,,,RHEA:46456 RHEA:18561 RHEA:46812,Steroid biosynthesis;cholesterol biosynthesis.
+2.1.1.20,,,RHEA:19937,
+1.5.1.1; 1.5.1.25,,,RHEA:12524 RHEA:30807 RHEA:20317 RHEA:20321 RHEA:12504 RHEA:12500 RHEA:68032 RHEA:68036 RHEA:68040 RHEA:68072,
+6.1.1.4,,,RHEA:11688,
+1.3.3.6,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:17603022};,FAD,RHEA:38959 RHEA:38959 RHEA:38959 RHEA:40167 RHEA:40167 RHEA:40171 RHEA:40171 RHEA:40175 RHEA:40175 RHEA:40179 RHEA:40179 RHEA:40183 RHEA:40275 RHEA:40275 RHEA:69643 RHEA:69643 RHEA:40319 RHEA:40315 RHEA:40311 RHEA:38971 RHEA:39119,Lipid metabolism;peroxisomal fatty acid beta-oxidation. .
+2.7.11.2,,,RHEA:23052,
+3.3.2.11; 5.3.3.5,,,RHEA:15281 RHEA:33999 RHEA:11964 RHEA:15113,Steroid biosynthesis;cholesterol biosynthesis. .
+2.7.4.2,,,RHEA:16341,Isoprenoid biosynthesis;isopentenyl diphosphate biosynthesis via mevalonate pathway;isopentenyl diphosphate from (R)-mevalonate: step 2/3. .
+2.7.11.22,,,RHEA:17989 RHEA:46608,
+2.7.11.13,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108;,METAL,RHEA:33179 RHEA:43484,
+5.2.1.8,,,RHEA:16237,
+2.7.10.1,,,RHEA:10596,
+1.3.1.72,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692;,FAD,RHEA:36391 RHEA:33919 RHEA:36399,Steroid biosynthesis;cholesterol biosynthesis. .
+3.6.4.13,,,RHEA:13065,
+3.1.3.48,,,RHEA:10684,
+1.1.1.170,,,RHEA:34771 RHEA:34775 RHEA:33455 RHEA:46828 RHEA:46848 RHEA:33447 RHEA:47160 RHEA:47172 RHEA:47168 RHEA:47164,Steroid biosynthesis;zymosterol biosynthesis;zymosterol from lanosterol: step 4/6.
+2.7.11.18,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108;,METAL,RHEA:22004 RHEA:53900,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.3.1.48,,,RHEA:45948,
+1.14.18.9,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000305|PubMed:8663358};,METAL,RHEA:55220 RHEA:55244 RHEA:47056 RHEA:62768 RHEA:62776 RHEA:62780 RHEA:62820,Steroid biosynthesis;zymosterol biosynthesis;zymosterol from lanosterol: step 3/6. .;Steroid biosynthesis;cholesterol biosynthesis. .
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Name=Mn(2+); Xref=ChEBI:CHEBI:29035;,METAL,RHEA:17989 RHEA:46608,
+2.7.11.14,,,RHEA:56552 RHEA:23356,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:16545962};,METAL,RHEA:19669,
+2.1.1.356,,,RHEA:60292,
+1.5.5.1,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Note=Binds 1 [4Fe-4S] cluster.; COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692;,FAD,RHEA:24052,
+2.7.10.1,,,RHEA:10596,
+2.4.1.225,,,RHEA:20908,Protein modification;protein glycosylation. .
+3.1.1.64; 5.3.3.22,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250|UniProtKB:Q28175}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250|UniProtKB:Q28175};,METAL,RHEA:31771 RHEA:12729 RHEA:31775,
+1.16.3.1,,,RHEA:11148,
+2.7.10.1,,,RHEA:10596,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+4.2.1.152; 5.3.99.4,"COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:17020766, ECO:0000269|PubMed:18032380};",heme,RHEA:23580 RHEA:55556 RHEA:48636 RHEA:48856,
+3.1.3.16; 3.1.3.48,,,RHEA:10684 RHEA:47004 RHEA:20629,
+2.7.11.30,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:44880 RHEA:18673,
+1.14.14.1; 4.2.1.152,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:21147782};,heme,RHEA:17149 RHEA:47212 RHEA:47280 RHEA:47208 RHEA:47292 RHEA:46296 RHEA:47252 RHEA:47260 RHEA:42092 RHEA:42088 RHEA:49884 RHEA:49880 RHEA:49876 RHEA:49860 RHEA:48632 RHEA:37947 RHEA:48716 RHEA:48636,Steroid hormone biosynthesis. .;Cofactor metabolism;retinol metabolism. .;Lipid metabolism;arachidonate metabolism. .
+1.3.1.124,,,RHEA:45912 RHEA:61892 RHEA:44912,
+3.7.1.3,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:17300176};,pyridoxal 5'-phosphate,RHEA:16813 RHEA:25143,Amino-acid degradation;L-kynurenine degradation;L-alanine and anthranilate from L-kynurenine: step 1/1. .;Cofactor biosynthesis;NAD(+) biosynthesis;quinolinate from L-kynurenine: step 2/3. .
+7.2.2.10,,,RHEA:18105,
+2.7.4.8,,,RHEA:20780,
+4.1.1.32,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:28955899}; Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000250|UniProtKB:P21642};,METAL,RHEA:10388,Carbohydrate biosynthesis;gluconeogenesis. .
+3.1.3.48,,,RHEA:10684,
+3.1.3.16; 3.1.3.48,,,RHEA:10684 RHEA:20629 RHEA:47004,
+2.7.10.1,,,RHEA:10596,
+1.1.1.35,,,RHEA:22432 RHEA:30799 RHEA:31187 RHEA:31159,Lipid metabolism;fatty acid beta-oxidation. .
+2.7.7.9,,,RHEA:19889,Glycan biosynthesis;glycogen biosynthesis. .
+2.7.1.113; 2.7.1.76,,,RHEA:19201 RHEA:23452,
+2.4.1.131,,,RHEA:29523,Protein modification;protein glycosylation. .
+2.7.1.1,,,RHEA:22740 RHEA:17825,Carbohydrate metabolism;hexose metabolism. .;Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 1/4. .
+1.14.11.7,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000250}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000250};,METAL,RHEA:22872,
+2.1.1.228,,,RHEA:36899,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:16243488}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:16243488};,METAL,RHEA:17989 RHEA:46608,
+2.7.1.28; 2.7.1.29; 4.6.1.15,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250}; COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250}; Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000250}; Note=Manganese or cobalt are requested for FAD-AMP lyase activity. {ECO:0000250};,METAL,RHEA:15773 RHEA:13941 RHEA:13729,
+2.7.8.17,,,RHEA:13581,
+2.1.1.361; 2.1.1.362,,,RHEA:60348 RHEA:61992 RHEA:60344,
+2.7.1.23,,,RHEA:18629,
+6.2.1.76,,,RHEA:33639 RHEA:32139,
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000255|PROSITE-ProRule:PRU00041};,METAL,RHEA:33179,
+2.7.10.2,,,RHEA:10596,
+2.7.1.107; 2.7.1.138; 2.7.1.94,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:15939762};,METAL,RHEA:19293 RHEA:10272 RHEA:17929 RHEA:41079 RHEA:40327 RHEA:33747 RHEA:43308 RHEA:39847 RHEA:43316 RHEA:43328 RHEA:43312,Lipid metabolism;glycerolipid metabolism. .
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:12721663};,METAL,RHEA:17989 RHEA:46608,
+2.7.4.14; 2.7.4.6,,,RHEA:11600 RHEA:25094 RHEA:44640 RHEA:18113,
+2.1.1.201,,,RHEA:44764,Cofactor biosynthesis;ubiquinone biosynthesis. .
+6.1.1.17; 6.1.1.24,,,RHEA:18397 RHEA:23540 RHEA:64612,
+2.7.10.1,,,RHEA:10596,
+2.4.1.255,,,RHEA:48904 RHEA:48908,
+2.7.11.1; 3.6.5.-,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:26824392, ECO:0000269|PubMed:28720718, ECO:0000269|PubMed:29125462};",METAL,RHEA:46608 RHEA:17989 RHEA:19669,
+6.1.1.9,,,RHEA:10704,
+6.1.1.19,,,RHEA:20301,
+3.6.4.13,,,RHEA:13065,
+2.5.1.91,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P14324}; Note=Binds 2 Mg(2+) ions per subunit. {ECO:0000250|UniProtKB:P14324};,METAL,RHEA:27802 RHEA:55364,Cofactor biosynthesis;ubiquinone biosynthesis. .
+2.4.1.109,,,RHEA:17377 RHEA:53396,Protein modification;protein glycosylation. .
+2.7.4.4; 2.7.4.6,,,RHEA:24036 RHEA:12973 RHEA:29863 RHEA:11600 RHEA:79855 RHEA:23100 RHEA:25094 RHEA:18113 RHEA:25237 RHEA:79859 RHEA:27686 RHEA:25098 RHEA:79863 RHEA:79867 RHEA:27678 RHEA:79875 RHEA:27690 RHEA:27682 RHEA:79871,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:A2AAJ9};,METAL,RHEA:17989 RHEA:46608,
+2.8.4.5,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000255|PROSITE-ProRule:PRU00780}; Note=Binds 2 [4Fe-4S] clusters. One cluster is coordinated with 3 cysteines and an exchangeable S-adenosyl-L-methionine. {ECO:0000255|PROSITE-ProRule:PRU00780};,,RHEA:37075,
+3.1.1.13; 3.1.1.3,,,RHEA:10100 RHEA:35667 RHEA:12044 RHEA:36403,
+2.3.1.78,,,RHEA:15125,
+1.8.1.8,,,RHEA:18749 RHEA:18753,
+6.3.5.1,,,RHEA:24384,Cofactor biosynthesis;NAD(+) biosynthesis;NAD(+) from deamido-NAD(+) (L-Gln route): step 1/1. .
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.4.1.41,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:Q9HCQ5};,METAL,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation. .
+1.16.3.1,COFACTOR: Name=Cu cation; Xref=ChEBI:CHEBI:23378; Evidence={ECO:0000269|PubMed:31125343}; Note=Binds 6 Cu cations per monomer. {ECO:0000250};,,RHEA:11148,
+1.14.11.80,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:24315485}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000269|PubMed:24315485}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:24315485}; Note=Binds 3 zinc ions per subunit. The zinc ions have a structural role (PubMed:24315485). {ECO:0000269|PubMed:24315485};,METAL,RHEA:52636 RHEA:53828 RHEA:53832,
+1.14.14.177,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:P51869};,heme,RHEA:50336 RHEA:63376,
+3.1.2.4,,,RHEA:20888,Amino-acid degradation;L-valine degradation.
+2.7.1.106,,,RHEA:16769 RHEA:70911 RHEA:70899 RHEA:70903 RHEA:70907,
+1.21.1.1,"COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000269|PubMed:25395621, ECO:0000269|PubMed:28157283};",FMN,RHEA:32479 RHEA:27453 RHEA:27457 RHEA:70343 RHEA:70347,
+6.1.1.12,,,RHEA:19649,
+3.1.6.1; 3.1.6.18,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:P15289}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250|UniProtKB:P15289};,METAL,RHEA:17261,
+1.14.14.1,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:B2RXA7};,heme,RHEA:17149 RHEA:51984 RHEA:75851 RHEA:75847 RHEA:75855 RHEA:75859 RHEA:75863,
+1.14.14.24,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:18511070};,heme,RHEA:32903 RHEA:46580 RHEA:46584 RHEA:49272,Hormone biosynthesis;vitamin D biosynthesis. .
+2.7.12.1,,,RHEA:17989 RHEA:46608 RHEA:10596,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+1.14.14.79; 1.14.14.80,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250|UniProtKB:P51869};,heme,RHEA:38947 RHEA:40203 RHEA:40199 RHEA:39791 RHEA:40155,Lipid metabolism;fatty acid metabolism. .
+2.4.1.109,,,RHEA:17377 RHEA:53396,Protein modification;protein glycosylation. .
+1.17.99.9,COFACTOR: Name=heme b; Xref=ChEBI:CHEBI:60344; Evidence={ECO:0000250|UniProtKB:P12946};,heme b,RHEA:63388,Porphyrin-containing compound metabolism;heme A biosynthesis;heme A from heme O: step 1/1. .
+3.6.4.13,,,RHEA:13065,
+2.1.1.320,,,RHEA:48108,
+4.2.1.68,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:24697329}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000269|PubMed:24697329};,METAL,RHEA:22772,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+1.14.11.65,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};,METAL,RHEA:60188,
+1.17.4.1,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000269|PubMed:19728742}; Note=Binds 2 iron ions per subunit. {ECO:0000269|PubMed:19728742};,METAL,RHEA:23252,
+2.8.2.17; 2.8.2.21,,,RHEA:11108,
+3.6.1.71; 3.6.1.72,,,RHEA:52128 RHEA:52132 RHEA:52140,
+1.14.14.80,COFACTOR: Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000269|PubMed:24563460};,heme,RHEA:56748 RHEA:39759 RHEA:39755 RHEA:50296,Lipid metabolism;arachidonate metabolism. .
+1.1.1.10,,,RHEA:17025,
+2.1.1.60,,,RHEA:21556,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608,
+1.14.19.1,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250|UniProtKB:P13516}; Note=Expected to bind 2 Fe(2+) ions per subunit. {ECO:0000250|UniProtKB:P13516};,METAL,RHEA:19721 RHEA:36931,
+2.5.1.87,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:28842490, ECO:0000269|PubMed:32817466, ECO:0000269|PubMed:33077723}; Note=Binds 1 magnesium ion per subunit. {ECO:0000269|PubMed:32817466, ECO:0000269|PubMed:33077723, ECO:0000269|PubMed:35584224};",METAL,RHEA:53008,Protein modification;protein glycosylation. .;Lipid metabolism. .
+3.6.1.1,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250}; Note=Binds 2 manganese ions per subunit. {ECO:0000250};,METAL,RHEA:24576,
+2.7.7.87,,,RHEA:36407,
+2.7.11.1,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10523312, ECO:0000269|PubMed:12660173, ECO:0000269|PubMed:9427565};",METAL,RHEA:17989 RHEA:46608,
+7.6.2.1,,,RHEA:66660,
+1.1.2.4,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250|UniProtKB:P39976};,FAD,RHEA:13521,
+2.4.1.175; 2.4.1.226,"COFACTOR: Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000269|PubMed:12907687}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:12907687}; Name=Cd(2+); Xref=ChEBI:CHEBI:48775; Evidence={ECO:0000269|PubMed:12907687}; Note=Divalent metal cations. Highest activities are measured with Co(2+), Mn(2+) and Cd(2+). {ECO:0000269|PubMed:12907687};",METAL,RHEA:20800 RHEA:55000 RHEA:23428 RHEA:54996,
+2.1.1.319,,,RHEA:48096,
+4.1.3.16,,,RHEA:35639 RHEA:30687,
+2.4.2.26,"COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000269|PubMed:15294915, ECO:0000269|PubMed:15461586};",METAL,RHEA:50192,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .
+2.5.1.91,,,RHEA:27802 RHEA:55364,Cofactor biosynthesis;ubiquinone biosynthesis. .
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:Q8K4D7};,METAL,RHEA:33179,
+2.3.1.24; 2.3.1.297; 2.3.1.298,,,RHEA:61480 RHEA:36535 RHEA:33591 RHEA:33351 RHEA:36619 RHEA:36627 RHEA:61492 RHEA:36675 RHEA:23768 RHEA:36547 RHEA:36615,Lipid metabolism;sphingolipid metabolism. .
+4.2.3.134,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:22241472};,pyridoxal 5'-phosphate,RHEA:34091,
+3.1.16.1; 3.1.4.-,,,RHEA:81375 RHEA:81319 RHEA:81379 RHEA:82335 RHEA:82563 RHEA:82567,
+2.4.2.1; 2.4.2.28; 3.5.4.4,,,RHEA:27642 RHEA:27646 RHEA:13233 RHEA:11852 RHEA:24408,
+1.14.11.7,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000305|PubMed:18487197}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000305|PubMed:18487197};,METAL,RHEA:22872,
+2.3.1.39,,,RHEA:41792,Lipid metabolism;fatty acid biosynthesis.
+2.7.1.31,,,RHEA:23516,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+4.2.1.93,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-Rule:MF_03157};,METAL,RHEA:19017 RHEA:32231,
+1.14.16.4,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};,METAL,RHEA:16709,Aromatic compound metabolism;serotonin biosynthesis;serotonin from L-tryptophan: step 1/2.
+2.4.1.41,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation.
+2.7.11.1,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:23754375, ECO:0000305|PubMed:22582013};",METAL,RHEA:17989 RHEA:46608,
+1.8.4.12; 1.8.4.14,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:14699060}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:14699060};,METAL,RHEA:24164 RHEA:21260,
+3.1.1.5,,,RHEA:15177 RHEA:40807 RHEA:39959 RHEA:39963 RHEA:38487 RHEA:38491 RHEA:26132 RHEA:49092 RHEA:40435,
+3.6.4.13,,,RHEA:13065,
+3.6.4.13,,,RHEA:13065,
+7.6.2.1,,,RHEA:38583 RHEA:38567,
+2.4.1.150,,,RHEA:54820,Protein modification;protein glycosylation.
+2.7.1.52,,,RHEA:13241,
+6.3.4.4,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-Rule:MF_03126}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03126};,METAL,RHEA:15753,Purine metabolism;AMP biosynthesis via de novo pathway;AMP from IMP: step 1/2. .
+2.3.1.1,,,RHEA:24292,Amino-acid biosynthesis;L-arginine biosynthesis;N(2)-acetyl-L-ornithine from L-glutamate: step 1/4.
+1.1.1.8,,,RHEA:11092,
+5.6.2.4,,,RHEA:13065,
+3.1.3.16; 3.1.3.52,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:17336929, ECO:0000269|PubMed:17374715, ECO:0000269|PubMed:22291014}; Note=Binds 2 Mn(2+) ions per subunit. {ECO:0000269|PubMed:22291014};",METAL,RHEA:77247 RHEA:20629,Protein modification. .
+1.1.99.39,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000305};,FAD,RHEA:38295 RHEA:67460,
+1.1.1.441,,,RHEA:80719 RHEA:80723 RHEA:80731 RHEA:80735,Protein modification;protein glycosylation. .
+2.3.1.296,,,RHEA:61528 RHEA:65692 RHEA:55264 RHEA:65648 RHEA:65652 RHEA:65668 RHEA:65672 RHEA:65676 RHEA:65680 RHEA:65684 RHEA:65688,
+2.3.1.17,,,RHEA:14165,
+2.4.1.312,,,RHEA:37663,Protein modification;protein glycosylation. .
+7.6.2.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9Y2Q0};,METAL,RHEA:38567 RHEA:66132,
+3.6.4.10,,,RHEA:13065,
+2.4.1.50,,,RHEA:12637,
+1.8.3.7,COFACTOR: Name=Cu(2+); Xref=ChEBI:CHEBI:29036; Evidence={ECO:0000269|PubMed:25931126}; Note=The catalytic copper is required to activate oxygen and catalyze oxidative C-H activation. {ECO:0000269|PubMed:25931126};,METAL,RHEA:51152,Protein modification;sulfatase oxidation. .
+2.4.1.376; 2.4.2.63,,,RHEA:62016 RHEA:58116,Protein modification;protein glycosylation. .
+3.1.3.95,,,RHEA:39019 RHEA:12316,
+2.8.2.35,,,RHEA:48052,
+2.4.1.313,,,RHEA:37667,Protein modification;protein glycosylation.
+5.1.99.6,COFACTOR: Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000255|HAMAP-Rule:MF_03159}; Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03159};,,RHEA:32215 RHEA:32227,
+2.4.1.41,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};,METAL,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation.
+3.6.4.13,,,RHEA:13065,
+3.1.1.111; 3.1.1.118; 3.1.1.32,,,RHEA:44648 RHEA:35263 RHEA:73967 RHEA:73971 RHEA:66708 RHEA:73975 RHEA:45128 RHEA:40943 RHEA:43968 RHEA:74159 RHEA:74163 RHEA:18689 RHEA:44408 RHEA:42212 RHEA:67428 RHEA:74103 RHEA:74247 RHEA:74251 RHEA:76971 RHEA:76975 RHEA:76979 RHEA:76983 RHEA:38699,Phospholipid metabolism;phosphatidylinositol metabolism. .
+2.4.1.222,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:O09010}; Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000250|UniProtKB:O09010}; Note=Manganese is the most effective. Can also use cobalt with lower efficiency. Has some activity with magnesium and calcium, but not zinc. {ECO:0000250|UniProtKB:O09010};",METAL,RHEA:70531 RHEA:70511,
+2.7.11.1,,,RHEA:17989 RHEA:46608 RHEA:13065,
+2.1.1.364,,,RHEA:60264,
+2.7.7.2,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:16643857, ECO:0000269|PubMed:17049878};",METAL,RHEA:17237,Cofactor biosynthesis;FAD biosynthesis;FAD from FMN: step 1/1.
+1.14.11.80,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:19372391}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000269|PubMed:19372391}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:Q6N021}; Note=Binds 3 zinc ions per subunit. The zinc ions have a structural role. {ECO:0000250|UniProtKB:Q6N021};,METAL,RHEA:52636 RHEA:53828 RHEA:53832,
+3.1.1.116,,,RHEA:38507 RHEA:33275 RHEA:38503 RHEA:77103 RHEA:77107 RHEA:48596,
+5.6.2.4,,,RHEA:13065,Protein modification;protein ubiquitination. .
+2.7.8.27,,,RHEA:18765 RHEA:44620 RHEA:42152 RHEA:42136 RHEA:42148 RHEA:36079 RHEA:43324 RHEA:43320 RHEA:41796 RHEA:42140 RHEA:42128 RHEA:42144,Sphingolipid metabolism. .
+2.1.1.221,,,RHEA:43156,
+1.1.1.300,,,RHEA:25033 RHEA:54912 RHEA:54916 RHEA:54920,Cofactor metabolism;retinol metabolism. .
+3.1.2.22,,,RHEA:19233,
+2.4.99.18,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:31831667}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:B9KDD4};,METAL,RHEA:22980,Protein modification;protein glycosylation. .
+2.7.7.8,,,RHEA:22096,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:11864968};,METAL,RHEA:17989 RHEA:46608,
+2.6.1.2,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|Ref.7};,pyridoxal 5'-phosphate,RHEA:19453,Amino-acid degradation;L-alanine degradation via transaminase pathway;pyruvate from L-alanine: step 1/1.
+2.4.1.174,,,RHEA:23464,
+2.1.1.360,,,RHEA:60328,
+2.3.1.51,,,RHEA:19709 RHEA:37143 RHEA:37147 RHEA:37131 RHEA:37443 RHEA:37451 RHEA:33187 RHEA:37163 RHEA:37455,
+3.6.1.6,"COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:12234496, ECO:0000269|PubMed:15006348, ECO:0000269|PubMed:15248776, ECO:0000269|PubMed:16835225};",METAL,RHEA:36799,
+1.2.1.84,,,RHEA:52716 RHEA:36315 RHEA:36319 RHEA:81727 RHEA:36323 RHEA:36363 RHEA:81763 RHEA:81767,
+2.3.1.48,,,RHEA:45948,
+2.1.1.6,,,RHEA:17877,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+3.1.3.4,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:27429,
+3.6.4.13,,,RHEA:13065,
+2.4.1.258,,,RHEA:29527,Protein modification;protein glycosylation. .
+1.1.1.209; 1.1.1.315; 1.1.1.53,,,RHEA:42060 RHEA:42052 RHEA:42056 RHEA:20381 RHEA:42004,Cofactor metabolism;retinol metabolism. .
+2.3.1.48,,,RHEA:45948,
+2.4.1.212,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:20465 RHEA:12528,Glycan biosynthesis;hyaluronan biosynthesis. .
+2.3.1.48; 2.3.1.57,,,RHEA:21992 RHEA:45948 RHEA:28270,
+1.3.8.6,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692;,FAD,RHEA:13389,Amino-acid metabolism;lysine degradation.;Amino-acid metabolism;tryptophan metabolism.
+3.6.5.2,,,RHEA:19669,
+2.7.1.78,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-Rule:MF_03035, ECO:0000269|PubMed:17495927}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|HAMAP-Rule:MF_03035, ECO:0000269|PubMed:17495927}; Name=Ni(2+); Xref=ChEBI:CHEBI:49786; Evidence={ECO:0000255|HAMAP-Rule:MF_03035, ECO:0000269|PubMed:17495927};",METAL,RHEA:15669 RHEA:54580,
+2.4.1.224,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:36593275};,METAL,RHEA:16213,Protein modification;protein glycosylation. .
+1.13.11.5,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000269|PubMed:10876237};,METAL,RHEA:15449,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 4/6.
+3.5.1.48; 3.5.1.62,,,RHEA:23928 RHEA:23412 RHEA:51892 RHEA:58108,
+3.1.1.3; 3.1.1.4,,,RHEA:12044 RHEA:35667 RHEA:38495 RHEA:43732 RHEA:38499 RHEA:44440 RHEA:44436 RHEA:44432 RHEA:44676 RHEA:38379 RHEA:38387 RHEA:38331 RHEA:38327 RHEA:38323 RHEA:39987 RHEA:38395 RHEA:38403 RHEA:38411 RHEA:38419 RHEA:38423 RHEA:38647 RHEA:38391 RHEA:38399 RHEA:38407 RHEA:38415 RHEA:38431 RHEA:38427 RHEA:38643 RHEA:15801 RHEA:75011 RHEA:75015 RHEA:75019 RHEA:75023 RHEA:75027 RHEA:75031 RHEA:75035,Glycerolipid metabolism;triacylglycerol degradation.
+5.2.1.8,,,RHEA:16237,
+2.1.1.229,"COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000269|PubMed:21285950, ECO:0000305|PubMed:22065580}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000305};",METAL,RHEA:43208,
+2.7.7.41,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P53230};,METAL,RHEA:16229,Phospholipid metabolism;CDP-diacylglycerol biosynthesis;CDP-diacylglycerol from sn-glycerol 3-phosphate: step 3/3. .
+2.7.1.47,,,RHEA:17601,Carbohydrate metabolism;pentose and glucuronate interconversion. .
+5.1.3.3,,,RHEA:28675 RHEA:10264,Carbohydrate metabolism;hexose metabolism. .;Carbohydrate metabolism;galactose metabolism. .
+1.5.1.2,,,RHEA:14109 RHEA:14105,Amino-acid biosynthesis;L-proline biosynthesis;L-proline from L-glutamate 5-semialdehyde: step 1/1.
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.6.1.59,,,RHEA:65388,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|Ref.13};,METAL,RHEA:19669,
+2.1.2.9,,,RHEA:24380,
+2.5.1.87,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:28842490};,METAL,RHEA:53008,Protein modification;protein glycosylation. .;Lipid metabolism. .
+3.1.6.1; 3.1.6.15,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:P15289}; Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250|UniProtKB:P15289};,METAL,RHEA:17261,
+2.3.1.4,,,RHEA:10292,Nucleotide-sugar biosynthesis;UDP-N-acetyl-alpha-D-glucosamine biosynthesis;N-acetyl-alpha-D-glucosamine 1-phosphate from alpha-D-glucosamine 6-phosphate (route I): step 1/2.
+2.8.1.9,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000255|HAMAP-Rule:MF_03050, ECO:0000305|PubMed:34356852};",pyridoxal 5'-phosphate,RHEA:42636,Cofactor biosynthesis;molybdopterin biosynthesis. .
+5.6.2.3,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10648783}; Note=Both helicase and DNA-dependent ATPase activities are maximal in the presence of Mg(2+); Mn(2+) and Ca(2+) but not Zn(2+) will substitute in vitro (PubMed:10648783). {ECO:0000269|PubMed:10648783, ECO:0000269|PubMed:18499658}; COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250|UniProtKB:P18074}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000250|UniProtKB:P18074};",METAL,RHEA:13065,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+6.1.1.10,,,RHEA:13481,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.5.1.39,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-Rule:MF_03189};,METAL,RHEA:44504 RHEA:44564 RHEA:17709,Cofactor biosynthesis;ubiquinone biosynthesis. .
+6.1.1.22,,,RHEA:11180,
+2.7.7.19,,,RHEA:11332,
+1.13.11.46,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000250|UniProtKB:O52791}; Note=Binds 1 Fe cation per subunit. {ECO:0000250|UniProtKB:O52791};,METAL,RHEA:21376,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9H4A3};,METAL,RHEA:17989 RHEA:46608,
+2.4.1.134,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:9892646};,METAL,RHEA:11780,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .
+2.1.1.357,,,RHEA:60308,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.7.102; 2.7.7.7,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:25255211, ECO:0000269|PubMed:25746449, ECO:0000269|PubMed:27989484, ECO:0000269|PubMed:30633872, ECO:0000269|PubMed:30889508, ECO:0000305|PubMed:24207056}; Note=Can act both with Mn(2+) and Mg(2+) as cofactor in vitro, but Mn(2+) is the preferred cofactor in vivo (PubMed:25255211, PubMed:25746449, PubMed:27989484, PubMed:30633872, PubMed:30889508). The polymerase activity incorporates correct dNTPs with much higher efficiency with Mn(2+) than with Mg(2+) (PubMed:25255211, PubMed:30889508). The fidelity is slightly more accurate when Mg(2+) is the cofactor compared to Mn(2+) (PubMed:25255211, PubMed:30889508). In the presence of Mn(2+), a conformational transition step from non-productive to productive PRIMPOL:DNA complexes limits the enzymatic turnover, whereas in the presence of Mg(2+), the chemical step becomes rate limiting (PubMed:30633872). {ECO:0000269|PubMed:25255211, ECO:0000269|PubMed:25746449, ECO:0000269|PubMed:27989484, ECO:0000269|PubMed:30633872, ECO:0000269|PubMed:30889508};",METAL,RHEA:22508,
+2.7.4.3; 2.7.4.6,,,RHEA:12973 RHEA:44640 RHEA:18113,
+4.2.1.49,COFACTOR: Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000250};,NAD(+),RHEA:13101,Amino-acid degradation;L-histidine degradation into L-glutamate;N-formimidoyl-L-glutamate from L-histidine: step 2/3.
+1.1.1.300,,,RHEA:25033 RHEA:54912 RHEA:54916 RHEA:58336 RHEA:58332 RHEA:58328 RHEA:58380,Cofactor metabolism;retinol metabolism. .
+5.1.99.1,,,RHEA:20553,
+4.6.1.1,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:12609998, ECO:0000269|PubMed:15659711, ECO:0000269|PubMed:24567411, ECO:0000269|PubMed:25040695, ECO:0000305|PubMed:24616449}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:12609998, ECO:0000269|PubMed:15659711, ECO:0000269|PubMed:24616449}; Note=Binds 2 magnesium ions per subunit (PubMed:25040695). Is also active with manganese (in vitro) (PubMed:12609998, PubMed:15659711, PubMed:24616449). {ECO:0000269|PubMed:12609998, ECO:0000269|PubMed:15659711, ECO:0000269|PubMed:24616449, ECO:0000305|PubMed:25040695};",METAL,RHEA:15389,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+2.7.7.72,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:O66728};,METAL,RHEA:14433 RHEA:76235,
+2.8.2.23,,,RHEA:15461,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.11.1,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:Q923J1}; Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:Q923J1};,METAL,RHEA:17989 RHEA:46608 RHEA:29827 RHEA:29671 RHEA:29351,
+6.4.1.4,COFACTOR: Name=biotin; Xref=ChEBI:CHEBI:57586; Evidence={ECO:0000255|PROSITE-ProRule:PRU01066};,biotin,RHEA:13589,Amino-acid degradation;L-leucine degradation;(S)-3-hydroxy-3-methylglutaryl-CoA from 3-isovaleryl-CoA: step 2/3. .
+5.6.2.3,,,RHEA:13065,
+2.7.11.1; 3.6.-.-,,,RHEA:17989 RHEA:46608,
+1.11.1.9,,,RHEA:16833,
+2.7.1.78; 3.1.3.32,,,RHEA:14113 RHEA:15669,
+4.1.1.15,COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:17384644};,pyridoxal 5'-phosphate,RHEA:17785,
+1.17.99.3,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250|UniProtKB:P07872};,FAD,RHEA:15733 RHEA:46728,
+2.7.7.14,,,RHEA:24592,Phospholipid metabolism;phosphatidylethanolamine biosynthesis;phosphatidylethanolamine from ethanolamine: step 2/3. .
+3.1.3.16; 3.1.3.48,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:O00167}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:O00167};,METAL,RHEA:10684 RHEA:20629 RHEA:47004,
+2.7.11.25,,,RHEA:17989 RHEA:46608,
+2.1.1.13,COFACTOR: Name=methylcob(III)alamin; Xref=ChEBI:CHEBI:28115; Evidence={ECO:0000250|UniProtKB:P13009}; COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P13009}; Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P13009};,METAL,RHEA:11172,Amino-acid biosynthesis;L-methionine biosynthesis via de novo pathway;L-methionine from L-homocysteine (MetH route): step 1/1. .
+1.1.1.159; 1.1.1.178; 1.1.1.239; 1.1.1.35; 1.1.1.53; 1.1.1.62,,,RHEA:22432 RHEA:13281 RHEA:14929 RHEA:42004 RHEA:24612 RHEA:19409 RHEA:30799 RHEA:31195 RHEA:31159 RHEA:41992 RHEA:42008 RHEA:41980 RHEA:42016 RHEA:42020 RHEA:42012 RHEA:42036 RHEA:42028 RHEA:42024,Amino-acid degradation;L-isoleucine degradation. .;Lipid metabolism;fatty acid beta-oxidation. .;Steroid metabolism. .;Lipid metabolism;bile acid biosynthesis. .
+7.6.2.1; 7.6.2.2,,,RHEA:66272 RHEA:66340 RHEA:39051 RHEA:66344,
+2.7.11.25,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+4.2.1.3,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250|UniProtKB:P16276}; Note=Binds 1 [4Fe-4S] cluster per subunit. Binding of a [3Fe-4S] cluster leads to an inactive enzyme. {ECO:0000250|UniProtKB:P16276};,,RHEA:10336,Carbohydrate metabolism;tricarboxylic acid cycle;isocitrate from oxaloacetate: step 2/2.
+1.14.13.253,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000269|PubMed:23445365}; Note=Binds 2 iron ions per subunit. {ECO:0000269|PubMed:23445365};,METAL,RHEA:81211,Cofactor biosynthesis;ubiquinone biosynthesis. .
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.1.1.106; 3.2.2.-,,,RHEA:59244 RHEA:57060 RHEA:54428 RHEA:58248 RHEA:68792,
+1.17.4.4,,,RHEA:13817 RHEA:57744,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.4.1.142,,,RHEA:13865,Protein modification;protein glycosylation. .
+3.1.3.36; 3.1.3.56; 3.1.3.86,,,RHEA:19797 RHEA:11392 RHEA:22764 RHEA:25528 RHEA:43548,
+2.7.1.67,,,RHEA:19877,
+1.14.99.29,"COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000255|HAMAP-Rule:MF_03101, ECO:0000269|PubMed:16533814, ECO:0000269|PubMed:19706422, ECO:0000269|PubMed:25865244, ECO:0007744|PDB:4D4Z, ECO:0007744|PDB:4D50}; Note=Binds 2 Fe(2+) ions per subunit. {ECO:0000255|HAMAP-Rule:MF_03101, ECO:0000269|PubMed:16533814, ECO:0000269|PubMed:19706422, ECO:0000269|PubMed:25865244, ECO:0007744|PDB:4D4Z, ECO:0007744|PDB:4D50};",METAL,RHEA:14101,Protein modification;eIF5A hypusination. .
+3.1.3.9,,,RHEA:16689,Carbohydrate biosynthesis;gluconeogenesis.
+2.4.1.260,,,RHEA:29535,Protein modification;protein glycosylation. .
+1.3.1.104,,,RHEA:22564 RHEA:41812 RHEA:41832 RHEA:41848 RHEA:41864 RHEA:41880 RHEA:41896 RHEA:41912,
+2.7.7.108; 3.1.4.-,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:25601083}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:25601083}; Note=Divalent metal cation. Prefers Mn(2+) over Mg(2+). {ECO:0000269|PubMed:25601083};,METAL,RHEA:54288 RHEA:55932 RHEA:54292,
+2.4.1.265,,,RHEA:31307,Protein modification;protein glycosylation. .
+3.6.4.10,,,RHEA:13065,
+2.3.1.199,,,RHEA:32727 RHEA:35327 RHEA:36527 RHEA:36507 RHEA:36531 RHEA:36515 RHEA:36519 RHEA:35319,Lipid metabolism;fatty acid biosynthesis. .
+6.1.1.3,,,RHEA:24624,
+2.7.11.22,,,RHEA:17989 RHEA:46608,
+5.6.2.3,"COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000269|PubMed:16973432, ECO:0000269|PubMed:20639400}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000269|PubMed:20639400};",,RHEA:13065,
+2.7.11.1,,,RHEA:17989 RHEA:46608 RHEA:29827 RHEA:29671 RHEA:29351,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+3.6.4.13,,,RHEA:13065,
+3.6.1.66,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:11278832, ECO:0000269|PubMed:17138556}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000269|PubMed:17138556};",METAL,RHEA:29399 RHEA:28342 RHEA:28610 RHEA:83971,
+2.4.1.68,,,RHEA:12985,Protein modification;protein glycosylation.
+4.2.1.152; 5.4.4.7,COFACTOR: Name=Fe cation; Xref=ChEBI:CHEBI:24875; Evidence={ECO:0000255|PROSITE-ProRule:PRU00726}; Note=Binds 1 Fe cation per subunit. {ECO:0000255|PROSITE-ProRule:PRU00726};,METAL,RHEA:55560 RHEA:37939 RHEA:37955 RHEA:37951 RHEA:37959 RHEA:41251 RHEA:50212 RHEA:40503 RHEA:41243 RHEA:55556 RHEA:37943 RHEA:37947 RHEA:48636 RHEA:48716 RHEA:37931 RHEA:37935 RHEA:37927,Lipid metabolism;hydroperoxy eicosatetraenoic acid biosynthesis. .;Lipid metabolism;sphingolipid metabolism.
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9H4A3};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.6.4.13,,,RHEA:13065,
+2.7.1.33,,,RHEA:16373 RHEA:16373,Cofactor biosynthesis;coenzyme A biosynthesis;CoA from (R)-pantothenate: step 1/5. .
+2.1.1.370; 2.1.1.371,,,RHEA:64448 RHEA:64452,
+5.4.99.45,,,RHEA:42564,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P20340};,METAL,RHEA:19669,
+3.1.3.2,,,RHEA:15017,
+2.5.1.108,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250|UniProtKB:P40487}; Note=Binds 1 [4Fe-4S] cluster per subunit. The cluster is coordinated with 3 cysteines and an exchangeable S-adenosyl-L-methionine. {ECO:0000250|UniProtKB:P40487};,,RHEA:36783,Protein modification;peptidyl-diphthamide biosynthesis. .
+3.2.1.113,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:P45700};,METAL,RHEA:56008 RHEA:56028,Protein modification;protein glycosylation. .
+2.1.1.359; 2.1.1.367,,,RHEA:60280 RHEA:60324,
+2.7.8.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:17132865}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:17132865};,METAL,RHEA:32943 RHEA:36187,Phospholipid metabolism;phosphatidylethanolamine biosynthesis;phosphatidylethanolamine from ethanolamine: step 3/3. .
+2.3.1.199,,,RHEA:32727 RHEA:36515 RHEA:36519 RHEA:36807 RHEA:43852 RHEA:36871 RHEA:36943 RHEA:36479 RHEA:36819 RHEA:36843 RHEA:36851 RHEA:36859 RHEA:36875 RHEA:36907 RHEA:36911 RHEA:36915 RHEA:36919 RHEA:36923 RHEA:36927 RHEA:36947 RHEA:36963 RHEA:36967 RHEA:36979 RHEA:36983 RHEA:36995 RHEA:37243,Lipid metabolism;fatty acid biosynthesis. .
+1.14.11.29,"COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000255|PROSITE-ProRule:PRU00805, ECO:0000269|PubMed:16782814, ECO:0000269|PubMed:19604478, ECO:0000269|PubMed:28594552, ECO:0007744|PDB:2G19, ECO:0007744|PDB:3HQU, ECO:0007744|PDB:5V18}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|PROSITE-ProRule:PRU00805, ECO:0000269|PubMed:16782814, ECO:0000269|PubMed:19604478, ECO:0000269|PubMed:28594552, ECO:0007744|PDB:2G19, ECO:0007744|PDB:3HQU, ECO:0007744|PDB:5V18}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000269|PubMed:19604478};",METAL,RHEA:48400,
+3.5.4.38,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:27258794};,METAL,RHEA:50948,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:32960676};,METAL,RHEA:19669,
+2.7.11.1,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:14575707, ECO:0000269|PubMed:14976552};",METAL,RHEA:17989 RHEA:46608,
+3.1.3.5; 3.1.3.91,,,RHEA:37107 RHEA:29367 RHEA:12484,
+6.3.5.7,,,RHEA:17521,
+2.4.2.26,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:18023272}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:18023272}; Note=Active with either Mg(2+) or Mn(2+), but activity is highest when both are present. {ECO:0000269|PubMed:18023272};",METAL,RHEA:50192,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .
+2.7.11.18,,,RHEA:22004 RHEA:53900,
+2.3.1.250,,,RHEA:45336,
+2.1.1.314,,,RHEA:42652,Protein modification;peptidyl-diphthamide biosynthesis.
+3.6.1.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:24576,
+2.5.1.75,,,RHEA:26482,
+2.7.8.15,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:29459785, ECO:0000269|PubMed:30388443};",METAL,RHEA:13289,Protein modification;protein glycosylation. .
+3.1.3.48,,,RHEA:10684,
+2.4.1.221,,,RHEA:63644 RHEA:70491,Protein modification;protein glycosylation. .
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10660600};,METAL,RHEA:17989 RHEA:46608,
+3.6.4.12,,,RHEA:13065,
+2.4.1.132; 2.4.1.257,,,RHEA:29515 RHEA:29519 RHEA:79023 RHEA:79027,Protein modification;protein glycosylation. .
+2.7.1.183,,,RHEA:52616,
+2.4.1.259; 2.4.1.261,,,RHEA:29531 RHEA:29539,Protein modification;protein glycosylation. .
+7.6.2.16,,,RHEA:29995,
+2.3.1.259; 2.3.1.48,,,RHEA:50604 RHEA:45948,
+1.3.1.22; 1.3.1.94,,,RHEA:80727 RHEA:54384 RHEA:50816 RHEA:50820,Protein modification;protein glycosylation. .
+1.1.99.2,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:16005139};,FAD,RHEA:21252,
+2.3.1.311,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250|UniProtKB:Q02908}; Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3 cysteines and an exchangeable S-adenosyl-L-methionine. {ECO:0000250|UniProtKB:Q02908};,,RHEA:61020,tRNA modification;5-methoxycarbonylmethyl-2-thiouridine-tRNA biosynthesis. .
+2.7.7.6,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P08518, ECO:0000250|UniProtKB:P30876}; Note=Two Mg(2+) ions are coordinated by both the catalytic residues and the nucleic acid substrate to enhance substrate recognition and catalytic efficiency. {ECO:0000250|UniProtKB:P08518, ECO:0000250|UniProtKB:P30876};",METAL,RHEA:21248,
+6.1.1.16,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250|UniProtKB:P21888}; Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P21888};,METAL,RHEA:17773 RHEA:78543 RHEA:78627 RHEA:78647 RHEA:78651,
+6.3.2.51,,,RHEA:25156 RHEA:19397,Cofactor biosynthesis;coenzyme A biosynthesis;CoA from (R)-pantothenate: step 2/5. .
+2.7.7.1; 2.7.7.18,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:11027696, ECO:0000269|PubMed:17402747}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:11027696, ECO:0000269|PubMed:17402747}; Note=Divalent metal cations. Zn(2+) confers higher activity as compared to Mg(2+). {ECO:0000269|PubMed:11027696, ECO:0000269|PubMed:17402747};",METAL,RHEA:21360 RHEA:22860,Cofactor biosynthesis;NAD(+) biosynthesis;NAD(+) from nicotinamide D-ribonucleotide: step 1/1. .;Cofactor biosynthesis;NAD(+) biosynthesis;deamido-NAD(+) from nicotinate D-ribonucleotide: step 1/1. .
+3.1.1.53,,,RHEA:22600 RHEA:80763,
+1.13.11.63,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250|UniProtKB:Q9JJS6}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250|UniProtKB:Q9JJS6};,METAL,RHEA:32887,Cofactor metabolism;retinol metabolism. .
+2.1.1.367,,,RHEA:60280,
+6.4.1.4,,,RHEA:13589,Amino-acid degradation;L-leucine degradation;(S)-3-hydroxy-3-methylglutaryl-CoA from 3-isovaleryl-CoA: step 2/3. .
+3.1.4.35; 3.1.4.53,"COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000250|UniProtKB:O76083}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions, while site 2 has a preference for magnesium and/or manganese ions. {ECO:0000250|UniProtKB:O76083};",METAL,RHEA:16957 RHEA:25277,
+2.9.1.2,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:17142313, ECO:0000269|PubMed:19608919};",pyridoxal 5'-phosphate,RHEA:25041,Aminoacyl-tRNA biosynthesis;selenocysteinyl-tRNA(Sec) biosynthesis;selenocysteinyl-tRNA(Sec) from L-seryl-tRNA(Sec) (archaeal/eukaryal route): step 2/2. .
+1.8.1.9,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000255|RuleBase:RU000402, ECO:0000305};",FAD,RHEA:20345,
+7.6.2.5,,,RHEA:19261 RHEA:66664 RHEA:61360 RHEA:66680 RHEA:61336 RHEA:66768 RHEA:66772 RHEA:66776,
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|Ref.24};,METAL,RHEA:19669,
+2.4.1.141,,,RHEA:23380,[Isoform 2]: Protein modification;protein glycosylation. .
+6.1.1.11,,,RHEA:12292 RHEA:42580,Aminoacyl-tRNA biosynthesis;selenocysteinyl-tRNA(Sec) biosynthesis;L-seryl-tRNA(Sec) from L-serine and tRNA(Sec): step 1/1.
+2.8.2.5,,,RHEA:16101,
+2.3.1.234,COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000255|HAMAP-Rule:MF_03180}; Note=Binds 1 divalent metal cation per subunit. {ECO:0000255|HAMAP-Rule:MF_03180};,METAL,RHEA:37059,
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108;,METAL,RHEA:33179 RHEA:43484,
+2.1.1.361,,,RHEA:60344,
+2.10.1.1; 2.7.7.75,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:31331 RHEA:35047,Cofactor biosynthesis;molybdopterin biosynthesis. .
+2.5.1.132; 2.5.1.57,,,RHEA:80835 RHEA:49200,
+2.1.1.359; 2.1.1.367,,,RHEA:60324 RHEA:60280,
+2.7.1.91,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9NYA1};,METAL,RHEA:51496 RHEA:35847 RHEA:15465 RHEA:33563,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};,METAL,RHEA:17989 RHEA:46608,
+3.1.3.36; 3.1.3.86,,,RHEA:22764 RHEA:25528 RHEA:32955,
+2.4.3.3,,,RHEA:11136 RHEA:81647 RHEA:81643 RHEA:81655 RHEA:81651 RHEA:81659,Protein modification;protein glycosylation. .
+6.1.1.20,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:A5K464};,METAL,RHEA:19413,
+6.1.1.5,,,RHEA:11060,
+2.3.1.51; 3.1.1.3; 3.1.1.4,,,RHEA:19709 RHEA:12044 RHEA:44440 RHEA:44436 RHEA:44432 RHEA:37131 RHEA:37143 RHEA:37159 RHEA:37443 RHEA:38323 RHEA:38327 RHEA:38331 RHEA:38387 RHEA:15801,Phospholipid metabolism. .;Glycerolipid metabolism. .
+7.6.2.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9Y2Q0};,METAL,RHEA:38567 RHEA:36439,
+1.14.11.8,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290;,METAL,RHEA:14181,Amine and polyamine biosynthesis;carnitine biosynthesis.
+2.1.1.321,,,RHEA:48100,
+1.4.3.5,COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000269|PubMed:12824491}; Note=Binds 1 FMN per subunit. {ECO:0000269|PubMed:12824491};,FMN,RHEA:15149 RHEA:15817,Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxal 5'-phosphate from pyridoxamine 5'-phosphate: step 1/1. .;Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxal 5'-phosphate from pyridoxine 5'-phosphate: step 1/1. .
+2.7.7.19,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:21292163}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:21292163};,METAL,RHEA:11332,
+2.7.7.6,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P08518, ECO:0000250|UniProtKB:P30876}; Note=Two Mg(2+) ions are coordinated by both the catalytic residues and the nucleic acid substrate to enhance substrate recognition and catalytic efficiency. {ECO:0000250|UniProtKB:P08518, ECO:0000250|UniProtKB:P30876};",METAL,RHEA:21248,
+5.2.1.8,,,RHEA:16237,
+2.7.7.79,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:21059936}; Note=Binds 2 magnesium ions per subunit. {ECO:0000269|PubMed:21059936};,METAL,RHEA:54564,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:17989 RHEA:46608,
+3.2.1.143; 3.2.2.-; 3.5.1.-,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:16278211, ECO:0000269|PubMed:17075046, ECO:0000269|PubMed:17327674, ECO:0000269|PubMed:29907568, ECO:0000269|PubMed:30045870, ECO:0000269|PubMed:33894202}; Note=Binds 2 magnesium ions per subunit. {ECO:0000269|PubMed:16278211, ECO:0000269|PubMed:17327674, ECO:0000269|PubMed:29907568, ECO:0000269|PubMed:30045870, ECO:0000269|PubMed:33894202};",METAL,RHEA:52216 RHEA:58112 RHEA:58256 RHEA:68792,
+3.1.3.7,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:10040,Sulfur metabolism. .
+2.4.1.109,,,RHEA:17377 RHEA:53396,
+3.1.4.12,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:16517606};,METAL,RHEA:19253,
+1.14.11.29,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000255|PROSITE-ProRule:PRU00805}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|PROSITE-ProRule:PRU00805}; COFACTOR: Name=L-ascorbate; Xref=ChEBI:CHEBI:38290; Evidence={ECO:0000250};,METAL,RHEA:48400,
+2.1.1.216,,,RHEA:43140,
+3.6.4.12,,,RHEA:13065,
+2.7.11.25,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:11836244};,METAL,RHEA:17989 RHEA:46608,
+2.3.1.199,,,RHEA:32727 RHEA:35379 RHEA:36523 RHEA:39675 RHEA:36511 RHEA:39679 RHEA:36503 RHEA:35391 RHEA:36475 RHEA:36483,Lipid metabolism;polyunsaturated fatty acid biosynthesis. .
+2.7.11.22; 2.7.11.23,,,RHEA:10216 RHEA:17989 RHEA:46608,
+1.3.1.93,,,RHEA:14473 RHEA:35351 RHEA:39331 RHEA:39467 RHEA:39319 RHEA:36143,Lipid metabolism;fatty acid biosynthesis. .;Lipid metabolism;sphingolipid metabolism. .
+4.1.99.22; 4.6.1.17,COFACTOR: Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000269|PubMed:15180982}; Note=Binds 2 [4Fe-4S] clusters. Binds 1 [4Fe-4S] cluster coordinated with 3 cysteines and an exchangeable S-adenosyl-L-methionine and 1 [4Fe-4S] cluster coordinated with 3 cysteines and the GTP-derived substrate. {ECO:0000269|PubMed:15180982};,,RHEA:49576 RHEA:49580,Cofactor biosynthesis;molybdopterin biosynthesis.
+2.7.10.2; 2.7.11.1,,,RHEA:17989 RHEA:46608 RHEA:10596,
+3.5.4.4,COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000269|PubMed:20147294}; Note=Binds 1 zinc ion per subunit. {ECO:0000269|PubMed:20147294};,METAL,RHEA:24408,
+3.2.2.6,,,RHEA:16301,
+3.1.3.43,"COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250|UniProtKB:P35816}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:O88483}; Note=Binds 2 Mn2(+) per subunit (By similarity). Binds 2 Mg(2+) ions per subunit (By similarity). Mn(2+) can substitute Mg2(+) for catalytic activity (By similarity). {ECO:0000250|UniProtKB:O88483, ECO:0000250|UniProtKB:P35816};",METAL,RHEA:12669,
+2.7.11.1; 2.7.11.26,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:17989 RHEA:46608 RHEA:12801 RHEA:53904,
+3.1.4.11,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:11022048};,METAL,RHEA:33179,
+6.1.1.4,,,RHEA:11688 RHEA:77535,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+6.2.1.5,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-Rule:MF_03220}; Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03220};,METAL,RHEA:17661,Carbohydrate metabolism;tricarboxylic acid cycle;succinate from succinyl-CoA (ligase route): step 1/1. .
+2.1.1.37,,,RHEA:13681,
+2.7.1.67,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:11277933}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:11277933};,METAL,RHEA:19877,
+1.16.1.8,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:17892308}; COFACTOR: Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000269|PubMed:17892308};,FAD;FMN,RHEA:23908 RHEA:20752,
+1.3.1.21; 3.3.2.11,,,RHEA:23984 RHEA:46740 RHEA:11964 RHEA:15113,Steroid biosynthesis;cholesterol biosynthesis. .
+1.1.1.79; 1.1.1.81,,,RHEA:10992 RHEA:17905 RHEA:18657,
+3.5.1.6,,,RHEA:11184 RHEA:37339,Amino-acid biosynthesis;beta-alanine biosynthesis. .
+1.5.1.8; 1.5.1.9,,,RHEA:19373 RHEA:24520,Amino-acid degradation;L-lysine degradation via saccharopine pathway;glutaryl-CoA from L-lysine: step 1/6. .;Amino-acid degradation;L-lysine degradation via saccharopine pathway;glutaryl-CoA from L-lysine: step 2/6. .
+3.2.1.31,,,RHEA:17633,
+2.1.1.205,,,RHEA:42396,
+4.1.1.65,COFACTOR: Name=pyruvate; Xref=ChEBI:CHEBI:15361; Evidence={ECO:0000255|HAMAP-Rule:MF_03208}; Note=Binds 1 pyruvoyl group covalently per subunit. {ECO:0000255|HAMAP-Rule:MF_03208};,,RHEA:20828,Phospholipid metabolism;phosphatidylethanolamine biosynthesis. .
+1.14.11.67,COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};,METAL,RHEA:60208,
+6.1.1.2,,,RHEA:24080,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.1.14,,,RHEA:23844,
+5.1.99.4,,,RHEA:12657 RHEA:40455 RHEA:46732,Lipid metabolism;bile acid biosynthesis.;Lipid metabolism;fatty acid metabolism.
+1.5.8.4,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:27486859}; Note=Binds 1 FAD covalently per monomer. {ECO:0000269|PubMed:27486859};,FAD,RHEA:52856,Amine and polyamine degradation;betaine degradation;sarcosine from betaine: step 2/2.
+2.7.10.2,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:19092802};,METAL,RHEA:10596,
+2.7.8.41,COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000269|PubMed:16678169};,METAL,RHEA:32931,
+3.6.4.12,,,RHEA:13065,
+3.6.4.13,,,RHEA:13065,
+3.1.4.45,,,RHEA:24372,Protein modification;protein glycosylation.
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+3.2.1.113,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:P45700};,METAL,RHEA:56008 RHEA:56028,Protein modification;protein glycosylation. .
+6.2.1.15; 6.2.1.3,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420;,METAL,RHEA:15421 RHEA:19713 RHEA:30751 RHEA:36139 RHEA:52116 RHEA:52112 RHEA:52108,
+1.3.8.5,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:14752098};,FAD,RHEA:44180 RHEA:48256 RHEA:31287,Amino-acid degradation;L-valine degradation. .
+3.5.1.98,,,RHEA:58196,
+2.4.1.109,,,RHEA:17377 RHEA:53396,Protein modification;protein glycosylation.
+5.1.3.19,COFACTOR: Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:7092807}; Note=Also has weak activity in the presence of Mg(2+) or Ca(2+) ions. {ECO:0000269|PubMed:7092807};,METAL,RHEA:21084,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .
+1.5.8.3,COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250|UniProtKB:Q64380}; Note=Binds 1 FAD covalently per monomer. {ECO:0000250|UniProtKB:Q64380};,FAD,RHEA:19793,Amine and polyamine degradation;sarcosine degradation;formaldehyde and glycine from sarcosine: step 1/1. .
+3.6.5.2,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:P35288};,METAL,RHEA:19669,
+6.2.1.15; 6.2.1.3,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};,METAL,RHEA:15421 RHEA:19713 RHEA:30751 RHEA:36139 RHEA:52116 RHEA:52112 RHEA:52108 RHEA:52016 RHEA:52012 RHEA:33607,
+1.2.4.2,COFACTOR: Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937; Evidence={ECO:0000250|UniProtKB:Q02218}; Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q02218};,METAL;thiamine diphosphate,RHEA:12188,
+3.5.3.15,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};,METAL,RHEA:18089,
+3.5.3.15,"COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:15629448, ECO:0000269|PubMed:16567635, ECO:0000269|PubMed:17002273}; Note=Binds 5 Ca(2+) ions per subunit. {ECO:0000269|PubMed:15629448, ECO:0000269|PubMed:16567635, ECO:0000269|PubMed:17002273};",METAL,RHEA:18089,
+2.7.10.1,,,RHEA:10596,
+2.1.1.364,,,RHEA:60264 RHEA:60268,
+3.1.3.67; 3.1.3.86; 3.1.3.95,,,RHEA:25017 RHEA:25528 RHEA:39019 RHEA:32955,
+3.6.4.6,,,RHEA:13065,
+3.1.3.16; 3.1.3.48,,,RHEA:10684 RHEA:20629 RHEA:47004,
+2.4.3.9,,,RHEA:18417 RHEA:41776 RHEA:41780 RHEA:47600 RHEA:41784,Glycolipid biosynthesis. .
+3.1.3.62; 3.1.3.80,,,RHEA:16989 RHEA:77115 RHEA:77119 RHEA:77131 RHEA:77135 RHEA:20960 RHEA:77111 RHEA:77123 RHEA:77127 RHEA:77139 RHEA:77143 RHEA:77147 RHEA:27381,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+1.14.11.27; 1.14.11.65,"COFACTOR: Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000305|PubMed:19843542, ECO:0000305|PubMed:20023638}; Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000305|PubMed:19843542, ECO:0000305|PubMed:20023638};",METAL,RHEA:42032 RHEA:60188,
+2.7.1.108,,,RHEA:13133,Protein modification;protein glycosylation. .
+2.1.1.364,,,RHEA:60264 RHEA:60268 RHEA:60272,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:10699974};,METAL,RHEA:17989 RHEA:46608,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.11.17,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:23805378};,METAL,RHEA:17989 RHEA:46608,
+2.7.1.60; 3.2.1.183,,,RHEA:30683 RHEA:23832,Amino-sugar metabolism;N-acetylneuraminate biosynthesis. .
+3.1.4.17,"COFACTOR: Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240; Evidence={ECO:0000269|PubMed:17389385}; Note=Binds 2 divalent metal cations per subunit. Site 1 may preferentially bind zinc ions, while site 2 has a preference for magnesium and/or manganese ions. {ECO:0000269|PubMed:17389385};",METAL,RHEA:14653 RHEA:25277 RHEA:16957,"Purine metabolism;3',5'-cyclic AMP degradation;AMP from 3',5'-cyclic AMP: step 1/1. .;Purine metabolism;3',5'-cyclic GMP degradation;GMP from 3',5'-cyclic GMP: step 1/1. ."
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+2.7.7.7,"COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:27284197}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000269|PubMed:27284197}; Note=Binds 2 Mg(2+) (PubMed:27284197). Prefers Mg(2+), but can also use Mn(2+) (PubMed:27284197). In vitro, can also utilize other divalent cations such as Ca(2+) (PubMed:27284197). {ECO:0000269|PubMed:27284197};",METAL,RHEA:22508,
+2.7.1.32; 2.7.1.82,,,RHEA:12837 RHEA:13069,Phospholipid metabolism;phosphatidylethanolamine biosynthesis;phosphatidylethanolamine from ethanolamine: step 1/3. .
+6.1.1.20,,,RHEA:19413,
+2.4.2.61,,,RHEA:57880,Protein modification;protein glycosylation. .
+3.5.1.89,,,RHEA:11660,Glycolipid biosynthesis;glycosylphosphatidylinositol-anchor biosynthesis. .
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9BXM7};,METAL,RHEA:17989 RHEA:46608,
+2.7.1.150; 2.7.11.1,,,RHEA:13609 RHEA:44680 RHEA:17989,
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q9H0K1};,METAL,RHEA:17989 RHEA:46608,
+3.1.3.48,,,RHEA:10684 RHEA:56532,
+6.1.1.1,,,RHEA:10220,
+1.14.15.45; 1.14.15.46,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000255|HAMAP-Rule:MF_03193, ECO:0000269|PubMed:38425362};",FAD,RHEA:81259 RHEA:81295,Cofactor biosynthesis;ubiquinone biosynthesis. .
+2.3.1.225,,,RHEA:36683,
+4.1.1.130,"COFACTOR: Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-Rule:MF_03111, ECO:0000269|PubMed:38295803, ECO:0000269|PubMed:38425362};",METAL,RHEA:81275,Cofactor biosynthesis;ubiquinone biosynthesis. .
+5.2.1.8,,,RHEA:16237,
+3.1.1.29,,,RHEA:54448,
+2.7.12.1,,,RHEA:17989 RHEA:46608 RHEA:10596,
+3.1.1.116,COFACTOR: Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:14610053};,METAL,RHEA:33275 RHEA:38507 RHEA:38511 RHEA:38515 RHEA:38519 RHEA:38523 RHEA:38527,
+1.16.1.6; 2.5.1.151,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:19700356, ECO:0000269|PubMed:21697092}; Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000269|PubMed:19700356, ECO:0000269|PubMed:21697092}; Note=Can utilize both FAD and FMN. {ECO:0000269|PubMed:19700356, ECO:0000269|PubMed:21697092};",FAD;FMN,RHEA:16113 RHEA:40719 RHEA:63132 RHEA:63136,
+3.1.3.16,,,RHEA:20629 RHEA:47004,
+2.7.7.13,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000269|PubMed:33986552}; Note=Coordinates binding with substrate and required for enzymatic activity. {ECO:0000269|PubMed:33986552};,METAL,RHEA:15229,Nucleotide-sugar biosynthesis;GDP-alpha-D-mannose biosynthesis;GDP-alpha-D-mannose from alpha-D-mannose 1-phosphate (GTP route): step 1/1. .
+2.7.11.1,COFACTOR: Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250|UniProtKB:Q5VT25};,METAL,RHEA:17989 RHEA:46608,
+2.6.1.52,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:36851825, ECO:0000269|Ref.11}; Note=Binds 2 pyridoxal phosphate molecules per dimer, each cofactor is bound at the monomer-monomer interface and forms contacts with residues from both chains. {ECO:0000269|PubMed:36851825, ECO:0000269|Ref.11};",pyridoxal 5'-phosphate,RHEA:14329,Amino-acid biosynthesis;L-serine biosynthesis;L-serine from 3-phospho-D-glycerate: step 2/3. .
+2.4.1.267,,,RHEA:30635,Protein modification;protein glycosylation. .
+2.4.1.117,,,RHEA:15401,Protein modification;protein glycosylation. .
+2.8.1.7,"COFACTOR: Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326; Evidence={ECO:0000269|PubMed:29097656, ECO:0000269|PubMed:31101807, ECO:0000269|PubMed:34824239};",pyridoxal 5'-phosphate,RHEA:43892 RHEA:43892 RHEA:17457,
+2.4.1.109,,,RHEA:17377 RHEA:53396,Protein modification;protein glycosylation.
+3.6.5.2,,,RHEA:19669,
+1.8.5.8,"COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000269|PubMed:22852582, ECO:0000269|PubMed:30905673}; Note=Binds 1 FAD per subunit. {ECO:0000269|PubMed:22852582, ECO:0000269|PubMed:30905673};",FAD,RHEA:38359 RHEA:55156 RHEA:62608,
+3.5.2.9,,,RHEA:10348,
+2.7.11.1,,,RHEA:17989 RHEA:46608,
+4.2.1.46,COFACTOR: Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000250};,NAD(+),RHEA:17221,
+4.3.1.3,,,RHEA:21232,Amino-acid degradation;L-histidine degradation into L-glutamate;N-formimidoyl-L-glutamate from L-histidine: step 1/3.
+3.1.1.29,,,RHEA:54448,
+6.1.1.15,,,RHEA:14305,
+3.1.2.2,,,RHEA:16645,
