@@ -1,0 +1,11 @@
+﻿Parameter;Value;Details
+Raw rows;134209;All input disease--reaction rows
+Rows after cofactor/pathway filter;10609;Rows belonging to diseases with at least one cofactor and at least one pathway
+Profile rows after complete 6-field filter;138;Distinct disease--profile records with Gene, Entry, EC, Rhea_ID, Cofactor, and Pathway
+Distinct valid diseases;117;Diseases with at least one complete reaction profile
+Targets (H = empty);32;Diseases without HPO_ID in the filtered dataset
+Donors (|H| > 0);85;Diseases with at least one HPO_ID in the filtered dataset
+Targets with exact donor match;10;HPO-unannotated targets sharing an identical profile set with at least one donor
+Targets with no exact match;22;HPO-unannotated targets with no identical donor profile
+Total output rows;517;Candidate rows plus no_match rows
+Candidate output rows;495;Rows with candidate HPO terms

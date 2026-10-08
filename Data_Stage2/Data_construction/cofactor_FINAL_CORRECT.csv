@@ -1,0 +1,467 @@
+EC number,Rhea ID,Pathway,Cofactor,Cofactor_type,CHEBI
+5.6.2.4,RHEA:13065,,Zn(2+),metal,CHEBI:29105
+2.5.1.26,RHEA:36171 RHEA:40659 RHEA:40727,Glycerolipid metabolism;ether lipid biosynthesis.,FAD,organic_cofactor,CHEBI:57692
+7.1.1.2,RHEA:29091,,[4Fe-4S] cluster,metal,CHEBI:49883
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+3.1.4.17,RHEA:14653 RHEA:16957 RHEA:25277,,Zn(2+),metal,CHEBI:29105
+2.7.1.137; 2.7.1.153; 2.7.1.154,RHEA:18373 RHEA:12709 RHEA:21292,,Ca(2+),metal,CHEBI:29108
+1.14.11.4,RHEA:16569,,Fe(2+),metal,CHEBI:29033
+3.1.3.11,RHEA:11064,Carbohydrate biosynthesis;gluconeogenesis.,Mg(2+),metal,CHEBI:18420
+2.7.1.35,RHEA:10224 RHEA:25104 RHEA:25108,Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxal 5'-phosphate from pyridoxal: step 1/1. .;Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxine 5'-phosphate from pyridoxine: step 1/1. .;Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxamine 5'-phosphate from pyridoxamine: step 1/1. .,Mg(2+),metal,CHEBI:18420
+2.7.7.6,RHEA:21248,,Mg(2+),metal,CHEBI:18420
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+1.14.11.18,RHEA:16065 RHEA:44000 RHEA:54596 RHEA:54600 RHEA:54604 RHEA:54612 RHEA:54616 RHEA:54620 RHEA:54624 RHEA:54628 RHEA:54632 RHEA:55172 RHEA:55176 RHEA:55180 RHEA:55184 RHEA:55192,Lipid metabolism;fatty acid metabolism.,Fe cation,metal,CHEBI:24875
+7.2.2.10,RHEA:18105,,Mg(2+),metal,CHEBI:18420
+2.7.10.1,RHEA:10596,,Mg(2+),metal,CHEBI:18420
+2.3.1.50,RHEA:14761 RHEA:33683 RHEA:35675 RHEA:35679,Lipid metabolism;sphingolipid metabolism. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+2.3.1.50,RHEA:14761 RHEA:33683,Lipid metabolism;sphingolipid metabolism.,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+3.1.3.16,RHEA:20629 RHEA:47004,,Mg(2+),metal,CHEBI:18420
+2.6.1.42,RHEA:18321 RHEA:24801 RHEA:24813,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.14.11.2,RHEA:18945,,Fe(2+),metal,CHEBI:29033
+1.14.15.18,RHEA:20573 RHEA:49064 RHEA:49068 RHEA:49048,Hormone biosynthesis;vitamin D biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+1.14.11.80,RHEA:52636 RHEA:53828 RHEA:53832,,Fe(2+),metal,CHEBI:29033
+1.5.5.2,RHEA:23784,Amino-acid degradation;L-proline degradation into L-glutamate;L-glutamate from L-proline: step 1/2.,FAD,organic_cofactor,CHEBI:57692
+4.6.1.1,RHEA:15389,,Mg(2+),metal,CHEBI:18420
+2.7.11.25,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+7.6.2.1,RHEA:38583 RHEA:38567,,Mg(2+),metal,CHEBI:18420
+2.3.2.13,RHEA:54816,,Ca(2+),metal,CHEBI:29108
+4.2.1.1,RHEA:10748,,Zn(2+),metal,CHEBI:29105
+1.14.11.65,RHEA:60188,,Fe(2+),metal,CHEBI:29033
+2.8.1.8,RHEA:16585,Protein modification;protein lipoylation via endogenous pathway;protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-protein]: step 2/2. .,[4Fe-4S] cluster,metal,CHEBI:49883
+2.4.1.223,RHEA:16221,Glycan metabolism;heparan sulfate biosynthesis. .,Mn(2+),metal,CHEBI:29035
+4.6.1.1,RHEA:15389,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.14.99.66,RHEA:60244,,FAD,organic_cofactor,CHEBI:57692
+6.2.1.15; 6.2.1.3,RHEA:15421 RHEA:19713 RHEA:30751 RHEA:36139 RHEA:52116 RHEA:52112 RHEA:52108 RHEA:52088 RHEA:52016 RHEA:52012 RHEA:52008,,Mg(2+),metal,CHEBI:18420
+1.14.11.4; 2.4.1.50; 2.4.1.66,RHEA:16569 RHEA:12637 RHEA:12576,,Fe(2+),metal,CHEBI:29033
+2.7.10.2,RHEA:10596,,Mg(2+),metal,CHEBI:18420
+2.4.1.83,RHEA:21184,Protein modification;protein glycosylation. .,Mg(2+),metal,CHEBI:18420
+7.1.1.2,RHEA:29091,,[4Fe-4S] cluster,metal,CHEBI:49883
+7.1.1.2,RHEA:29091,,[4Fe-4S] cluster,metal,CHEBI:49883
+2.7.7.49; 2.7.7.7; 3.6.4.12,RHEA:22508 RHEA:13065 RHEA:22508,,Mg(2+),metal,CHEBI:18420
+1.14.19.20,RHEA:54320 RHEA:46556 RHEA:47184,Steroid biosynthesis;cholesterol biosynthesis. .,Fe cation,metal,CHEBI:24875
+1.1.1.42,RHEA:19629,,Mg(2+),metal,CHEBI:18420
+1.14.14.26; 1.14.14.29,RHEA:24308 RHEA:19041 RHEA:46124 RHEA:46464 RHEA:46460 RHEA:46204 RHEA:46200 RHEA:46192 RHEA:43896 RHEA:46196,Lipid metabolism;bile acid biosynthesis. .;Steroid hormone biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+5.6.2.4,RHEA:13065,,Zn(2+),metal,CHEBI:29105
+2.4.1.135,RHEA:24168,Protein modification;protein glycosylation.,Mn(2+),metal,CHEBI:29035
+1.14.11.66,RHEA:60200,,Fe(2+),metal,CHEBI:29033
+3.1.4.53,RHEA:25277,"Purine metabolism;3',5'-cyclic AMP degradation;AMP from 3',5'-cyclic AMP: step 1/1.",a divalent metal cation,metal,CHEBI:60240
+5.4.2.3,RHEA:23804,Nucleotide-sugar biosynthesis;UDP-N-acetyl-alpha-D-glucosamine biosynthesis;N-acetyl-alpha-D-glucosamine 1-phosphate from alpha-D-glucosamine 6-phosphate (route I): step 2/2. .,Mg(2+),metal,CHEBI:18420
+2.7.7.80; 2.8.1.11,RHEA:43616 RHEA:48612,tRNA modification;5-methoxycarbonylmethyl-2-thiouridine-tRNA biosynthesis. .;Cofactor biosynthesis;molybdopterin biosynthesis. .,Zn(2+),metal,CHEBI:29105
+4.1.2.27,RHEA:18593 RHEA:33507,Lipid metabolism;sphingolipid metabolism. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.13.11.18,RHEA:12981,,Fe(2+),metal,CHEBI:29033
+2.7.7.6,RHEA:21248,,Mg(2+),metal,CHEBI:18420
+4.6.1.1,RHEA:15389,,Mg(2+),metal,CHEBI:18420
+3.1.3.48,RHEA:10684,,Mg(2+),metal,CHEBI:18420
+2.3.2.13,RHEA:54816,,Ca(2+),metal,CHEBI:29108
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.6.2.2,RHEA:46680 RHEA:46680,,FAD,organic_cofactor,CHEBI:57692
+1.8.1.7,RHEA:11740,,FAD,organic_cofactor,CHEBI:57692
+7.1.1.9,RHEA:11436,Energy metabolism;oxidative phosphorylation. .,heme,organic_cofactor,CHEBI:30413
+7.1.1.9,RHEA:11436,,Cu cation,metal,CHEBI:23378
+1.14.16.1,RHEA:20273,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 1/6.,Fe(2+),metal,CHEBI:29033
+1.15.1.1,RHEA:20696,,Cu cation,metal,CHEBI:23378
+1.11.1.27; 1.11.1.9; 1.16.3.1; 1.16.3.4,RHEA:11148 RHEA:30083 RHEA:62632 RHEA:78539 RHEA:16833,,Cu(2+),metal,CHEBI:29036
+2.3.2.13,RHEA:54816,,Ca(2+),metal,CHEBI:29108
+2.4.2.8,RHEA:17973 RHEA:25424,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from hypoxanthine: step 1/1.,Mg(2+),metal,CHEBI:18420
+2.6.1.1; 2.6.1.7,RHEA:21824 RHEA:65560,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+2.7.10.2,RHEA:10596,,Mg(2+),metal,CHEBI:18420
+2.7.11.1; 2.7.2.3,RHEA:14801 RHEA:17989,Carbohydrate degradation;glycolysis;pyruvate from D-glyceraldehyde 3-phosphate: step 2/5. .,Mg(2+),metal,CHEBI:18420
+2.7.4.3; 2.7.4.4; 2.7.4.6,RHEA:24036 RHEA:12973 RHEA:23100 RHEA:79899 RHEA:78311 RHEA:44640 RHEA:18113 RHEA:79859 RHEA:27686 RHEA:25098 RHEA:79863 RHEA:79867 RHEA:79875 RHEA:27690 RHEA:79871 RHEA:69180,,Mg(2+),metal,CHEBI:18420
+3.5.4.4,RHEA:24408 RHEA:28190 RHEA:79047,,Zn(2+),metal,CHEBI:29105
+4.2.1.1; 4.2.1.69,RHEA:10748 RHEA:23056,,Zn(2+),metal,CHEBI:29105
+2.7.7.84,RHEA:34407,,Mg(2+),metal,CHEBI:18420
+1.11.1.6,RHEA:20309,,heme,organic_cofactor,CHEBI:30413
+2.7.11.1,RHEA:17989 RHEA:46608,,Zn(2+),metal,CHEBI:29105
+1.15.1.1,RHEA:20696,,Mn(2+),metal,CHEBI:29035
+2.6.1.13,RHEA:25160,Amino-acid biosynthesis;L-proline biosynthesis;L-glutamate 5-semialdehyde from L-ornithine: step 1/1. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+3.5.3.1,RHEA:20569,Nitrogen metabolism;urea cycle;L-ornithine and urea from L-arginine: step 1/1. .,Mn(2+),metal,CHEBI:29035
+1.14.14.19; 1.14.14.32,RHEA:65760 RHEA:46308 RHEA:50236 RHEA:14753 RHEA:53216 RHEA:53220 RHEA:50244 RHEA:53224 RHEA:47220 RHEA:53228,Steroid hormone biosynthesis. .;Steroid biosynthesis;glucocorticoid biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+1.14.15.6,RHEA:35739 RHEA:34335 RHEA:34339 RHEA:34343,Lipid metabolism;C21-steroid hormone metabolism. .;Steroid metabolism;cholesterol metabolism. .,heme,organic_cofactor,CHEBI:30413
+2.7.11.13,RHEA:17989 RHEA:46608,,Ca(2+),metal,CHEBI:29108
+1.11.2.2,RHEA:28218,,Ca(2+),metal,CHEBI:29108
+6.4.1.3,RHEA:23720 RHEA:59520,Metabolic intermediate metabolism;propanoyl-CoA degradation;succinyl-CoA from propanoyl-CoA: step 1/3. .,Mg(2+),metal,CHEBI:18420
+3.1.3.1; 3.9.1.1,RHEA:15017 RHEA:24576 RHEA:20533 RHEA:16089 RHEA:12977 RHEA:13065 RHEA:61436 RHEA:29375,,Mg(2+),metal,CHEBI:18420
+7.1.2.2,RHEA:57720,,Mg(2+),metal,CHEBI:18420
+2.4.1.1,RHEA:41732,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.14.16.2,RHEA:18201,Catecholamine biosynthesis;dopamine biosynthesis;dopamine from L-tyrosine: step 1/2. .,Fe(2+),metal,CHEBI:29033
+1.11.1.8,RHEA:23336 RHEA:48956 RHEA:48960 RHEA:48964 RHEA:48968,Hormone biosynthesis;thyroid hormone biosynthesis.,Ca(2+),metal,CHEBI:29108
+2.7.7.12,RHEA:13989,Carbohydrate metabolism;galactose metabolism. .,Zn(2+),metal,CHEBI:29105
+2.7.10.1,RHEA:10596,,Ca(2+),metal,CHEBI:29108
+2.7.1.11,RHEA:16109,Carbohydrate degradation;glycolysis;D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 3/4. .,Mg(2+),metal,CHEBI:18420
+3.4.24.11,RHEA:71459 RHEA:71467 RHEA:71475 RHEA:71479,,Zn(2+),metal,CHEBI:29105
+7.1.1.8,RHEA:11484,,heme c,organic_cofactor,CHEBI:61717
+1.14.14.1; 1.14.14.55; 1.14.14.56; 1.14.14.73,RHEA:17149 RHEA:47212 RHEA:47280 RHEA:47332 RHEA:47336 RHEA:47208 RHEA:47292 RHEA:47204 RHEA:53260 RHEA:53264 RHEA:46296 RHEA:53444 RHEA:53212 RHEA:53200 RHEA:47256 RHEA:47252 RHEA:47260 RHEA:55832 RHEA:55828 RHEA:50256 RHEA:46128 RHEA:46140 RHEA:46144 RHEA:50264 RHEA:52284 RHEA:52288 RHEA:52296 RHEA:52292 RHEA:49860 RHEA:49856 RHEA:39779 RHEA:52120 RHEA:52124 RHEA:53140 RHEA:53144 RHEA:53148 RHEA:42092 RHEA:51984 RHEA:20149 RHEA:55928 RHEA:55924 RHEA:32895 RHEA:49160,Steroid hormone biosynthesis. .;Cofactor metabolism;retinol metabolism. .;Steroid metabolism;cholesterol metabolism. .;Lipid metabolism;fatty acid metabolism. .,heme,organic_cofactor,CHEBI:30413
+1.14.14.16,RHEA:50304 RHEA:50308,,heme b,organic_cofactor,CHEBI:60344
+3.1.6.2,RHEA:19873 RHEA:31055,,Ca(2+),metal,CHEBI:29108
+1.14.17.1,RHEA:19117,Catecholamine biosynthesis;(R)-noradrenaline biosynthesis;(R)-noradrenaline from dopamine: step 1/1. .,Cu(2+),metal,CHEBI:29036
+3.1.3.11,RHEA:11064,Carbohydrate biosynthesis;gluconeogenesis.,Mg(2+),metal,CHEBI:18420
+1.8.1.4,RHEA:15045,,FAD,organic_cofactor,CHEBI:57692
+2.3.1.12,RHEA:17017,,(R)-lipoate,organic_cofactor,CHEBI:83088
+2.3.1.168,RHEA:18865,,(R)-lipoate,organic_cofactor,CHEBI:83088
+2.4.1.1,RHEA:41732,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.3.8.7,RHEA:14477 RHEA:43456 RHEA:43464 RHEA:48180 RHEA:48176 RHEA:47296 RHEA:47316 RHEA:43448,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .,FAD,organic_cofactor,CHEBI:57692
+1.14.14.14,RHEA:38191 RHEA:38195 RHEA:38199 RHEA:38203 RHEA:38207 RHEA:47208 RHEA:53200 RHEA:53204 RHEA:53276,Steroid hormone biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+1.11.1.7,RHEA:56136,,Ca(2+),metal,CHEBI:29108
+4.1.1.17,RHEA:22964,Amine and polyamine biosynthesis;putrescine biosynthesis via L-ornithine pathway;putrescine from L-ornithine: step 1/1.,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+3.4.15.1,RHEA:63560 RHEA:71451 RHEA:71459 RHEA:71463 RHEA:71471 RHEA:71475 RHEA:71455 RHEA:71483 RHEA:71487 RHEA:70675,,Zn(2+),metal,CHEBI:29105
+3.4.13.9,RHEA:76407,,Mn(2+),metal,CHEBI:29035
+3.1.3.2,RHEA:15017,,Fe cation,metal,CHEBI:24875
+4.2.1.24,RHEA:24064,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;coproporphyrinogen-III from 5-aminolevulinate: step 1/4. .,Zn(2+),metal,CHEBI:29105
+4.2.1.11,RHEA:10164,Carbohydrate degradation;glycolysis;pyruvate from D-glyceraldehyde 3-phosphate: step 4/5. .,Mg(2+),metal,CHEBI:18420
+2.5.1.1; 2.5.1.10,RHEA:22408 RHEA:19361,Isoprenoid biosynthesis;farnesyl diphosphate biosynthesis;farnesyl diphosphate from geranyl diphosphate and isopentenyl diphosphate: step 1/1.;Isoprenoid biosynthesis;geranyl diphosphate biosynthesis;geranyl diphosphate from dimethylallyl diphosphate and isopentenyl diphosphate: step 1/1.,Mg(2+),metal,CHEBI:18420
+1.14.18.1,RHEA:34287 RHEA:18117 RHEA:68388,,Cu(2+),metal,CHEBI:29036
+1.4.3.3,RHEA:21816 RHEA:22688 RHEA:78791 RHEA:70971 RHEA:78211 RHEA:37583 RHEA:78207 RHEA:70963 RHEA:78259 RHEA:70951 RHEA:78247 RHEA:78203,,FAD,organic_cofactor,CHEBI:57692
+2.7.11.1,RHEA:17989 RHEA:46608,,Zn(2+),metal,CHEBI:29105
+2.3.1.225; 6.3.1.2,RHEA:16169 RHEA:36683,,Mg(2+),metal,CHEBI:18420
+3.1.6.8,RHEA:21300,,Ca(2+),metal,CHEBI:29108
+1.14.15.4,RHEA:15629 RHEA:46100 RHEA:46104,Steroid biosynthesis;glucocorticoid biosynthesis. .;Steroid hormone biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+1.3.8.1,RHEA:47196 RHEA:24004 RHEA:43456 RHEA:43464,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .,FAD,organic_cofactor,CHEBI:57692
+1.6.2.4,RHEA:24040,,FAD,organic_cofactor,CHEBI:57692
+3.1.4.35,RHEA:16957,,a divalent metal cation,metal,CHEBI:60240
+7.2.2.10,RHEA:18105,,Mg(2+),metal,CHEBI:18420
+3.1.4.11,RHEA:33179,,Ca(2+),metal,CHEBI:29108
+3.7.1.2,RHEA:10244,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 6/6.,Ca(2+),metal,CHEBI:29108
+3.1.4.12; 3.1.4.3,RHEA:19253 RHEA:54284 RHEA:45304 RHEA:10604 RHEA:19253,,Zn(2+),metal,CHEBI:29105
+2.6.1.5,RHEA:15093,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 2/6.,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+5.6.2.3,RHEA:13065,,Mg(2+),metal,CHEBI:18420
+1.14.15.4; 1.14.15.5,RHEA:15629 RHEA:46104 RHEA:11872 RHEA:50792 RHEA:46100 RHEA:76151 RHEA:76019 RHEA:76023,Steroid biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+3.1.4.11,RHEA:33179 RHEA:43484,,Ca(2+),metal,CHEBI:29108
+7.1.1.2,RHEA:29091,,[2Fe-2S] cluster,metal,CHEBI:190135
+2.7.10.2; 2.7.11.1,RHEA:17989 RHEA:46608 RHEA:10596,,Mg(2+),metal,CHEBI:18420
+4.1.1.28,RHEA:12272 RHEA:18533,Catecholamine biosynthesis;dopamine biosynthesis;dopamine from L-tyrosine: step 2/2. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.1.1.205,RHEA:11708,Purine metabolism;XMP biosynthesis via de novo pathway;XMP from IMP: step 1/1. .,K(+),metal,CHEBI:29103
+1.4.3.21; 1.4.3.4,RHEA:26414 RHEA:51168 RHEA:16153 RHEA:27946 RHEA:30591 RHEA:69076 RHEA:69072 RHEA:59596 RHEA:59416 RHEA:25265,,FAD,organic_cofactor,CHEBI:57692
+2.6.1.44; 2.6.1.51,RHEA:22852 RHEA:24248,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+3.1.3.35; 3.1.3.5; 3.1.3.89; 3.1.3.91; 3.1.3.99,RHEA:12484 RHEA:36167 RHEA:11080 RHEA:29367 RHEA:27718 RHEA:29375 RHEA:27714 RHEA:29359 RHEA:29371 RHEA:29363,,Zn(2+),metal,CHEBI:29105
+2.3.1.48; 2.7.11.1,RHEA:17989 RHEA:46608 RHEA:45948,,Mg(2+),metal,CHEBI:18420
+2.1.1.6,RHEA:17877 RHEA:53108 RHEA:53104 RHEA:53100 RHEA:53096 RHEA:53092 RHEA:53088,,Mg(2+),metal,CHEBI:18420
+3.1.4.1; 3.6.1.9,RHEA:23996 RHEA:14245 RHEA:29395 RHEA:29391 RHEA:27762 RHEA:58808 RHEA:32039 RHEA:25277,,Zn(2+),metal,CHEBI:29105
+2.3.1.37,RHEA:12921 RHEA:12921 RHEA:12921 RHEA:12921,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;5-aminolevulinate from glycine: step 1/1. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+2.7.11.11,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.3.2.13,RHEA:54816,,Ca(2+),metal,CHEBI:29108
+4.2.1.1,RHEA:10748,,Zn(2+),metal,CHEBI:29105
+4.98.1.1,RHEA:22584,Porphyrin-containing compound metabolism;protoheme biosynthesis;protoheme from protoporphyrin-IX: step 1/1. .,[2Fe-2S] cluster,metal,CHEBI:190135
+3.5.4.6,RHEA:14777,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from AMP: step 1/1. .,Zn(2+),metal,CHEBI:29105
+1.4.4.2,RHEA:24304,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+2.7.10.2,RHEA:10596,,Mg(2+),metal,CHEBI:18420
+3.13.2.1,RHEA:21708,Amino-acid biosynthesis;L-homocysteine biosynthesis;L-homocysteine from S-adenosyl-L-homocysteine: step 1/1.,NAD(+),organic_cofactor,CHEBI:57540
+2.7.4.9,RHEA:13517,Pyrimidine metabolism;dTTP biosynthesis. .,Mg(2+),metal,CHEBI:18420
+4.2.1.152; 5.3.99.5,RHEA:17137 RHEA:48644 RHEA:55556 RHEA:48636 RHEA:48856,Lipid metabolism;fatty acid metabolism. .,heme,organic_cofactor,CHEBI:30413
+2.7.7.48; 2.7.7.6; 3.1.13.-,RHEA:21248 RHEA:21248 RHEA:77763,,Mg(2+),metal,CHEBI:18420
+1.3.8.1; 1.3.8.4,RHEA:12276 RHEA:43456 RHEA:43464 RHEA:24004,Amino-acid degradation;L-leucine degradation;(S)-3-hydroxy-3-methylglutaryl-CoA from 3-isovaleryl-CoA: step 1/3.,FAD,organic_cofactor,CHEBI:57692
+3.1.1.2; 3.1.1.81; 3.1.8.1,RHEA:17309 RHEA:22576,,Ca(2+),metal,CHEBI:29108
+2.1.3.2; 3.5.1.2; 3.5.2.3; 6.3.4.16; 6.3.5.5,RHEA:18633 RHEA:15889 RHEA:18029 RHEA:20013 RHEA:24296,Pyrimidine metabolism;UMP biosynthesis via de novo pathway;(S)-dihydroorotate from bicarbonate: step 1/3. .;Pyrimidine metabolism;UMP biosynthesis via de novo pathway;(S)-dihydroorotate from bicarbonate: step 2/3. .;Pyrimidine metabolism;UMP biosynthesis via de novo pathway;(S)-dihydroorotate from bicarbonate: step 3/3. .,Zn(2+),metal,CHEBI:29105
+1.4.3.13,RHEA:24544,,Cu cation,metal,CHEBI:23378
+7.1.1.2,RHEA:29091,,[2Fe-2S] cluster,metal,CHEBI:190135
+2.7.7.7; 3.1.11.-,RHEA:22508,,[4Fe-4S] cluster,metal,CHEBI:49883
+2.7.11.24,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.1.3.25; 3.1.3.94,RHEA:24056 RHEA:27670 RHEA:44152 RHEA:30739 RHEA:30735 RHEA:44156 RHEA:44160 RHEA:82131 RHEA:29315 RHEA:19933 RHEA:16689 RHEA:35603 RHEA:13105 RHEA:37343,Polyol metabolism;myo-inositol biosynthesis;myo-inositol from D-glucose 6-phosphate: step 2/2.,Mg(2+),metal,CHEBI:18420
+1.14.11.67,RHEA:60208,,Fe(2+),metal,CHEBI:29033
+2.2.1.1,RHEA:10508,,Mg(2+),metal,CHEBI:18420
+1.14.13.39,RHEA:19897,,heme b,organic_cofactor,CHEBI:60344
+2.7.1.40,RHEA:18157,Carbohydrate degradation;glycolysis;pyruvate from D-glyceraldehyde 3-phosphate: step 5/5. .,Mg(2+),metal,CHEBI:18420
+1.14.13.148; 1.14.13.32; 1.14.13.8,RHEA:31979 RHEA:24468 RHEA:69819 RHEA:58720 RHEA:10796,,FAD,organic_cofactor,CHEBI:57692
+1.13.11.27,RHEA:16189,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 3/6.,Fe cation,metal,CHEBI:24875
+4.4.1.1; 4.4.1.2,RHEA:14005 RHEA:24931 RHEA:14501 RHEA:24923 RHEA:31151,Amino-acid biosynthesis;L-cysteine biosynthesis;L-cysteine from L-homocysteine and L-serine: step 2/2. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+3.6.1.23,RHEA:10248,Pyrimidine metabolism;dUMP biosynthesis;dUMP from dCTP (dUTP route): step 2/2. .,Mg(2+),metal,CHEBI:18420
+2.1.2.1,RHEA:15481,One-carbon metabolism;tetrahydrofolate interconversion. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+5.3.1.8,RHEA:12356,Nucleotide-sugar biosynthesis;GDP-alpha-D-mannose biosynthesis;alpha-D-mannose 1-phosphate from D-fructose 6-phosphate: step 1/2.,Zn(2+),metal,CHEBI:29105
+4.2.1.1,RHEA:10748,,Zn(2+),metal,CHEBI:29105
+4.2.1.22,RHEA:10112,Amino-acid biosynthesis;L-cysteine biosynthesis;L-cysteine from L-homocysteine and L-serine: step 1/2. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+3.1.4.35,RHEA:16957,,a divalent metal cation,metal,CHEBI:60240
+4.1.3.4,RHEA:24404,Metabolic intermediate metabolism;(S)-3-hydroxy-3-methylglutaryl-CoA degradation;acetoacetate from (S)-3-hydroxy-3-methylglutaryl-CoA: step 1/1.,a divalent metal cation,metal,CHEBI:60240
+2.7.12.2,RHEA:17989 RHEA:46608 RHEA:10596,,Mg(2+),metal,CHEBI:18420
+5.4.2.2,RHEA:23536 RHEA:68748 RHEA:68752,,Mg(2+),metal,CHEBI:18420
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+2.3.1.61,RHEA:15213,Amino-acid degradation;L-lysine degradation via saccharopine pathway;glutaryl-CoA from L-lysine: step 6/6.;Carbohydrate metabolism;tricarboxylic acid cycle. .,(R)-lipoate,organic_cofactor,CHEBI:83088
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+2.5.1.21,RHEA:32295 RHEA:32299 RHEA:22672 RHEA:22228 RHEA:22232,Terpene metabolism;lanosterol biosynthesis;lanosterol from farnesyl diphosphate: step 1/3. .,Mg(2+),metal,CHEBI:18420
+3.1.1.4,RHEA:15801 RHEA:38779 RHEA:40427 RHEA:40815 RHEA:40431 RHEA:41215 RHEA:44524 RHEA:45424 RHEA:40467 RHEA:40463,Lipid metabolism;phospholipid metabolism. .;Lipid metabolism;leukotriene B4 biosynthesis. .;Lipid metabolism;leukotriene C4 biosynthesis. .,Ca(2+),metal,CHEBI:29108
+5.3.3.12,RHEA:13041,Pigment biosynthesis;melanin biosynthesis. .,Zn(2+),metal,CHEBI:29105
+1.14.11.67,RHEA:60208,,Fe(2+),metal,CHEBI:29033
+1.5.1.53,RHEA:19817,One-carbon metabolism;tetrahydrofolate interconversion. .,FAD,organic_cofactor,CHEBI:57692
+3.5.1.15,RHEA:10872 RHEA:59408,,Zn(2+),metal,CHEBI:29105
+1.3.8.5,RHEA:43780 RHEA:48256 RHEA:65296 RHEA:24004 RHEA:44180 RHEA:43464 RHEA:48272 RHEA:65344,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .;Amino-acid degradation;L-isoleucine degradation. .,FAD,organic_cofactor,CHEBI:57692
+5.6.2.4,RHEA:13065 RHEA:51908,,Mg(2+),metal,CHEBI:18420
+3.6.4.6,RHEA:13065,,Mg(2+),metal,CHEBI:18420
+1.13.11.6,RHEA:17953,Cofactor biosynthesis;NAD(+) biosynthesis;quinolinate from L-kynurenine: step 3/3. .,Fe(2+),metal,CHEBI:29033
+2.4.1.186,RHEA:23360 RHEA:56560,Glycan biosynthesis;glycogen biosynthesis. .,Mn(2+),metal,CHEBI:29035
+2.4.99.18,RHEA:22980,Protein modification;protein glycosylation. .,Mg(2+),metal,CHEBI:18420
+7.1.1.8,RHEA:11484,,[2Fe-2S] cluster,metal,CHEBI:190135
+1.17.1.4; 1.17.3.2,RHEA:16669 RHEA:24670 RHEA:21132,,[2Fe-2S] cluster,metal,CHEBI:190135
+6.3.2.3,RHEA:13557 RHEA:72075,Sulfur metabolism;glutathione biosynthesis;glutathione from L-cysteine and L-glutamate: step 2/2. .,Mg(2+),metal,CHEBI:18420
+1.1.1.42,RHEA:19629,,Mg(2+),metal,CHEBI:18420
+1.13.11.11,RHEA:24536,Amino-acid degradation;L-tryptophan degradation via kynurenine pathway;L-kynurenine from L-tryptophan: step 1/2. .,heme,organic_cofactor,CHEBI:30413
+2.7.11.22; 2.7.11.23,RHEA:17989 RHEA:46608 RHEA:10216,,Mg(2+),metal,CHEBI:18420
+2.5.1.46,RHEA:33299,Protein modification;eIF5A hypusination. .,NAD(+),organic_cofactor,CHEBI:57540
+6.1.1.16,RHEA:17773,,Zn(2+),metal,CHEBI:29105
+3.1.3.16,RHEA:20629 RHEA:47004,,Mg(2+),metal,CHEBI:18420
+1.3.8.9,RHEA:19181 RHEA:48176 RHEA:47296 RHEA:47316 RHEA:43448 RHEA:47240 RHEA:47236 RHEA:47228 RHEA:47232 RHEA:19181 RHEA:47316 RHEA:43448 RHEA:47304 RHEA:47240 RHEA:47300 RHEA:47236,Lipid metabolism;mitochondrial fatty acid beta-oxidation. .,FAD,organic_cofactor,CHEBI:57692
+7.1.1.2,RHEA:29091,,FMN,organic_cofactor,CHEBI:58210
+2.7.1.77; 3.1.3.5; 3.1.3.99,RHEA:12484 RHEA:19961 RHEA:27718 RHEA:27714 RHEA:29383 RHEA:29379 RHEA:28530 RHEA:69584 RHEA:69580 RHEA:69572 RHEA:69588 RHEA:69592 RHEA:69596,,Mg(2+),metal,CHEBI:18420
+6.3.3.2,RHEA:10488,,Mg(2+),metal,CHEBI:18420
+6.3.5.2,RHEA:11680,Purine metabolism;GMP biosynthesis;GMP from XMP (L-Gln route): step 1/1.,Mg(2+),metal,CHEBI:18420
+3.6.1.5,RHEA:36795 RHEA:23680 RHEA:36799 RHEA:20988 RHEA:13065 RHEA:61436 RHEA:64908 RHEA:29387 RHEA:64880 RHEA:64904 RHEA:19669 RHEA:22156 RHEA:77735 RHEA:28330 RHEA:35207 RHEA:64896 RHEA:64900 RHEA:64876,,Ca(2+),metal,CHEBI:29108
+1.1.1.41,RHEA:23632,,Mg(2+),metal,CHEBI:18420
+1.3.3.4,RHEA:25576,Porphyrin-containing compound metabolism;protoporphyrin-IX biosynthesis;protoporphyrin-IX from protoporphyrinogen-IX: step 1/1. .,FAD,organic_cofactor,CHEBI:57692
+3.6.1.17,RHEA:22484 RHEA:67592 RHEA:67588,,a divalent metal cation,metal,CHEBI:60240
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+3.1.4.35,RHEA:16957,,a divalent metal cation,metal,CHEBI:60240
+3.1.4.11,RHEA:33179 RHEA:43484,,Ca(2+),metal,CHEBI:29108
+1.8.3.1,RHEA:24600,Energy metabolism;sulfur metabolism. .,heme b,organic_cofactor,CHEBI:60344
+3.10.1.1,RHEA:17881,,Ca(2+),metal,CHEBI:29108
+3.1.6.1,RHEA:17261,,Ca(2+),metal,CHEBI:29108
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.3.1.24,RHEA:15797 RHEA:15793,Porphyrin-containing compound metabolism;protoheme degradation.,Zn(2+),metal,CHEBI:29105
+2.7.11.24,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.11.24,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.7.7; 3.1.11.-; 4.2.99.-,RHEA:22508 RHEA:77911 RHEA:76255,,Mg(2+),metal,CHEBI:18420
+5.6.2.4,RHEA:13065,,Zn(2+),metal,CHEBI:29105
+2.7.1.20,RHEA:20824,Purine metabolism;AMP biosynthesis via salvage pathway;AMP from adenosine: step 1/1.,Mg(2+),metal,CHEBI:18420
+1.8.3.2,RHEA:17357,,FAD,organic_cofactor,CHEBI:57692
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.6.1,RHEA:15609,Metabolic intermediate biosynthesis;5-phospho-alpha-D-ribose 1-diphosphate biosynthesis;5-phospho-alpha-D-ribose 1-diphosphate from D-ribose 5-phosphate (route I): step 1/1. .,Mg(2+),metal,CHEBI:18420
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+3.1.3.16; 3.1.3.53,RHEA:20629 RHEA:47004 RHEA:12849 RHEA:53988,,Mn(2+),metal,CHEBI:29035
+3.1.3.16,RHEA:20629 RHEA:47004,,Mn(2+),metal,CHEBI:29035
+1.14.14.1; 1.14.14.78; 1.14.14.79; 1.14.14.94,RHEA:17149 RHEA:39755 RHEA:50164 RHEA:39791 RHEA:40155 RHEA:53572 RHEA:53552 RHEA:53556 RHEA:53568 RHEA:53564 RHEA:48660 RHEA:48664 RHEA:49376 RHEA:40079 RHEA:39055 RHEA:39043 RHEA:39719 RHEA:40083 RHEA:39059 RHEA:39047 RHEA:39735 RHEA:39731 RHEA:22176 RHEA:48676 RHEA:48648 RHEA:41520 RHEA:41516 RHEA:45108 RHEA:45112,Lipid metabolism;arachidonate metabolism. .;Lipid metabolism;leukotriene B4 degradation. .;Cofactor degradation;phylloquinone degradation. .,heme,organic_cofactor,CHEBI:30413
+3.1.3.3,RHEA:21208 RHEA:24873,Amino-acid biosynthesis;L-serine biosynthesis;L-serine from 3-phospho-D-glycerate: step 3/3. .,Mg(2+),metal,CHEBI:18420
+2.7.11.25,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.6.1.19; 2.6.1.22,RHEA:23352 RHEA:13993,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+7.6.2.1,RHEA:38567 RHEA:66132,,Mg(2+),metal,CHEBI:18420
+2.5.1.6,RHEA:21080,Amino-acid biosynthesis;S-adenosyl-L-methionine biosynthesis;S-adenosyl-L-methionine from L-methionine: step 1/1. .,Mg(2+),metal,CHEBI:18420
+3.5.4.6,RHEA:14777,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from AMP: step 1/1. .,Zn(2+),metal,CHEBI:29105
+3.5.4.6,RHEA:14777,Purine metabolism;IMP biosynthesis via salvage pathway;IMP from AMP: step 1/1. .,Zn(2+),metal,CHEBI:29105
+3.1.4.11,RHEA:33179 RHEA:43484,,Ca(2+),metal,CHEBI:29108
+2.7.10.1,RHEA:10596,,Mg(2+),metal,CHEBI:18420
+4.6.1.2,RHEA:13665,,Mg(2+),metal,CHEBI:18420
+1.3.5.2,RHEA:30187,Pyrimidine metabolism;UMP biosynthesis via de novo pathway;orotate from (S)-dihydroorotate (quinone route): step 1/1.,FMN,organic_cofactor,CHEBI:58210
+1.14.15.15,RHEA:34631 RHEA:53812 RHEA:47380 RHEA:47376 RHEA:47344 RHEA:46588 RHEA:40231 RHEA:46400 RHEA:46436 RHEA:46432 RHEA:46428 RHEA:45236 RHEA:46092 RHEA:34627 RHEA:14373,Hormone biosynthesis;cholecalciferol biosynthesis. .;Steroid metabolism;cholesterol degradation. .;Lipid metabolism;bile acid biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+1.14.11.4,RHEA:16569,,Fe(2+),metal,CHEBI:29033
+3.5.1.14,RHEA:15565 RHEA:67440 RHEA:67368,,Zn(2+),metal,CHEBI:29105
+4.2.3.12,RHEA:22048,"Cofactor biosynthesis;tetrahydrobiopterin biosynthesis;tetrahydrobiopterin from 7,8-dihydroneopterin triphosphate: step 1/3.",Zn(2+),metal,CHEBI:29105
+2.7.1.36,RHEA:17065,Isoprenoid biosynthesis;isopentenyl diphosphate biosynthesis via mevalonate pathway;isopentenyl diphosphate from (R)-mevalonate: step 1/3. .,Mg(2+),metal,CHEBI:18420
+7.4.2.14,RHEA:65972,,Mg(2+),metal,CHEBI:18420
+7.4.2.14,RHEA:65972,,Mg(2+),metal,CHEBI:18420
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+2.7.10.2,RHEA:10596,,Zn(2+),metal,CHEBI:29105
+1.14.15.16,RHEA:24964 RHEA:24972 RHEA:24976 RHEA:24984 RHEA:24988 RHEA:49192 RHEA:24968 RHEA:49196 RHEA:49268 RHEA:46616 RHEA:49212 RHEA:49204 RHEA:49396,,heme,organic_cofactor,CHEBI:30413
+2.3.2.13,RHEA:54816,,Ca(2+),metal,CHEBI:29108
+3.1.3.16,RHEA:20629 RHEA:47004,,Fe(3+),metal,CHEBI:29034
+1.4.3.13,RHEA:24544,,Cu cation,metal,CHEBI:23378
+3.1.4.53,RHEA:25277,"Purine metabolism;3',5'-cyclic AMP degradation;AMP from 3',5'-cyclic AMP: step 1/1. .",Zn(2+),metal,CHEBI:29105
+4.6.1.1,RHEA:15389,,Mg(2+),metal,CHEBI:18420
+2.7.10.2,RHEA:10596,,Zn(2+),metal,CHEBI:29105
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.4.1.143,RHEA:12941,Protein modification;protein glycosylation. .,Mn(2+),metal,CHEBI:29035
+2.4.1.41,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation. .,Mn(2+),metal,CHEBI:29035
+1.14.11.16,RHEA:11508,,Fe cation,metal,CHEBI:24875
+1.3.1.2,RHEA:18093 RHEA:58284,Amino-acid biosynthesis;beta-alanine biosynthesis. .,FAD,organic_cofactor,CHEBI:57692
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+6.4.1.2,RHEA:11308,Lipid metabolism;malonyl-CoA biosynthesis;malonyl-CoA from acetyl-CoA: step 1/1. .,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.4.6,RHEA:44640 RHEA:18113,,Mg(2+),metal,CHEBI:18420
+2.3.2.27; 2.7.11.25,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mn(2+),metal,CHEBI:29035
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+3.5.2.2,RHEA:16121,,Zn(2+),metal,CHEBI:29105
+3.1.4.17,RHEA:14653 RHEA:16957 RHEA:25277,,Zn(2+),metal,CHEBI:29105
+5.1.3.2; 5.1.3.7,RHEA:22168 RHEA:20517,Carbohydrate metabolism;galactose metabolism.,NAD(+),organic_cofactor,CHEBI:57540
+3.1.4.17,RHEA:14653 RHEA:25277 RHEA:16957 RHEA:70575,,Mn(2+),metal,CHEBI:29035
+2.4.1.41,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation.,Mn(2+),metal,CHEBI:29035
+3.1.3.4,RHEA:27429 RHEA:27429 RHEA:43296 RHEA:43292 RHEA:43288 RHEA:43284 RHEA:43280 RHEA:33335 RHEA:43260 RHEA:43256 RHEA:41255 RHEA:43252 RHEA:43248 RHEA:43240 RHEA:43244 RHEA:43236 RHEA:27429 RHEA:43296 RHEA:43292 RHEA:43288 RHEA:43284 RHEA:43280 RHEA:43260 RHEA:43256 RHEA:41255 RHEA:43252 RHEA:43248 RHEA:43240 RHEA:43244 RHEA:27429 RHEA:43296 RHEA:43292 RHEA:43288 RHEA:43284 RHEA:43280 RHEA:43260 RHEA:43256 RHEA:41255 RHEA:43252 RHEA:43248 RHEA:43240 RHEA:43244,,Mg(2+),metal,CHEBI:18420
+1.3.3.6,RHEA:38959 RHEA:38959 RHEA:38959 RHEA:40167 RHEA:40167 RHEA:40171 RHEA:40171 RHEA:40175 RHEA:40175 RHEA:40179 RHEA:40179 RHEA:40183 RHEA:40275 RHEA:40275 RHEA:69643 RHEA:69643 RHEA:40319 RHEA:40315 RHEA:40311 RHEA:38971 RHEA:39119,Lipid metabolism;peroxisomal fatty acid beta-oxidation. .,FAD,organic_cofactor,CHEBI:57692
+2.7.11.13,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.1.4.11,RHEA:33179 RHEA:43484,,Ca(2+),metal,CHEBI:29108
+1.3.1.72,RHEA:36391 RHEA:33919 RHEA:36399,Steroid biosynthesis;cholesterol biosynthesis. .,FAD,organic_cofactor,CHEBI:57692
+2.7.11.18,RHEA:22004 RHEA:53900,,Mg(2+),metal,CHEBI:18420
+1.14.18.9,RHEA:55220 RHEA:55244 RHEA:47056 RHEA:62768 RHEA:62776 RHEA:62780 RHEA:62820,Steroid biosynthesis;zymosterol biosynthesis;zymosterol from lanosterol: step 3/6. .;Steroid biosynthesis;cholesterol biosynthesis. .,Fe cation,metal,CHEBI:24875
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+1.5.5.1,RHEA:24052,,[4Fe-4S] cluster,metal,CHEBI:49883
+3.1.1.64; 5.3.3.22,RHEA:31771 RHEA:12729 RHEA:31775,,Fe(2+),metal,CHEBI:29033
+4.2.1.152; 5.3.99.4,RHEA:23580 RHEA:55556 RHEA:48636 RHEA:48856,,heme,organic_cofactor,CHEBI:30413
+2.7.11.30,RHEA:44880 RHEA:18673,,Mg(2+),metal,CHEBI:18420
+1.14.14.1; 4.2.1.152,RHEA:17149 RHEA:47212 RHEA:47280 RHEA:47208 RHEA:47292 RHEA:46296 RHEA:47252 RHEA:47260 RHEA:42092 RHEA:42088 RHEA:49884 RHEA:49880 RHEA:49876 RHEA:49860 RHEA:48632 RHEA:37947 RHEA:48716 RHEA:48636,Steroid hormone biosynthesis. .;Cofactor metabolism;retinol metabolism. .;Lipid metabolism;arachidonate metabolism. .,heme,organic_cofactor,CHEBI:30413
+3.7.1.3,RHEA:16813 RHEA:25143,Amino-acid degradation;L-kynurenine degradation;L-alanine and anthranilate from L-kynurenine: step 1/1. .;Cofactor biosynthesis;NAD(+) biosynthesis;quinolinate from L-kynurenine: step 2/3. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+4.1.1.32,RHEA:10388,Carbohydrate biosynthesis;gluconeogenesis. .,Mn(2+),metal,CHEBI:29035
+1.14.11.7,RHEA:22872,,Fe cation,metal,CHEBI:24875
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.1.28; 2.7.1.29; 4.6.1.15,RHEA:15773 RHEA:13941 RHEA:13729,,Mg(2+),metal,CHEBI:18420
+3.1.4.11,RHEA:33179,,Ca(2+),metal,CHEBI:29108
+2.7.1.107; 2.7.1.138; 2.7.1.94,RHEA:19293 RHEA:10272 RHEA:17929 RHEA:41079 RHEA:40327 RHEA:33747 RHEA:43308 RHEA:39847 RHEA:43316 RHEA:43328 RHEA:43312,Lipid metabolism;glycerolipid metabolism. .,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.11.1; 3.6.5.-,RHEA:46608 RHEA:17989 RHEA:19669,,Mg(2+),metal,CHEBI:18420
+2.5.1.91,RHEA:27802 RHEA:55364,Cofactor biosynthesis;ubiquinone biosynthesis. .,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.8.4.5,RHEA:37075,,[4Fe-4S] cluster,metal,CHEBI:49883
+2.4.1.41,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation. .,Mn(2+),metal,CHEBI:29035
+1.16.3.1,RHEA:11148,,Cu cation,metal,CHEBI:23378
+1.14.11.80,RHEA:52636 RHEA:53828 RHEA:53832,,Fe(2+),metal,CHEBI:29033
+1.14.14.177,RHEA:50336 RHEA:63376,,heme,organic_cofactor,CHEBI:30413
+1.21.1.1,RHEA:32479 RHEA:27453 RHEA:27457 RHEA:70343 RHEA:70347,,FMN,organic_cofactor,CHEBI:58210
+3.1.6.1; 3.1.6.18,RHEA:17261,,Ca(2+),metal,CHEBI:29108
+1.14.14.1,RHEA:17149 RHEA:51984 RHEA:75851 RHEA:75847 RHEA:75855 RHEA:75859 RHEA:75863,,heme,organic_cofactor,CHEBI:30413
+1.14.14.24,RHEA:32903 RHEA:46580 RHEA:46584 RHEA:49272,Hormone biosynthesis;vitamin D biosynthesis. .,heme,organic_cofactor,CHEBI:30413
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.14.14.79; 1.14.14.80,RHEA:38947 RHEA:40203 RHEA:40199 RHEA:39791 RHEA:40155,Lipid metabolism;fatty acid metabolism. .,heme,organic_cofactor,CHEBI:30413
+1.17.99.9,RHEA:63388,Porphyrin-containing compound metabolism;heme A biosynthesis;heme A from heme O: step 1/1. .,heme b,organic_cofactor,CHEBI:60344
+4.2.1.68,RHEA:22772,,Mg(2+),metal,CHEBI:18420
+1.14.11.65,RHEA:60188,,Fe(2+),metal,CHEBI:29033
+1.17.4.1,RHEA:23252,,Fe cation,metal,CHEBI:24875
+1.14.14.80,RHEA:56748 RHEA:39759 RHEA:39755 RHEA:50296,Lipid metabolism;arachidonate metabolism. .,heme,organic_cofactor,CHEBI:30413
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.14.19.1,RHEA:19721 RHEA:36931,,Fe(2+),metal,CHEBI:29033
+2.5.1.87,RHEA:53008,Protein modification;protein glycosylation. .;Lipid metabolism. .,Mg(2+),metal,CHEBI:18420
+3.6.1.1,RHEA:24576,,Mn(2+),metal,CHEBI:29035
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.1.2.4,RHEA:13521,,FAD,organic_cofactor,CHEBI:57692
+2.4.1.175; 2.4.1.226,RHEA:20800 RHEA:55000 RHEA:23428 RHEA:54996,,Co(2+),metal,CHEBI:48828
+2.4.2.26,RHEA:50192,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .,a divalent metal cation,metal,CHEBI:60240
+3.1.4.11,RHEA:33179,,Ca(2+),metal,CHEBI:29108
+4.2.3.134,RHEA:34091,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.14.11.7,RHEA:22872,,Fe cation,metal,CHEBI:24875
+4.2.1.93,RHEA:19017 RHEA:32231,,Mg(2+),metal,CHEBI:18420
+1.14.16.4,RHEA:16709,Aromatic compound metabolism;serotonin biosynthesis;serotonin from L-tryptophan: step 1/2.,Fe(2+),metal,CHEBI:29033
+2.4.1.41,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation.,Mn(2+),metal,CHEBI:29035
+2.7.11.1,RHEA:17989 RHEA:46608,,Mn(2+),metal,CHEBI:29035
+1.8.4.12; 1.8.4.14,RHEA:24164 RHEA:21260,,Zn(2+),metal,CHEBI:29105
+6.3.4.4,RHEA:15753,Purine metabolism;AMP biosynthesis via de novo pathway;AMP from IMP: step 1/2. .,Mg(2+),metal,CHEBI:18420
+3.1.3.16; 3.1.3.52,RHEA:77247 RHEA:20629,Protein modification. .,Mn(2+),metal,CHEBI:29035
+1.1.99.39,RHEA:38295 RHEA:67460,,FAD,organic_cofactor,CHEBI:57692
+7.6.2.1,RHEA:38567 RHEA:66132,,Mg(2+),metal,CHEBI:18420
+1.8.3.7,RHEA:51152,Protein modification;sulfatase oxidation. .,Cu(2+),metal,CHEBI:29036
+5.1.99.6,RHEA:32215 RHEA:32227,,K(+),metal,CHEBI:29103
+2.4.1.41,RHEA:23956 RHEA:52424,Protein modification;protein glycosylation.,Mn(2+),metal,CHEBI:29035
+2.4.1.222,RHEA:70531 RHEA:70511,,Mn(2+),metal,CHEBI:29035
+2.7.7.2,RHEA:17237,Cofactor biosynthesis;FAD biosynthesis;FAD from FMN: step 1/1.,Mg(2+),metal,CHEBI:18420
+1.14.11.80,RHEA:52636 RHEA:53828 RHEA:53832,,Fe(2+),metal,CHEBI:29033
+2.4.99.18,RHEA:22980,Protein modification;protein glycosylation. .,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.6.1.2,RHEA:19453,Amino-acid degradation;L-alanine degradation via transaminase pathway;pyruvate from L-alanine: step 1/1.,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+3.6.1.6,RHEA:36799,,Ca(2+),metal,CHEBI:29108
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.1.3.4,RHEA:27429,,Mg(2+),metal,CHEBI:18420
+2.4.1.212,RHEA:20465 RHEA:12528,Glycan biosynthesis;hyaluronan biosynthesis. .,Mg(2+),metal,CHEBI:18420
+1.3.8.6,RHEA:13389,Amino-acid metabolism;lysine degradation.;Amino-acid metabolism;tryptophan metabolism.,FAD,organic_cofactor,CHEBI:57692
+2.7.1.78,RHEA:15669 RHEA:54580,,Mg(2+),metal,CHEBI:18420
+2.4.1.224,RHEA:16213,Protein modification;protein glycosylation. .,Mn(2+),metal,CHEBI:29035
+1.13.11.5,RHEA:15449,Amino-acid degradation;L-phenylalanine degradation;acetoacetate and fumarate from L-phenylalanine: step 4/6.,Fe cation,metal,CHEBI:24875
+2.1.1.229,RHEA:43208,,Fe(2+),metal,CHEBI:29033
+2.7.7.41,RHEA:16229,Phospholipid metabolism;CDP-diacylglycerol biosynthesis;CDP-diacylglycerol from sn-glycerol 3-phosphate: step 3/3. .,Mg(2+),metal,CHEBI:18420
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+2.5.1.87,RHEA:53008,Protein modification;protein glycosylation. .;Lipid metabolism. .,Mg(2+),metal,CHEBI:18420
+3.1.6.1; 3.1.6.15,RHEA:17261,,Ca(2+),metal,CHEBI:29108
+2.8.1.9,RHEA:42636,Cofactor biosynthesis;molybdopterin biosynthesis. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+5.6.2.3,RHEA:13065,,Mg(2+),metal,CHEBI:18420
+2.5.1.39,RHEA:44504 RHEA:44564 RHEA:17709,Cofactor biosynthesis;ubiquinone biosynthesis. .,Mg(2+),metal,CHEBI:18420
+1.13.11.46,RHEA:21376,,Fe cation,metal,CHEBI:24875
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.4.1.134,RHEA:11780,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .,Mn(2+),metal,CHEBI:29035
+2.7.7.102; 2.7.7.7,RHEA:22508,,Mn(2+),metal,CHEBI:29035
+4.2.1.49,RHEA:13101,Amino-acid degradation;L-histidine degradation into L-glutamate;N-formimidoyl-L-glutamate from L-histidine: step 2/3.,NAD(+),organic_cofactor,CHEBI:57540
+4.6.1.1,RHEA:15389,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.7.72,RHEA:14433 RHEA:76235,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608 RHEA:29827 RHEA:29671 RHEA:29351,,Zn(2+),metal,CHEBI:29105
+4.1.1.15,RHEA:17785,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.17.99.3,RHEA:15733 RHEA:46728,,FAD,organic_cofactor,CHEBI:57692
+3.1.3.16; 3.1.3.48,RHEA:10684 RHEA:20629 RHEA:47004,,Mg(2+),metal,CHEBI:18420
+2.7.11.25,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+4.2.1.3,RHEA:10336,Carbohydrate metabolism;tricarboxylic acid cycle;isocitrate from oxaloacetate: step 2/2.,[4Fe-4S] cluster,metal,CHEBI:49883
+1.14.13.253,RHEA:81211,Cofactor biosynthesis;ubiquinone biosynthesis. .,Fe cation,metal,CHEBI:24875
+1.14.99.29,RHEA:14101,Protein modification;eIF5A hypusination. .,Fe(2+),metal,CHEBI:29033
+2.7.7.108; 3.1.4.-,RHEA:54288 RHEA:55932 RHEA:54292,,Mg(2+),metal,CHEBI:18420
+5.6.2.3,RHEA:13065,,[4Fe-4S] cluster,metal,CHEBI:49883
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.6.1.66,RHEA:29399 RHEA:28342 RHEA:28610 RHEA:83971,,Mg(2+),metal,CHEBI:18420
+4.2.1.152; 5.4.4.7,RHEA:55560 RHEA:37939 RHEA:37955 RHEA:37951 RHEA:37959 RHEA:41251 RHEA:50212 RHEA:40503 RHEA:41243 RHEA:55556 RHEA:37943 RHEA:37947 RHEA:48636 RHEA:48716 RHEA:37931 RHEA:37935 RHEA:37927,Lipid metabolism;hydroperoxy eicosatetraenoic acid biosynthesis. .;Lipid metabolism;sphingolipid metabolism.,Fe cation,metal,CHEBI:24875
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+2.5.1.108,RHEA:36783,Protein modification;peptidyl-diphthamide biosynthesis. .,[4Fe-4S] cluster,metal,CHEBI:49883
+3.2.1.113,RHEA:56008 RHEA:56028,Protein modification;protein glycosylation. .,Ca(2+),metal,CHEBI:29108
+2.7.8.1,RHEA:32943 RHEA:36187,Phospholipid metabolism;phosphatidylethanolamine biosynthesis;phosphatidylethanolamine from ethanolamine: step 3/3. .,Mg(2+),metal,CHEBI:18420
+1.14.11.29,RHEA:48400,,Fe(2+),metal,CHEBI:29033
+3.5.4.38,RHEA:50948,,Zn(2+),metal,CHEBI:29105
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.4.2.26,RHEA:50192,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .,Mg(2+),metal,CHEBI:18420
+3.6.1.1,RHEA:24576,,Mg(2+),metal,CHEBI:18420
+2.7.8.15,RHEA:13289,Protein modification;protein glycosylation. .,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.1.99.2,RHEA:21252,,FAD,organic_cofactor,CHEBI:57692
+2.3.1.311,RHEA:61020,tRNA modification;5-methoxycarbonylmethyl-2-thiouridine-tRNA biosynthesis. .,[4Fe-4S] cluster,metal,CHEBI:49883
+2.7.7.6,RHEA:21248,,Mg(2+),metal,CHEBI:18420
+6.1.1.16,RHEA:17773 RHEA:78543 RHEA:78627 RHEA:78647 RHEA:78651,,Zn(2+),metal,CHEBI:29105
+2.7.7.1; 2.7.7.18,RHEA:21360 RHEA:22860,Cofactor biosynthesis;NAD(+) biosynthesis;NAD(+) from nicotinamide D-ribonucleotide: step 1/1. .;Cofactor biosynthesis;NAD(+) biosynthesis;deamido-NAD(+) from nicotinate D-ribonucleotide: step 1/1. .,Zn(2+),metal,CHEBI:29105
+1.13.11.63,RHEA:32887,Cofactor metabolism;retinol metabolism. .,Fe(2+),metal,CHEBI:29033
+3.1.4.35; 3.1.4.53,RHEA:16957 RHEA:25277,,a divalent metal cation,metal,CHEBI:60240
+2.9.1.2,RHEA:25041,Aminoacyl-tRNA biosynthesis;selenocysteinyl-tRNA(Sec) biosynthesis;selenocysteinyl-tRNA(Sec) from L-seryl-tRNA(Sec) (archaeal/eukaryal route): step 2/2. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.8.1.9,RHEA:20345,,FAD,organic_cofactor,CHEBI:57692
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+2.3.1.234,RHEA:37059,,a divalent metal cation,metal,CHEBI:60240
+3.1.4.11,RHEA:33179 RHEA:43484,,Ca(2+),metal,CHEBI:29108
+2.10.1.1; 2.7.7.75,RHEA:31331 RHEA:35047,Cofactor biosynthesis;molybdopterin biosynthesis. .,Mg(2+),metal,CHEBI:18420
+2.7.1.91,RHEA:51496 RHEA:35847 RHEA:15465 RHEA:33563,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+6.1.1.20,RHEA:19413,,Mg(2+),metal,CHEBI:18420
+7.6.2.1,RHEA:38567 RHEA:36439,,Mg(2+),metal,CHEBI:18420
+1.14.11.8,RHEA:14181,Amine and polyamine biosynthesis;carnitine biosynthesis.,Fe(2+),metal,CHEBI:29033
+1.4.3.5,RHEA:15149 RHEA:15817,Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxal 5'-phosphate from pyridoxamine 5'-phosphate: step 1/1. .;Cofactor metabolism;pyridoxal 5'-phosphate salvage;pyridoxal 5'-phosphate from pyridoxine 5'-phosphate: step 1/1. .,FMN,organic_cofactor,CHEBI:58210
+2.7.7.19,RHEA:11332,,Mg(2+),metal,CHEBI:18420
+2.7.7.6,RHEA:21248,,Mg(2+),metal,CHEBI:18420
+2.7.7.79,RHEA:54564,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.2.1.143; 3.2.2.-; 3.5.1.-,RHEA:52216 RHEA:58112 RHEA:58256 RHEA:68792,,Mg(2+),metal,CHEBI:18420
+3.1.3.7,RHEA:10040,Sulfur metabolism. .,Mg(2+),metal,CHEBI:18420
+3.1.4.12,RHEA:19253,,Mg(2+),metal,CHEBI:18420
+1.14.11.29,RHEA:48400,,Fe(2+),metal,CHEBI:29033
+2.7.11.25,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+4.1.99.22; 4.6.1.17,RHEA:49576 RHEA:49580,Cofactor biosynthesis;molybdopterin biosynthesis.,[4Fe-4S] cluster,metal,CHEBI:49883
+3.5.4.4,RHEA:24408,,Zn(2+),metal,CHEBI:29105
+3.1.3.43,RHEA:12669,,Mn(2+),metal,CHEBI:29035
+2.7.11.1; 2.7.11.26,RHEA:17989 RHEA:46608 RHEA:12801 RHEA:53904,,Mg(2+),metal,CHEBI:18420
+3.1.4.11,RHEA:33179,,Ca(2+),metal,CHEBI:29108
+6.2.1.5,RHEA:17661,Carbohydrate metabolism;tricarboxylic acid cycle;succinate from succinyl-CoA (ligase route): step 1/1. .,Mg(2+),metal,CHEBI:18420
+2.7.1.67,RHEA:19877,,Mg(2+),metal,CHEBI:18420
+1.16.1.8,RHEA:23908 RHEA:20752,,FAD,organic_cofactor,CHEBI:57692
+1.14.11.67,RHEA:60208,,Fe(2+),metal,CHEBI:29033
+1.5.8.4,RHEA:52856,Amine and polyamine degradation;betaine degradation;sarcosine from betaine: step 2/2.,FAD,organic_cofactor,CHEBI:57692
+2.7.10.2,RHEA:10596,,Mn(2+),metal,CHEBI:29035
+2.7.8.41,RHEA:32931,,a divalent metal cation,metal,CHEBI:60240
+3.2.1.113,RHEA:56008 RHEA:56028,Protein modification;protein glycosylation. .,Ca(2+),metal,CHEBI:29108
+6.2.1.15; 6.2.1.3,RHEA:15421 RHEA:19713 RHEA:30751 RHEA:36139 RHEA:52116 RHEA:52112 RHEA:52108,,Mg(2+),metal,CHEBI:18420
+1.3.8.5,RHEA:44180 RHEA:48256 RHEA:31287,Amino-acid degradation;L-valine degradation. .,FAD,organic_cofactor,CHEBI:57692
+5.1.3.19,RHEA:21084,Glycan metabolism;chondroitin sulfate biosynthesis. .;Glycan metabolism;heparan sulfate biosynthesis. .,Mn(2+),metal,CHEBI:29035
+1.5.8.3,RHEA:19793,Amine and polyamine degradation;sarcosine degradation;formaldehyde and glycine from sarcosine: step 1/1. .,FAD,organic_cofactor,CHEBI:57692
+3.6.5.2,RHEA:19669,,Mg(2+),metal,CHEBI:18420
+6.2.1.15; 6.2.1.3,RHEA:15421 RHEA:19713 RHEA:30751 RHEA:36139 RHEA:52116 RHEA:52112 RHEA:52108 RHEA:52016 RHEA:52012 RHEA:33607,,Mg(2+),metal,CHEBI:18420
+3.5.3.15,RHEA:18089,,Ca(2+),metal,CHEBI:29108
+3.5.3.15,RHEA:18089,,Ca(2+),metal,CHEBI:29108
+1.14.11.27; 1.14.11.65,RHEA:42032 RHEA:60188,,Fe(2+),metal,CHEBI:29033
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.11.17,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+3.1.4.17,RHEA:14653 RHEA:25277 RHEA:16957,"Purine metabolism;3',5'-cyclic AMP degradation;AMP from 3',5'-cyclic AMP: step 1/1. .;Purine metabolism;3',5'-cyclic GMP degradation;GMP from 3',5'-cyclic GMP: step 1/1. .",a divalent metal cation,metal,CHEBI:60240
+2.7.7.7,RHEA:22508,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+1.14.15.45; 1.14.15.46,RHEA:81259 RHEA:81295,Cofactor biosynthesis;ubiquinone biosynthesis. .,FAD,organic_cofactor,CHEBI:57692
+4.1.1.130,RHEA:81275,Cofactor biosynthesis;ubiquinone biosynthesis. .,Zn(2+),metal,CHEBI:29105
+3.1.1.116,RHEA:33275 RHEA:38507 RHEA:38511 RHEA:38515 RHEA:38519 RHEA:38523 RHEA:38527,,Ca(2+),metal,CHEBI:29108
+1.16.1.6; 2.5.1.151,RHEA:16113 RHEA:40719 RHEA:63132 RHEA:63136,,FAD,organic_cofactor,CHEBI:57692
+2.7.7.13,RHEA:15229,Nucleotide-sugar biosynthesis;GDP-alpha-D-mannose biosynthesis;GDP-alpha-D-mannose from alpha-D-mannose 1-phosphate (GTP route): step 1/1. .,Mg(2+),metal,CHEBI:18420
+2.7.11.1,RHEA:17989 RHEA:46608,,Mg(2+),metal,CHEBI:18420
+2.6.1.52,RHEA:14329,Amino-acid biosynthesis;L-serine biosynthesis;L-serine from 3-phospho-D-glycerate: step 2/3. .,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+2.8.1.7,RHEA:43892 RHEA:43892 RHEA:17457,,pyridoxal 5'-phosphate,organic_cofactor,CHEBI:597326
+1.8.5.8,RHEA:38359 RHEA:55156 RHEA:62608,,FAD,organic_cofactor,CHEBI:57692
+4.2.1.46,RHEA:17221,,NAD(+),organic_cofactor,CHEBI:57540

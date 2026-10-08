@@ -1,0 +1,242 @@
+--- File: semantics.maude
+
+***(
+
+Rules giving meaning to ccReact processes. 
+
+Three sorts for states are defined:
+
+ * PStates are temporary states, used to define the decomposition of a ccReact
+   process during the current time unit. 
+ * IOStates determine the input/output behavior of the system during the
+   current time-unit
+ * States (sort from Maude's model checker) encoding the input-output behavior
+   when a ccReact process interacts with a reaction system 
+
+The module SEMANTICS' gives an alternative semantics where conditional
+rewriting is not used for the next rule. Note that this semantics does not
+preserve NEXT CTL formulas since terms of sort state are alternated with terms
+of sort IOState decomposing the ccReact process. However, this is much more
+efficient for some benchmarks and the CTL formula E O Phi can be translated
+into E (~ isState U Phi)
+
+***)
+
+load Maude_Stage1/syntax.maude .
+load model-checker .
+
+--- Evaluating a reaction against a set of entities (the input)
+fmod EVAL is
+  pr RS .
+
+  --- ---------------------------
+  var INPUT        : SetEntity .
+  vars C D         : SetEntity .
+  vars R I P       : SetEntity .
+  var SetR         : SetReaction .
+  vars COND1 COND2 : Condition .
+  var ENT          : Entity .
+  --- ---------------------------
+
+  --- Returns P if [R ; I : P] can be fired on input C and empty otherwise
+  op $eval : SetEntity Reaction -> SetEntity .
+  eq $eval(C, [R ; I ; P]) =
+     if (R subset C) and-then intersection(C, I) == empty
+     then P
+     else empty
+     fi .
+
+  --- Evaluating a set of reactions
+  op eval : SetEntity SetReaction -> SetEntity .
+  op eval : SetEntity SetReaction SetEntity -> SetEntity .
+
+  eq eval(C, SetR) = eval(C, SetR, empty) .
+  eq eval(C, empty, D) = D .
+  eq eval(C, ([R ; I ; P], SetR), D) = eval(C, SetR, (D, $eval(C, [R ; I ; P]))) .
+
+  --- Evaluating conditions
+  op check : Condition SetEntity -> Bool .
+  eq check(COND1 and COND2, INPUT) = check(COND1, INPUT) and-then check(COND2, INPUT) .
+  eq check(COND1 or COND2, INPUT) = check(COND1, INPUT) or-else check(COND2, INPUT) .
+  eq check(ENT, INPUT) = ENT in INPUT .
+  eq check(ENT ^ , INPUT) = not(ENT in INPUT) .
+endfm
+
+--- States of the systems
+fmod STATE is
+  including SATISFACTION .
+  protecting MODEL-CHECKER .
+  protecting  EVAL .
+ 
+  sorts PState IOState .
+  subsort PState IOState < State .
+
+  op _xor_ : Formula Formula -> Formula .
+  eq F xor F' = ~( F <-> F') .
+ 
+ 
+  --- Intermediate state where the process is not necessarily a prefix
+  op { proc:_ ; in:_ }  : Process SetEntity -> PState [ctor] .
+  --- The end of an internal computation
+  op { next:_ ; in:_ ;  ctx:_  } : Process SetEntity SetEntity -> IOState [ctor] .
+  --- The result of the computation
+  op { proc:_ ;  in:_ ; out:_ ; ctx:_} : Process SetEntity SetEntity SetEntity -> State [ctor] .
+ 
+  --- ------------------------
+  var K           : Process .
+  vars IN OUT CTX : SetEntity .
+  var SETE        : SetEntity .
+  var E           : Entity .
+  vars F F'       : Formula .
+  var C           : SetEntity .
+  var COND        : Condition .
+  var Kp          : PreProcess  .
+  var KS          : SumProcess  .
+  --- ------------------------
+ 
+  --- Sets of entities as atomic propositions 
+  subsort SetEntity < Prop .
+  eq STATE:PState  |= SETE = false .
+  eq STATE:IOState |= SETE = false .
+  eq { proc: K ; in: IN ;  out: OUT ; ctx: CTX} |= SETE = SETE subset OUT .
+
+  --- This proposition is true on States 
+  op is-state : -> Prop [ctor] .
+  eq STATE:PState  |= is-state  = false .
+  eq STATE:IOState |= is-state  = false .
+  eq STATE:State   |= is-state  = true [owise] .
+
+
+  --- Steady state (checking whether the next state is the same as the current one)
+  op isSteady : -> Prop [ctor] .
+  eq { proc: K ; in: IN ;  out: OUT ; ctx: CTX } |= isSteady = IN == OUT .
+  eq S:State |= isSteady = false [owise] .
+
+  --- Checking if an entity is in the context
+  op inCtx : Entity -> Prop .
+  eq { proc: K ; in: IN ;  out: OUT ; ctx: CTX } |= inCtx(E) = E in CTX . 
+
+  --- Building initial states out of processes 
+  op init : Process -> State .
+  eq init(K) = { proc: K ; in: empty ; out: empty ; ctx: empty } .
+
+  --- Checking if a prefix is enabled or not
+  op firable : SetEntity SumProcess -> Bool .
+  eq firable(IN, { C } . K) = true .
+  eq firable(IN, [ COND --> { C } ] . K) = check(COND, IN) .
+  eq firable(IN, Kp + KS) = firable(IN, Kp) or-else firable(IN, KS) .
+endfm
+
+
+mod SEMANTICS is
+  pr STATE .
+
+  --- ----------------------------
+  vars K K'        : Process     .
+  vars K1 K2       : Process     .
+  vars K1' K2'     : Process     .
+  var KS           : SumProcess  .
+  vars Kp Kp'      : PreProcess  .
+  vars C C' IN OUT : SetEntity   .
+  vars IN' OUT'    : SetEntity   .
+  vars OUT1 OUT2   : SetEntity   .
+  vars CTX CTX'    : SetEntity   .
+  var CTX1 CTX2    : SetEntity   .
+  var X            : Qid         .
+  var COND         : Condition   .
+  --- ----------------------------
+
+   --- Next interaction with the environment 
+   crl [next] : { proc: K ; in: IN ; out: OUT ; ctx: CTX} =>
+                { proc: K' ; in: OUT ; out: eval( (CTX', OUT), reactions) ; ctx: CTX' }
+       if { proc: K ; in: OUT } =>
+          { next: K' ; in: OUT ; ctx: CTX'  } .
+
+
+  --- Producing the output with a prefix 
+  rl [prefix] : { proc: ( { C } . K)  ; in: IN } =>
+                { next: K   ; in: IN ;  ctx: C } .
+
+  rl [prefixC] : { proc: ( [ COND --> { C } ] . K)  ; in: IN } =>
+                if check(COND, IN) 
+                then { next: K  ; in: IN ; ctx: C } 
+                else { next: 0  ; in: IN ; ctx: empty } 
+                fi .
+
+  --- Choosing a branch
+  crl [choice] : { proc:  Kp + KS ; in: IN } =>
+                 { proc:  Kp      ; in: IN } 
+      if firable(IN, Kp) or-else not firable(IN, KS) .
+
+  crl [choice] : { proc:  Kp + KS ; in: IN } =>
+                 { proc:  KS      ; in: IN } 
+      if firable(IN, KS) .
+
+  --- Parallel composition 
+  crl [parallel] : { proc: K1 || K2 ; in: IN } =>
+                   { next: K1' || K2'  ; in: IN ; ctx: (CTX1, CTX2) } 
+    if { proc: K1 ; in: IN } => { next: K1' ; in: IN ; ctx: CTX1} /\
+       { proc: K2 ; in: IN } => { next: K2' ; in: IN ; ctx: CTX2} .
+
+  --- Recursive definitions 
+  rl [rec] :    { proc: (rec X . K)              ; in: IN } =>
+                { proc: subst(X, (rec X . K), K) ; in: IN } .
+endm
+
+--- Alternative semantics where the rule next is not conditional
+mod SEMANTICS' is
+  pr STATE .
+
+  --- ----------------------------
+  vars K K'        : Process     .
+  vars K1 K2       : Process     .
+  vars K1' K2'     : Process     .
+  var KS           : SumProcess  .
+  vars Kp Kp'      : PreProcess  .
+  vars C C' IN OUT : SetEntity   .
+  vars IN' OUT'    : SetEntity   .
+  vars OUT1 OUT2   : SetEntity   .
+  vars CTX CTX'    : SetEntity   .
+  var CTX1 CTX2    : SetEntity   .
+  var X            : Qid         .
+  var COND         : Condition   .
+  --- ----------------------------
+
+   --- Next interaction with the environment 
+   rl [next] : { proc: K ; in: IN ; out: OUT ; ctx: CTX} =>
+               { proc: K ;  in: OUT } .
+
+
+   rl [output] : {next: K ; in: IN ; ctx: CTX } =>
+                 {proc: K ; in: IN ; out: eval((CTX, IN), reactions) ; ctx: CTX } .
+
+
+  --- Producing the output with a prefix 
+  rl [prefix] : { proc: ( { C } . K)  ; in: IN } =>
+                { next: K   ; in: IN ;  ctx: C } .
+
+  rl [prefixC] : { proc: ( [ COND --> { C } ] . K)  ; in: IN } =>
+                if check(COND, IN) 
+                then { next: K  ; in: IN ; ctx: C } 
+                else { next: 0  ; in: IN ; ctx: empty } 
+                fi .
+
+  --- Choosing a branch
+  crl [choice] : { proc:  Kp + KS ; in: IN } =>
+                 { proc:  Kp      ; in: IN } 
+      if firable(IN, Kp) or-else not firable(IN, KS) .
+
+  crl [choice] : { proc:  Kp + KS ; in: IN } =>
+                 { proc:  KS      ; in: IN } 
+      if firable(IN, KS) .
+
+  --- Parallel composition 
+  crl [parallel] : { proc: K1 || K2 ; in: IN } =>
+                   { next: K1' || K2'  ; in: IN ; ctx: (CTX1, CTX2) } 
+    if { proc: K1 ; in: IN } => { next: K1' ; in: IN ; ctx: CTX1} /\
+       { proc: K2 ; in: IN } => { next: K2' ; in: IN ; ctx: CTX2} .
+
+  --- Recursive definitions 
+  rl [rec] :    { proc: (rec X . K)              ; in: IN } =>
+                { proc: subst(X, (rec X . K), K) ; in: IN } .
+endm

@@ -1,0 +1,120 @@
+--- File: syntax.maude
+
+***(
+
+Definition of the different entities to model reactions and processes
+
+Reactions are terms of the form   [ R ; I ; P ] 
+
+Process have the following syntax 
+  P ::= 0  |  X |  p . P  |  P + P  |  rec X . P | P || P
+
+where p is prefix of the form 
+  p ::= C | [ c -> C ]
+
+Qids are used as identifiers for recursive process
+
+The operator  op reactions : -> NeSetReaction [ctor memo] 
+must be defined (using equations) by the user's module 
+(see the examples in the directory case-study)
+
+***)
+
+
+--- Sort for entities to be later populated with used-defined constants
+fmod BASE is
+ sort Entity . 
+endfm
+
+view Entity from TRIV to BASE is 
+  sort Elt to Entity .
+endv
+
+--- Reactions [ R ; I ; P ]  
+fmod REACTION is
+  pr SET{Entity} * (sort Set{Entity} to SetEntity, sort NeSet{Entity} to NeSetEntity) .
+
+  sort Reaction .
+
+  op `[_;_;_`] : SetEntity SetEntity SetEntity -> Reaction [ctor] .
+endfm
+
+--- Processes 
+fmod PROCESS is
+  pr REACTION .
+  pr QID . --- for variables in recursive definitions 
+
+  sort Condition .
+  sorts Process PreProcess SumProcess .
+  subsort Qid < Process .  
+  subsort PreProcess < SumProcess < Process . --- For unary summations 
+
+  --- Conditions can be entities or their absence 
+  subsort Entity < Condition .
+  op _^ : Entity -> Condition [ctor] .
+  op _and_ : Condition Condition -> Condition [ctor gather (e E)] .
+  op _or_ : Condition Condition -> Condition [ctor gather (e E)] .
+  op not_   : Condition -> Condition .
+
+  --- Processes with prefixes 
+  op {_}._  : SetEntity Process -> PreProcess [ctor gather (e E) prec 20] .
+  op `[ _-->{_} `] . _  : Condition SetEntity Process -> PreProcess [ctor] .
+
+  op 0      :                       -> Process [ctor] . --- inaction
+  op _+_    : PreProcess SumProcess -> SumProcess [ctor gather (e E)  prec 80] .
+  op _||_   : Process Process       -> Process [ctor assoc comm prec 90] .
+  op rec_._ : Qid Process           -> Process [ctor] .
+
+  --- Negation in Conditions
+  eq not E = E ^ .
+  eq not (E ^) = E .
+  eq not (COND and COND') = (not COND) or (not COND') .
+  eq not (COND or COND') = (not COND) and (not COND') .
+
+  --- Replication (derived operator)
+  op !_     : SetEntity -> Process .
+  eq ! W = rec 'REP . ( { W } . 'REP) .
+
+  op if_then_else_ : Condition PreProcess PreProcess -> Process .
+  eq if COND then {S} . P else {W} . Q = ([ COND --> {S}] . P) + ([ (not COND) --> {W}] . Q) .
+
+  --- -----------------------
+  vars X Y   : Qid .
+  vars P Q R : Process .
+  vars S W   : SetEntity .
+  var COND   : Condition .
+  var COND'  : Condition .
+  var E      : Entity .
+  --- -----------------------
+
+  --- Identity by equations (for efficiency in the definition of the semantics)
+  eq P || 0 = P .
+
+  --- Substitution for defining recursion
+  op subst : Qid Process Process -> Process .
+
+  eq subst(X, R, { S } . P) = { S } . subst(X, R, P) .
+  eq subst(X, R, [ COND --> { S } ] . P) = [ COND --> { S }] . subst(X, R, P) .
+  eq subst(X, R, 0) = 0 .
+  eq subst(X, R, P + Q ) = subst(X, R, P) + subst(X, R, Q) .
+  eq subst(X, R, P || Q ) = subst(X, R, P) ||  subst(X, R, Q) .
+  ceq subst(X, R, rec Y . P) = rec Y . subst(X, R, P) if X =/= Y .
+  ceq subst(X, R, rec Y . P) = rec Y . P if X == Y .
+  eq subst(X, R, X) = R .
+  ceq subst(X, R, Y) = Y if X =/= Y .
+
+endfm
+
+view Reaction from TRIV to REACTION is 
+  sort Elt to Reaction .
+endv
+
+--- A Reaction System
+--- The user-defined module must provide equations for the operator "reactions" 
+fmod RS is
+  pr PROCESS .
+  pr SET{Reaction} * (sort Set{Reaction} to SetReaction, sort NeSet{Reaction} to NeSetReaction) .
+
+  --- To be defined by the user
+  op reactions : -> NeSetReaction [ctor memo] .
+endfm
